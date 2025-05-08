@@ -68,7 +68,7 @@ baseURL = 'https://alexander-kastil.github.io/'
 Rebuild the Hugo site:
 
 ```bash
-hugo -D
+hugo server -D
 ```
 
 Read through the deployment options, Change to folder `public` and commit the changes:
