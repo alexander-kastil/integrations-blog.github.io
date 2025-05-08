@@ -1,0 +1,20 @@
+baseURL = 'https://alexander-kastil.github.io/'
+languageCode = 'en-us'
+title = 'Integrations IT Solution - Alexander Kastil'
+theme = 'clarity'
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Classes"
+    url = "/classes/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Services"
+    url = "https://www.integrations.at"
+    weight = 3

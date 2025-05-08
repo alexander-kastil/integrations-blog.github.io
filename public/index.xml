@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrations IT Solution - Alexander Kastil</title>
+    <link>https://alexander-kastil.github.io/</link>
+    <description>Recent content on Integrations IT Solution - Alexander Kastil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 May 2025 13:22:53 +0200</lastBuildDate><atom:link href="https://alexander-kastil.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
+      <link>https://alexander-kastil.github.io/classes/agents-copilots-sk-agent-service/</link>
+      <pubDate>Thu, 08 May 2025 13:22:53 +0200</pubDate>
+      
+      <guid>https://alexander-kastil.github.io/classes/agents-copilots-sk-agent-service/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;module-1-copilot-agents--azure-ai-foundry-essentials&#34;&gt;Module 1: Copilot, Agents &amp;amp; Azure AI Foundry Essentials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Overview Copilots and Agent Frameworks in the Microsoft Ecosystem&lt;/li&gt;
+&lt;li&gt;Azure AI Foundry: Hubs, Projects and Resources&lt;/li&gt;
+&lt;li&gt;Explore and deploy models from the model catalog in Azure AI Foundry&lt;/li&gt;
+&lt;li&gt;Effective Prompt Engineering&lt;/li&gt;
+&lt;li&gt;Introduction to Azure AI Foundry SDK&lt;/li&gt;
+&lt;li&gt;RAG-based copilot solution with your own data using Azure AI Foundry&lt;/li&gt;
+&lt;li&gt;Ensuring App Behavior using Evaluations&lt;/li&gt;
+&lt;li&gt;Deploy AI Apps using Azure Developer CLI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;module-2-develop-ai-agents-using-azure-openai-and-the-semantic-kernel-sdk&#34;&gt;Module 2: Develop AI Agents using Azure OpenAI and the Semantic Kernel SDK&lt;/h2&gt;
+&lt;h3 id=&#34;build-your-kernel&#34;&gt;Build your kernel&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand the purpose of Semantic Kernel&lt;/li&gt;
+&lt;li&gt;Understand prompting basics &amp;amp; techniques for more effective prompts&lt;/li&gt;
+&lt;li&gt;Use OpenAI, Azure OpenAI &amp;amp; 3rd party Large Language Models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;give-your-ai-agent-skills-using-native-functions&#34;&gt;Give your AI agent skills using Native Functions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand Native Functions in the Semantic Kernel SDK&lt;/li&gt;
+&lt;li&gt;Implement Native Functions using Prompts&lt;/li&gt;
+&lt;li&gt;Using yaml based prompts&lt;/li&gt;
+&lt;li&gt;Chaining Native Functions&lt;/li&gt;
+&lt;li&gt;Using Pre- and Post Hooks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;create-plugins-for-semantic-kernel&#34;&gt;Create Plugins for Semantic Kernel&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand the purpose of Semantic Kernel plugins&lt;/li&gt;
+&lt;li&gt;Built-in plugins (ConversationSummary, FileIO, Http, Math, Time)&lt;/li&gt;
+&lt;li&gt;Implementing data retrieval and task automation plugins&lt;/li&gt;
+&lt;li&gt;Persisting Data using Plugins&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;providing-state--history-using-kernel-memory&#34;&gt;Providing state &amp;amp; history using Kernel Memory&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand the purpose of Kernel Memory&lt;/li&gt;
+&lt;li&gt;Semantic Kernel Memory: In-process &amp;amp; Connectors&lt;/li&gt;
+&lt;li&gt;High performance memory using Azure Cosmos DB DiskANN&lt;/li&gt;
+&lt;li&gt;Kernel Memory &amp;amp; Retrieval Augmented Generation (RAG)&lt;/li&gt;
+&lt;li&gt;Streaming Responses to Single Page Applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;use-intelligent-planners&#34;&gt;Use intelligent planners&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand planners in the Semantic Kernel SDK&lt;/li&gt;
+&lt;li&gt;Use &amp;amp; optimize planners to automate function calls&lt;/li&gt;
+&lt;li&gt;Learn how to use Semantic Kernel SDK to automatically invoke functions&lt;/li&gt;
+&lt;li&gt;Function calling as a planner replacement&lt;/li&gt;
+&lt;li&gt;Automatic vs Manual Function Calling&lt;/li&gt;
+&lt;li&gt;Using Function Filters and Function Calling Helpers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;integrating-ai-services-with-semantic-kernel&#34;&gt;Integrating AI Services with Semantic Kernel&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Text to Image &amp;amp; Image to Text&lt;/li&gt;
+&lt;li&gt;Using Audio to Text&lt;/li&gt;
+&lt;li&gt;Using Hugging Face with Semantic Kernel&lt;/li&gt;
+&lt;li&gt;Integrating Prompt-Flow with Semantic Kernel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;implementing-copilots--assistant-using-semantic-kernel&#34;&gt;Implementing Copilots &amp;amp; Assistant using Semantic Kernel&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Assistant Overview&lt;/li&gt;
+&lt;li&gt;OpenAI Assistant Specification&lt;/li&gt;
+&lt;li&gt;Completing multi-step tasks with Assistant&lt;/li&gt;
+&lt;li&gt;Using Personas with Assistant&lt;/li&gt;
+&lt;li&gt;Implementing Multi Assistant Solutions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;module-3-implement-multi-agent-solution-using-microsoft-autogen&#34;&gt;Module 3: Implement multi-agent solution using Microsoft AutoGen&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Introduction to Microsoft AutoGen&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;module-4-monitoring--deploying-llm-applications&#34;&gt;Module 4: Monitoring &amp;amp; Deploying LLM Applications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand the deployment process for LLM applications&lt;/li&gt;
+&lt;li&gt;Introductions to Azure Container Apps&lt;/li&gt;
+&lt;li&gt;Deploy LLM applications to Azure Container Apps&lt;/li&gt;
+&lt;li&gt;Scale Azure OpenAI Apps with Azure Container Apps&lt;/li&gt;
+&lt;li&gt;Azure Container Apps Dynamic Sessions&lt;/li&gt;
+&lt;li&gt;Monitor and manage LLM applications&lt;/li&gt;
+&lt;/ul&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexander-kastil.github.io/classes/angular-advanced-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexander-kastil.github.io/classes/angular-advanced-development/</guid>
+      <description>
+        
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alexander-kastil.github.io/classes/angular-development-essentials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexander-kastil.github.io/classes/angular-development-essentials/</guid>
+      <description>
+        
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
