@@ -1,6 +1,6 @@
 baseURL = 'https://blog.integrations.at/'
 languageCode = 'en-us'
-title = 'Integrations IT Solution'
+title = 'Integrations IT Solutions'
 theme = 'clarity'
 
 [params]
