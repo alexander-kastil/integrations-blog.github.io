@@ -1,6 +1,8 @@
 ---
 title: "Designing & Implementing Cloud Native Applications using Microsoft Azure"
 date: '2023-06-01T12:00:00+02:00'
+lastmod: '2024-02-15T09:45:00+02:00'
+showLastmod: true
 ---
 
 This comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure's powerful ecosystem.
