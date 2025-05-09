@@ -84,4 +84,4 @@ Advanced topics include implementing Microsoft 365 Copilot extensions, building 
 - Overview of the Microsoft 365 Copilot Ecosystem
 - Implementing Plugins and Connectors for Microsoft 365 Copilot
 - Declarative Agents vs Custom Engine Agents
-- Copilot Agent Plugins Sample for Semantic Kernel
+- Copilot Agent Plugins for Semantic Kernel (CAPS)

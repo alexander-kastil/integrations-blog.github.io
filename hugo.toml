@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Integrations IT Solution - Alexander Kastil'
 theme = 'clarity'
 
+[params]
+  # Set default theme to dark
+  darkMode = true
+
 [menu]
   [[menu.main]]
     name = "Blog"
