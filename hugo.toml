@@ -6,6 +6,11 @@ theme = 'clarity'
 [params]
   # Set default theme to dark
   darkMode = true
+  introDescription = "Software Engineering, DevOps & Training for Angular, Azure, AI & Microsoft 365"
+  introURL = "https://www.integrations.at/about.aspx"
+  [params.Author]
+    name = "Alexander Kastil"
+    photo = "images/alexander.jpg"
 
 [menu]
   [[menu.main]]
