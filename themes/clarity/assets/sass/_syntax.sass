@@ -13,7 +13,7 @@ code
   display: block
   font-family: 'Monaco', monospace
   word-break: break-all
-  padding-left: 1rem 
+  padding-left: 0 // Remove left padding for all code by default
   &.noClass
     --inlineColor: rgb(194, 29, 0)
     color: var(--inlineColor)
@@ -40,7 +40,7 @@ code
     position: relative
     padding: 0 1rem
     margin: 1.5rem auto 1rem auto
-    & + &
+    & + & 
       margin-top: 2.25rem
     &:hover > div
       opacity: 1
@@ -92,6 +92,9 @@ code
         display: flex
         align-items: center
         flex-direction: column
+
+.highlight code, .highlight pre
+  padding-left: 0.5rem 
 
 .err
   color: #a61717

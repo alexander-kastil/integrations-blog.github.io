@@ -1,6 +1,6 @@
 ---
 title: "Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service"
-date: '2025-05-08T13:22:53+02:00'
+date: '2025-05-01T12:00:00+02:00'
 ---
 
 ## Module 1: Copilot, Agents & Azure AI Foundry Essentials

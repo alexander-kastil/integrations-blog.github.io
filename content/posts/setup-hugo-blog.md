@@ -1,7 +1,7 @@
 +++
 date = '2025-05-08T13:22:53+02:00'
-draft = true
 title = 'Setup a based Hugo Blog on GitHub Pages'
+draft = false
 +++
 
 I'm starting a new blog to share my technical knowledge, hosted on GitHub Pages. I chose Hugo as the static site generator along with the elegant [Clarity theme](https://github.com/chipzoller/hugo-clarity). Let me walk you through the setup process:

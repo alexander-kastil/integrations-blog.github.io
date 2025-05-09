@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Integrations IT Solution - Alexander Kastil</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:52872/</link>
     <description>Recent content on Integrations IT Solution - Alexander Kastil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 May 2025 13:22:53 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 May 2025 13:22:53 +0200</lastBuildDate><atom:link href="http://localhost:52872/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
-      <link>http://localhost:1313/classes/agents-copilots-sk-agent-service/</link>
-      <pubDate>Thu, 08 May 2025 13:22:53 +0200</pubDate>
+      <link>http://localhost:52872/classes/agents-copilots-sk-agent-service/</link>
+      <pubDate>Thu, 01 May 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/agents-copilots-sk-agent-service/</guid>
+      <guid>http://localhost:52872/classes/agents-copilots-sk-agent-service/</guid>
       <description>
         
           
@@ -111,13 +111,122 @@
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/classes/angular-advanced-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</title>
+      <link>http://localhost:52872/classes/cloud-native-apps/</link>
+      <pubDate>Thu, 01 Jun 2023 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/angular-advanced-development/</guid>
+      <guid>http://localhost:52872/classes/cloud-native-apps/</guid>
       <description>
         
+          
+            &lt;h3 id=&#34;introduction-to-cloud-native-applications--cloud-maturity-model&#34;&gt;Introduction to Cloud Native Applications &amp;amp; Cloud Maturity Model&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What are Cloud Native Applications&lt;/li&gt;
+&lt;li&gt;Cloud Maturity Model: Monolith vs Microservices Architecture&lt;/li&gt;
+&lt;li&gt;Introduction to .NET Aspire: Orchestration, Components, Tooling&lt;/li&gt;
+&lt;li&gt;Microservices Communication Patterns&lt;/li&gt;
+&lt;li&gt;Architecture Overview of the Sample App &amp;amp; Services&lt;/li&gt;
+&lt;li&gt;Cloud Architecture Design Patterns&lt;/li&gt;
+&lt;li&gt;Container Hosting &amp;amp; DevOps&lt;/li&gt;
+&lt;li&gt;Provisioning of Azure Resources using Azure Developer CLI (AZD) &amp;amp; Bicep&lt;/li&gt;
+&lt;li&gt;Introduction to Azure Cost Management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;deploy-cloud-native-apps-using-azure-container-apps-aca&#34;&gt;Deploy cloud-native apps using Azure Container Apps (ACA)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Get started with cloud native apps and containerized deployments&lt;/li&gt;
+&lt;li&gt;Configure Azure Container Registry for container app deployments&lt;/li&gt;
+&lt;li&gt;Configure a container app in Azure Container Apps&lt;/li&gt;
+&lt;li&gt;Configure continuous deployment for container apps&lt;/li&gt;
+&lt;li&gt;Secrets, Managed Identities &amp;amp; Service Connectors&lt;/li&gt;
+&lt;li&gt;Using Azure App Configuration in Azure Container Apps&lt;/li&gt;
+&lt;li&gt;Task Automation using Jobs&lt;/li&gt;
+&lt;li&gt;Scale and manage deployed container apps using KEDA (Kubernetes Event Driven Auto-Scaling)&lt;/li&gt;
+&lt;li&gt;Stateful Apps using Volume Mounts &amp;amp; Persistent Storage&lt;/li&gt;
+&lt;li&gt;Health Probes, Monitoring, Logging &amp;amp; Observability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;build-distributed-apps-with-net-aspire&#34;&gt;Build distributed apps with .NET Aspire&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to .NET Aspire &amp;amp; Creating Projects&lt;/li&gt;
+&lt;li&gt;Use telemetry &amp;amp; service discovery in a .NET Aspire project&lt;/li&gt;
+&lt;li&gt;Use databases in .NET Aspire (SQL Server, Cosmos DB, MongoDB, &amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Improve performance with a cache in a .NET Aspire project&lt;/li&gt;
+&lt;li&gt;Send messages with RabbitMQ / Service Bus in a .NET Aspire project&lt;/li&gt;
+&lt;li&gt;Deploy a .NET Aspire solution to Azure Container Apps / Kubernetes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;stateful-microservices-using-azure-functions&#34;&gt;Stateful Microservices using Azure Functions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OData, Open API Support and Dependency Injection&lt;/li&gt;
+&lt;li&gt;Hosting: Serverless vs Containers&lt;/li&gt;
+&lt;li&gt;Environment Variables, Key Vault, and App Configuration&lt;/li&gt;
+&lt;li&gt;Using Managed Identities and Service Connector to access Azure Resources&lt;/li&gt;
+&lt;li&gt;Durable Functions - Orchestrate Long Running Processes&lt;/li&gt;
+&lt;li&gt;Azure Durable Entities, Aggregation &amp;amp; Virtual Actors&lt;/li&gt;
+&lt;li&gt;Publishing Azure Functions to Azure Container Apps&lt;/li&gt;
+&lt;li&gt;Distributed Tracing in Azure Functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nosql-data--event-storage-using-cosmos-db&#34;&gt;NoSQL Data &amp;amp; Event storage using Cosmos DB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;From Relational to NoSQL: Do&amp;rsquo;s and Don’ts&lt;/li&gt;
+&lt;li&gt;Partitioning Strategies &amp;amp; Performance Optimization&lt;/li&gt;
+&lt;li&gt;Domain Driven Design (DDD) Basics &amp;amp; Bounded Context Pattern&lt;/li&gt;
+&lt;li&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Using SDKs and Data Api Builder to expose Cosmos DB&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;Implementing an Event Store using Event Sourcing&lt;/li&gt;
+&lt;li&gt;Creating Materialized Views using Materialized Views Builder&lt;/li&gt;
+&lt;li&gt;Optimizing Read/Write Performance with Change Feed &amp;amp; CQRS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;designing-and-implementing-message---event-driven-apps&#34;&gt;Designing and Implementing Message- &amp;amp; Event Driven Apps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Messaging&lt;/li&gt;
+&lt;li&gt;Message Types and Channels&lt;/li&gt;
+&lt;li&gt;Introduction to Event Driven Architecture (EDA)&lt;/li&gt;
+&lt;li&gt;Event Types: Domain-, Integration-, Cloud Events&lt;/li&gt;
+&lt;li&gt;Publishing &amp;amp; Subscribing Events using an Event Bus&lt;/li&gt;
+&lt;li&gt;Distributed Transactions&lt;/li&gt;
+&lt;li&gt;Saga: Orchestration, Choreography&lt;/li&gt;
+&lt;li&gt;Common Message Brokers in Azure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;using-distributed-application-runtime---dapr&#34;&gt;Using Distributed Application Runtime - Dapr&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Dapr&lt;/li&gt;
+&lt;li&gt;Understanding Dapr Architecture &amp;amp; Building Blocks&lt;/li&gt;
+&lt;li&gt;Developer Environment Setup, Debugging &amp;amp; State Management&lt;/li&gt;
+&lt;li&gt;Using Dapr Components in Azure Container Apps&lt;/li&gt;
+&lt;li&gt;Service Invocation &amp;amp; Bindings&lt;/li&gt;
+&lt;li&gt;Pub/Sub Messaging&lt;/li&gt;
+&lt;li&gt;Secrets and Configuration&lt;/li&gt;
+&lt;li&gt;Azure Functions &amp;amp; Dapr Bindings&lt;/li&gt;
+&lt;li&gt;Dapr Actors &amp;amp; Saga&lt;/li&gt;
+&lt;li&gt;Observability and Distributed Tracing&lt;/li&gt;
+&lt;li&gt;Dapr &amp;amp; .NET Aspire Integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;optimizing-and-securing-access-using-api-management--application-gateway&#34;&gt;Optimizing and Securing Access using Api Management &amp;amp; Application Gateway&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;API Management (APIM) Recap&lt;/li&gt;
+&lt;li&gt;API Versions and Revisions using Azure Container Apps&lt;/li&gt;
+&lt;li&gt;Authenticating to Backend Services&lt;/li&gt;
+&lt;li&gt;Understanding Gateway Pattern and Backends for Frontend Pattern (BFF)&lt;/li&gt;
+&lt;li&gt;Implement BFF using APIM and GraphQL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;connecting-real-time-micro-frontends-using-event-grid&#34;&gt;Connecting Real Time Micro Frontends using Event Grid&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Micro Frontends: Introduction &amp;amp; Benefits&lt;/li&gt;
+&lt;li&gt;Publish the Shop Micro Frontend to Azure Container Apps&lt;/li&gt;
+&lt;li&gt;Event Grid Basics&lt;/li&gt;
+&lt;li&gt;Partner Events&lt;/li&gt;
+&lt;li&gt;Real-time connected Micro Frontend using Azure Event Grid and SignalR&lt;/li&gt;
+&lt;li&gt;Connect the Real Time Kitchen Dashboard&lt;/li&gt;
+&lt;li&gt;Connect the Order Status Micro Frontend&lt;/li&gt;
+&lt;/ul&gt;
           
           
         
@@ -125,13 +234,36 @@
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/classes/angular-development-essentials/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Advanced Angular Development</title>
+      <link>http://localhost:52872/classes/angular-advanced-development/</link>
+      <pubDate>Fri, 01 Dec 2017 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/angular-development-essentials/</guid>
+      <guid>http://localhost:52872/classes/angular-advanced-development/</guid>
       <description>
         
+          
+            &lt;p&gt;This advanced Angular workshop is designed for experienced developers aiming to master modern Angular techniques and best practices.&lt;/p&gt;
+&lt;p&gt;Covering topics from standalone components, reactive programming with RxJS and Signals, to state management with NgRx, advanced routing, and comprehensive testing strategies, the course offers a deep dive into the Angular ecosystem. Participants will also explore reusability with libraries and Nx, real-time micro-frontends, progressive web apps, and performance optimization.&lt;/p&gt;
+&lt;p&gt;Through hands-on modules, attendees will gain practical skills to architect, test, and optimize complex Angular applications.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Angular Development Essentials</title>
+      <link>http://localhost:52872/classes/angular-development-essentials/</link>
+      <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:52872/classes/angular-development-essentials/</guid>
+      <description>
+        
+          
+            &lt;p&gt;This workshop provides a comprehensive introduction to modern Angular development, covering essential concepts such as Angular related TypeScript fundamentals, dependency injection, and component architecture.&lt;/p&gt;
+&lt;p&gt;Participants will learn best practices for building responsive user interfaces, managing state, and implementing reactive programming with Signals and RxJS.&lt;/p&gt;
+&lt;p&gt;The curriculum also includes hands-on guidance for testing, securing, and publishing Angular applications.&lt;/p&gt;
+&lt;p&gt;By the end, attendees will be equipped to develop robust, maintainable, and scalable Angular projects using current industry standards.&lt;/p&gt;
           
           
         
