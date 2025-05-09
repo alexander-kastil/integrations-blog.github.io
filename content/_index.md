@@ -13,17 +13,18 @@ I am a Software Engineer with a passion for Microsoft technologies. I have exper
 
 My first Microsoft Certification goes back to 1997 when I passed the Microsoft Certified Professional exam for Windows 96. Since then I have been working with Microsoft technologies and have obtained several certifications including:
 
-    - Microsoft Certified Systems Engineer (MCSE) on Windows NT 4.0, Windows 2000, and Windows 2003
-    - Microsoft Certified Systems Administrator: Messaging on Windows 2000 and Windows 2003
-    - Microsoft Certified Database Administrator (MCDBA) on SQL Server 2000 and 2005
-    - Microsoft Certified Database Developer (MCDBD) on SQL Server 2005
-    - Microsoft® Certified Technology Specialist: .Net Framework 2.0, Web Applications
-    - Microsoft® Certified Technology Specialist: Microsoft Windows SharePoint Services 3.0, Application Development
-    - Microsoft® Certified Technology Specialist: Microsoft Windows SharePoint Services 3.0, Configuration
-    - Microsoft Certified Solutions Developer (MCSD)
-    - Microsoft Certified: Azure Developer Associate
-    - Microsoft Certified: DevOps Engineer Expert
-    - Microsoft Certified Trainer (MCT) sind 2000
+* Microsoft Certified Systems Engineer (MCSE) on Windows NT 4.0, Windows 2000, and Windows 2003
+* Microsoft Certified Systems Administrator: Messaging on Windows 2000 and Windows 2003
+* Microsoft Certified Database Administrator (MCDBA) on SQL Server 2000 and 2005
+* Microsoft Certified Database Developer (MCDBD) on SQL Server 2005
+* Microsoft® Certified Technology Specialist: .Net Framework 2.0, Web Applications
+* Microsoft® Certified Technology Specialist: Microsoft Windows SharePoint Services 3.0, Application Development
+* Microsoft® Certified Technology Specialist: Microsoft Windows SharePoint Services 3.0, Configuration
+* Microsoft Certified Solutions Developer (MCSD)
+* Microsoft Certified: Azure Developer Associate
+* Microsoft Certified: DevOps Engineer Expert
+* Microsoft Certified: Azure AI Engineer Associate
+* Microsoft Certified Trainer (MCT) since 2000
 
 My full Microsoft Certification history can be found on my [MCT Transcript](https://learn.microsoft.com/en-us/users/alexander-kastil/transcript/dloowug2y85m9lm).
 
