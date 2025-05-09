@@ -1,6 +1,6 @@
 baseURL = 'https://alexander-kastil.github.io/'
 languageCode = 'en-us'
-title = 'Integrations IT Solution - Alexander Kastil'
+title = 'Integrations IT Solution'
 theme = 'clarity'
 
 [params]
