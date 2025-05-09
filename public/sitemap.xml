@@ -2,32 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:52872/</loc>
+    <loc>http://localhost:55671/</loc>
     <lastmod>2025-05-08T13:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:52872/posts/</loc>
+    <loc>http://localhost:55671/posts/</loc>
     <lastmod>2025-05-08T13:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:52872/posts/setup-hugo-blog/</loc>
+    <loc>http://localhost:55671/posts/setup-hugo-blog/</loc>
     <lastmod>2025-05-08T13:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:52872/classes/</loc>
+    <loc>http://localhost:55671/classes/</loc>
     <lastmod>2025-05-01T12:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:52872/classes/agents-copilots-sk-agent-service/</loc>
+    <loc>http://localhost:55671/classes/agents-copilots-sk-agent-service/</loc>
     <lastmod>2025-05-01T12:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:52872/classes/cloud-native-apps/</loc>
+    <loc>http://localhost:55671/classes/develop-copilots-m365/</loc>
+    <lastmod>2024-12-01T12:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55671/classes/cloud-native-apps/</loc>
     <lastmod>2023-06-01T12:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:52872/classes/angular-advanced-development/</loc>
+    <loc>http://localhost:55671/classes/angular-advanced-development/</loc>
     <lastmod>2017-12-01T12:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:52872/classes/angular-development-essentials/</loc>
+    <loc>http://localhost:55671/classes/angular-development-essentials/</loc>
     <lastmod>2016-12-01T12:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:52872/categories/</loc>
+    <loc>http://localhost:55671/categories/</loc>
   </url><url>
-    <loc>http://localhost:52872/tags/</loc>
+    <loc>http://localhost:55671/tags/</loc>
   </url>
 </urlset>

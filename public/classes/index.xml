@@ -2,108 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classes on Integrations IT Solution - Alexander Kastil</title>
-    <link>http://localhost:52872/classes/</link>
+    <link>http://localhost:1313/classes/</link>
     <description>Recent content in Classes on Integrations IT Solution - Alexander Kastil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:52872/classes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
-      <link>http://localhost:52872/classes/agents-copilots-sk-agent-service/</link>
+      <link>http://localhost:1313/classes/agents-copilots-sk-agent-service/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:52872/classes/agents-copilots-sk-agent-service/</guid>
+      <guid>http://localhost:1313/classes/agents-copilots-sk-agent-service/</guid>
       <description>
         
           
-            &lt;h2 id=&#34;module-1-copilot-agents--azure-ai-foundry-essentials&#34;&gt;Module 1: Copilot, Agents &amp;amp; Azure AI Foundry Essentials&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Overview Copilots and Agent Frameworks in the Microsoft Ecosystem&lt;/li&gt;
-&lt;li&gt;Azure AI Foundry: Hubs, Projects and Resources&lt;/li&gt;
-&lt;li&gt;Explore and deploy models from the model catalog in Azure AI Foundry&lt;/li&gt;
-&lt;li&gt;Effective Prompt Engineering&lt;/li&gt;
-&lt;li&gt;Introduction to Azure AI Foundry SDK&lt;/li&gt;
-&lt;li&gt;RAG-based copilot solution with your own data using Azure AI Foundry&lt;/li&gt;
-&lt;li&gt;Ensuring App Behavior using Evaluations&lt;/li&gt;
-&lt;li&gt;Deploy AI Apps using Azure Developer CLI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;module-2-develop-ai-agents-using-azure-openai-and-the-semantic-kernel-sdk&#34;&gt;Module 2: Develop AI Agents using Azure OpenAI and the Semantic Kernel SDK&lt;/h2&gt;
-&lt;h3 id=&#34;build-your-kernel&#34;&gt;Build your kernel&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Understand the purpose of Semantic Kernel&lt;/li&gt;
-&lt;li&gt;Understand prompting basics &amp;amp; techniques for more effective prompts&lt;/li&gt;
-&lt;li&gt;Use OpenAI, Azure OpenAI &amp;amp; 3rd party Large Language Models&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;give-your-ai-agent-skills-using-native-functions&#34;&gt;Give your AI agent skills using Native Functions&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Understand Native Functions in the Semantic Kernel SDK&lt;/li&gt;
-&lt;li&gt;Implement Native Functions using Prompts&lt;/li&gt;
-&lt;li&gt;Using yaml based prompts&lt;/li&gt;
-&lt;li&gt;Chaining Native Functions&lt;/li&gt;
-&lt;li&gt;Using Pre- and Post Hooks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;create-plugins-for-semantic-kernel&#34;&gt;Create Plugins for Semantic Kernel&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Understand the purpose of Semantic Kernel plugins&lt;/li&gt;
-&lt;li&gt;Built-in plugins (ConversationSummary, FileIO, Http, Math, Time)&lt;/li&gt;
-&lt;li&gt;Implementing data retrieval and task automation plugins&lt;/li&gt;
-&lt;li&gt;Persisting Data using Plugins&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;providing-state--history-using-kernel-memory&#34;&gt;Providing state &amp;amp; history using Kernel Memory&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Understand the purpose of Kernel Memory&lt;/li&gt;
-&lt;li&gt;Semantic Kernel Memory: In-process &amp;amp; Connectors&lt;/li&gt;
-&lt;li&gt;High performance memory using Azure Cosmos DB DiskANN&lt;/li&gt;
-&lt;li&gt;Kernel Memory &amp;amp; Retrieval Augmented Generation (RAG)&lt;/li&gt;
-&lt;li&gt;Streaming Responses to Single Page Applications&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;use-intelligent-planners&#34;&gt;Use intelligent planners&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Understand planners in the Semantic Kernel SDK&lt;/li&gt;
-&lt;li&gt;Use &amp;amp; optimize planners to automate function calls&lt;/li&gt;
-&lt;li&gt;Learn how to use Semantic Kernel SDK to automatically invoke functions&lt;/li&gt;
-&lt;li&gt;Function calling as a planner replacement&lt;/li&gt;
-&lt;li&gt;Automatic vs Manual Function Calling&lt;/li&gt;
-&lt;li&gt;Using Function Filters and Function Calling Helpers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;integrating-ai-services-with-semantic-kernel&#34;&gt;Integrating AI Services with Semantic Kernel&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Text to Image &amp;amp; Image to Text&lt;/li&gt;
-&lt;li&gt;Using Audio to Text&lt;/li&gt;
-&lt;li&gt;Using Hugging Face with Semantic Kernel&lt;/li&gt;
-&lt;li&gt;Integrating Prompt-Flow with Semantic Kernel&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;implementing-copilots--assistant-using-semantic-kernel&#34;&gt;Implementing Copilots &amp;amp; Assistant using Semantic Kernel&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Assistant Overview&lt;/li&gt;
-&lt;li&gt;OpenAI Assistant Specification&lt;/li&gt;
-&lt;li&gt;Completing multi-step tasks with Assistant&lt;/li&gt;
-&lt;li&gt;Using Personas with Assistant&lt;/li&gt;
-&lt;li&gt;Implementing Multi Assistant Solutions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;module-3-implement-multi-agent-solution-using-microsoft-autogen&#34;&gt;Module 3: Implement multi-agent solution using Microsoft AutoGen&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Introduction to Microsoft AutoGen&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;module-4-monitoring--deploying-llm-applications&#34;&gt;Module 4: Monitoring &amp;amp; Deploying LLM Applications&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Understand the deployment process for LLM applications&lt;/li&gt;
-&lt;li&gt;Introductions to Azure Container Apps&lt;/li&gt;
-&lt;li&gt;Deploy LLM applications to Azure Container Apps&lt;/li&gt;
-&lt;li&gt;Scale Azure OpenAI Apps with Azure Container Apps&lt;/li&gt;
-&lt;li&gt;Azure Container Apps Dynamic Sessions&lt;/li&gt;
-&lt;li&gt;Monitor and manage LLM applications&lt;/li&gt;
-&lt;/ul&gt;
+            &lt;p&gt;This workshop guides developers through implementing intelligent agents and copilots using Microsoft&amp;rsquo;s Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.&lt;/p&gt;
+&lt;p&gt;The curriculum progresses from core Semantic Kernel concepts and prompt engineering techniques to advanced implementation of plugins, function calling, and multi-agent solutions.&lt;/p&gt;
+&lt;p&gt;Participants will learn to leverage Kernel Memory for RAG patterns, integrate with various prompt templates, and orchestrate complex agent behaviors.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</title>
+      <link>http://localhost:1313/classes/develop-copilots-m365/</link>
+      <pubDate>Sun, 01 Dec 2024 12:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/classes/develop-copilots-m365/</guid>
+      <description>
+        
+          
+            &lt;p&gt;This in-depth workshop guides learners through developing AI-powered experiences for Microsoft 365, covering both low-code and professional development approaches.&lt;/p&gt;
+&lt;p&gt;Participants will learn to create and extend Copilot capabilities using Microsoft Copilot Studio, Teams Toolkit, and the Teams AI Library.&lt;/p&gt;
+&lt;p&gt;The curriculum progresses from fundamental concepts of AI and Microsoft 365 integration to advanced implementation of custom agents, plugins, and connectors that leverage enterprise data and enhance user experiences through conversational interfaces.&lt;/p&gt;
           
           
         
@@ -112,121 +45,16 @@
     
     <item>
       <title>Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</title>
-      <link>http://localhost:52872/classes/cloud-native-apps/</link>
+      <link>http://localhost:1313/classes/cloud-native-apps/</link>
       <pubDate>Thu, 01 Jun 2023 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:52872/classes/cloud-native-apps/</guid>
+      <guid>http://localhost:1313/classes/cloud-native-apps/</guid>
       <description>
         
           
-            &lt;h3 id=&#34;introduction-to-cloud-native-applications--cloud-maturity-model&#34;&gt;Introduction to Cloud Native Applications &amp;amp; Cloud Maturity Model&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;What are Cloud Native Applications&lt;/li&gt;
-&lt;li&gt;Cloud Maturity Model: Monolith vs Microservices Architecture&lt;/li&gt;
-&lt;li&gt;Introduction to .NET Aspire: Orchestration, Components, Tooling&lt;/li&gt;
-&lt;li&gt;Microservices Communication Patterns&lt;/li&gt;
-&lt;li&gt;Architecture Overview of the Sample App &amp;amp; Services&lt;/li&gt;
-&lt;li&gt;Cloud Architecture Design Patterns&lt;/li&gt;
-&lt;li&gt;Container Hosting &amp;amp; DevOps&lt;/li&gt;
-&lt;li&gt;Provisioning of Azure Resources using Azure Developer CLI (AZD) &amp;amp; Bicep&lt;/li&gt;
-&lt;li&gt;Introduction to Azure Cost Management&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;deploy-cloud-native-apps-using-azure-container-apps-aca&#34;&gt;Deploy cloud-native apps using Azure Container Apps (ACA)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Get started with cloud native apps and containerized deployments&lt;/li&gt;
-&lt;li&gt;Configure Azure Container Registry for container app deployments&lt;/li&gt;
-&lt;li&gt;Configure a container app in Azure Container Apps&lt;/li&gt;
-&lt;li&gt;Configure continuous deployment for container apps&lt;/li&gt;
-&lt;li&gt;Secrets, Managed Identities &amp;amp; Service Connectors&lt;/li&gt;
-&lt;li&gt;Using Azure App Configuration in Azure Container Apps&lt;/li&gt;
-&lt;li&gt;Task Automation using Jobs&lt;/li&gt;
-&lt;li&gt;Scale and manage deployed container apps using KEDA (Kubernetes Event Driven Auto-Scaling)&lt;/li&gt;
-&lt;li&gt;Stateful Apps using Volume Mounts &amp;amp; Persistent Storage&lt;/li&gt;
-&lt;li&gt;Health Probes, Monitoring, Logging &amp;amp; Observability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;build-distributed-apps-with-net-aspire&#34;&gt;Build distributed apps with .NET Aspire&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to .NET Aspire &amp;amp; Creating Projects&lt;/li&gt;
-&lt;li&gt;Use telemetry &amp;amp; service discovery in a .NET Aspire project&lt;/li&gt;
-&lt;li&gt;Use databases in .NET Aspire (SQL Server, Cosmos DB, MongoDB, &amp;hellip;)&lt;/li&gt;
-&lt;li&gt;Improve performance with a cache in a .NET Aspire project&lt;/li&gt;
-&lt;li&gt;Send messages with RabbitMQ / Service Bus in a .NET Aspire project&lt;/li&gt;
-&lt;li&gt;Deploy a .NET Aspire solution to Azure Container Apps / Kubernetes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;stateful-microservices-using-azure-functions&#34;&gt;Stateful Microservices using Azure Functions&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;OData, Open API Support and Dependency Injection&lt;/li&gt;
-&lt;li&gt;Hosting: Serverless vs Containers&lt;/li&gt;
-&lt;li&gt;Environment Variables, Key Vault, and App Configuration&lt;/li&gt;
-&lt;li&gt;Using Managed Identities and Service Connector to access Azure Resources&lt;/li&gt;
-&lt;li&gt;Durable Functions - Orchestrate Long Running Processes&lt;/li&gt;
-&lt;li&gt;Azure Durable Entities, Aggregation &amp;amp; Virtual Actors&lt;/li&gt;
-&lt;li&gt;Publishing Azure Functions to Azure Container Apps&lt;/li&gt;
-&lt;li&gt;Distributed Tracing in Azure Functions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;nosql-data--event-storage-using-cosmos-db&#34;&gt;NoSQL Data &amp;amp; Event storage using Cosmos DB&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;From Relational to NoSQL: Do&amp;rsquo;s and Don’ts&lt;/li&gt;
-&lt;li&gt;Partitioning Strategies &amp;amp; Performance Optimization&lt;/li&gt;
-&lt;li&gt;Domain Driven Design (DDD) Basics &amp;amp; Bounded Context Pattern&lt;/li&gt;
-&lt;li&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Using SDKs and Data Api Builder to expose Cosmos DB&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;li&gt;Implementing an Event Store using Event Sourcing&lt;/li&gt;
-&lt;li&gt;Creating Materialized Views using Materialized Views Builder&lt;/li&gt;
-&lt;li&gt;Optimizing Read/Write Performance with Change Feed &amp;amp; CQRS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;designing-and-implementing-message---event-driven-apps&#34;&gt;Designing and Implementing Message- &amp;amp; Event Driven Apps&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Messaging&lt;/li&gt;
-&lt;li&gt;Message Types and Channels&lt;/li&gt;
-&lt;li&gt;Introduction to Event Driven Architecture (EDA)&lt;/li&gt;
-&lt;li&gt;Event Types: Domain-, Integration-, Cloud Events&lt;/li&gt;
-&lt;li&gt;Publishing &amp;amp; Subscribing Events using an Event Bus&lt;/li&gt;
-&lt;li&gt;Distributed Transactions&lt;/li&gt;
-&lt;li&gt;Saga: Orchestration, Choreography&lt;/li&gt;
-&lt;li&gt;Common Message Brokers in Azure&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;using-distributed-application-runtime---dapr&#34;&gt;Using Distributed Application Runtime - Dapr&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Dapr&lt;/li&gt;
-&lt;li&gt;Understanding Dapr Architecture &amp;amp; Building Blocks&lt;/li&gt;
-&lt;li&gt;Developer Environment Setup, Debugging &amp;amp; State Management&lt;/li&gt;
-&lt;li&gt;Using Dapr Components in Azure Container Apps&lt;/li&gt;
-&lt;li&gt;Service Invocation &amp;amp; Bindings&lt;/li&gt;
-&lt;li&gt;Pub/Sub Messaging&lt;/li&gt;
-&lt;li&gt;Secrets and Configuration&lt;/li&gt;
-&lt;li&gt;Azure Functions &amp;amp; Dapr Bindings&lt;/li&gt;
-&lt;li&gt;Dapr Actors &amp;amp; Saga&lt;/li&gt;
-&lt;li&gt;Observability and Distributed Tracing&lt;/li&gt;
-&lt;li&gt;Dapr &amp;amp; .NET Aspire Integration&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;optimizing-and-securing-access-using-api-management--application-gateway&#34;&gt;Optimizing and Securing Access using Api Management &amp;amp; Application Gateway&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;API Management (APIM) Recap&lt;/li&gt;
-&lt;li&gt;API Versions and Revisions using Azure Container Apps&lt;/li&gt;
-&lt;li&gt;Authenticating to Backend Services&lt;/li&gt;
-&lt;li&gt;Understanding Gateway Pattern and Backends for Frontend Pattern (BFF)&lt;/li&gt;
-&lt;li&gt;Implement BFF using APIM and GraphQL&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;connecting-real-time-micro-frontends-using-event-grid&#34;&gt;Connecting Real Time Micro Frontends using Event Grid&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Micro Frontends: Introduction &amp;amp; Benefits&lt;/li&gt;
-&lt;li&gt;Publish the Shop Micro Frontend to Azure Container Apps&lt;/li&gt;
-&lt;li&gt;Event Grid Basics&lt;/li&gt;
-&lt;li&gt;Partner Events&lt;/li&gt;
-&lt;li&gt;Real-time connected Micro Frontend using Azure Event Grid and SignalR&lt;/li&gt;
-&lt;li&gt;Connect the Real Time Kitchen Dashboard&lt;/li&gt;
-&lt;li&gt;Connect the Order Status Micro Frontend&lt;/li&gt;
-&lt;/ul&gt;
+            &lt;p&gt;This comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure&amp;rsquo;s powerful ecosystem.&lt;/p&gt;
+&lt;p&gt;Learn how to evolve from monolithic architectures to scalable microservices, master containerization with Azure Container Apps, leverage .NET Aspire and Dapr for distributed application development, implement event-driven architectures, and optimize application performance and security.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll gain hands-on experience with modern cloud patterns, Azure services integration, and best practices for building resilient, scalable applications in the cloud.&lt;/p&gt;
           
           
         
@@ -235,10 +63,10 @@
     
     <item>
       <title>Advanced Angular Development</title>
-      <link>http://localhost:52872/classes/angular-advanced-development/</link>
+      <link>http://localhost:1313/classes/angular-advanced-development/</link>
       <pubDate>Fri, 01 Dec 2017 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:52872/classes/angular-advanced-development/</guid>
+      <guid>http://localhost:1313/classes/angular-advanced-development/</guid>
       <description>
         
           
@@ -253,10 +81,10 @@
     
     <item>
       <title>Angular Development Essentials</title>
-      <link>http://localhost:52872/classes/angular-development-essentials/</link>
+      <link>http://localhost:1313/classes/angular-development-essentials/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:52872/classes/angular-development-essentials/</guid>
+      <guid>http://localhost:1313/classes/angular-development-essentials/</guid>
       <description>
         
           

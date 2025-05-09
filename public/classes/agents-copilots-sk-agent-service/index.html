@@ -8,7 +8,7 @@
   
   
   >
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=52872&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service | Integrations IT Solution - Alexander Kastil</title>
 <meta charset="utf-8">
 
@@ -19,39 +19,33 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Module 1: Copilot, Agents &amp; Azure AI Foundry Essentials
-
-Overview Copilots and Agent Frameworks in the Microsoft Ecosystem
-Azure AI Foundry: Hubs, Projects …" />
+<meta name="description" content="This workshop guides developers through implementing intelligent agents and copilots using Microsoft&rsquo;s Semantic Kernel and Azure AI frameworks. …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service" />
-<meta name="twitter:image" content="http://localhost:52872/"/>
-<meta property="og:url" content="http://localhost:52872/classes/agents-copilots-sk-agent-service/" />
+<meta name="twitter:image" content="http://localhost:1313/"/>
+<meta property="og:url" content="http://localhost:1313/classes/agents-copilots-sk-agent-service/" />
 <meta property="og:title" content="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service" />
-<meta property="og:description" content="Module 1: Copilot, Agents &amp; Azure AI Foundry Essentials
+<meta property="og:description" content="This workshop guides developers through implementing intelligent agents and copilots using Microsoft&rsquo;s Semantic Kernel and Azure AI frameworks. …" />
+<meta property="og:image" content="http://localhost:1313/" />
 
-Overview Copilots and Agent Frameworks in the Microsoft Ecosystem
-Azure AI Foundry: Hubs, Projects …" />
-<meta property="og:image" content="http://localhost:52872/" />
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icons/favicon-32x32.png">
+<link rel="manifest" href="http://localhost:1313/icons/site.webmanifest">
 
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:52872/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:52872/icons/favicon-32x32.png">
-<link rel="manifest" href="http://localhost:52872/icons/site.webmanifest">
-
-<link rel="canonical" href="http://localhost:52872/classes/agents-copilots-sk-agent-service/">
+<link rel="canonical" href="http://localhost:1313/classes/agents-copilots-sk-agent-service/">
 
 
 
-<link rel="preload" href="http://localhost:52872/css/styles.922ebcb07c5c91a3cd9562b972064272b210398926edd6f890d932dd402e656bb20646d1abbc4a619a7d7e53d8bfca0555fe56cae64f97a8e783dfbe8892681f.css" integrity = "sha512-ki68sHxckaPNlWK5cgZCcrIQOYkm7db4kNky3UAuZWuyBkbRq7xKYZp9flPYv8oFVf5WyuZPl6jng9&#43;&#43;iJJoHw==" as="style" crossorigin="anonymous">
+<link rel="preload" href="http://localhost:1313/css/styles.922ebcb07c5c91a3cd9562b972064272b210398926edd6f890d932dd402e656bb20646d1abbc4a619a7d7e53d8bfca0555fe56cae64f97a8e783dfbe8892681f.css" integrity = "sha512-ki68sHxckaPNlWK5cgZCcrIQOYkm7db4kNky3UAuZWuyBkbRq7xKYZp9flPYv8oFVf5WyuZPl6jng9&#43;&#43;iJJoHw==" as="style" crossorigin="anonymous">
 
 
 
-<link rel="preload" href="http://localhost:52872/en/js/bundle.6d4987b1275aa16db664dc6760dc41d6a496cab8ba3029d15b210f084977ccb202cc04243a7c9aa89cc7099c88ca364ecf06f3b91c3afd30a45a61759c2e4f1c.js" as="script" integrity=
-"sha512-bUmHsSdaoW22ZNxnYNxB1qSWyri6MCnRWyEPCEl3zLICzAQkOnyaqJzHCZyIyjZOzwbzuRw6/TCkWmF1nC5PHA==" crossorigin="anonymous">
+<link rel="preload" href="http://localhost:1313/en/js/bundle.376bd918be37e661f253e3a4f5f8168aebc8327f437ffcc7a9d85134a3abc1d96b8818fd1fa8f0df477d737a0f01b189e8fa3c7a6c63c494b994a5096b30f903.js" as="script" integrity=
+"sha512-N2vZGL435mHyU&#43;Ok9fgWiuvIMn9Df/zHqdhRNKOrwdlriBj9H6jw30d9c3oPAbGJ6Po8emxjxJS5lKUJazD5Aw==" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="http://localhost:52872/css/styles.922ebcb07c5c91a3cd9562b972064272b210398926edd6f890d932dd402e656bb20646d1abbc4a619a7d7e53d8bfca0555fe56cae64f97a8e783dfbe8892681f.css" integrity="sha512-ki68sHxckaPNlWK5cgZCcrIQOYkm7db4kNky3UAuZWuyBkbRq7xKYZp9flPYv8oFVf5WyuZPl6jng9&#43;&#43;iJJoHw==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.922ebcb07c5c91a3cd9562b972064272b210398926edd6f890d932dd402e656bb20646d1abbc4a619a7d7e53d8bfca0555fe56cae64f97a8e783dfbe8892681f.css" integrity="sha512-ki68sHxckaPNlWK5cgZCcrIQOYkm7db4kNky3UAuZWuyBkbRq7xKYZp9flPYv8oFVf5WyuZPl6jng9&#43;&#43;iJJoHw==" crossorigin="anonymous">
 
   </head>
   <body
@@ -62,7 +56,7 @@ Azure AI Foundry: Hubs, Projects …" />
   >
 
 <header class="nav_header" >
-  <nav class="nav"><a href='http://localhost:52872/' class="nav_brand nav_item" title="Integrations IT Solution - Alexander Kastil">Integrations IT Solution - Alexander Kastil
+  <nav class="nav"><a href='http://localhost:1313/' class="nav_brand nav_item" title="Integrations IT Solution - Alexander Kastil">Integrations IT Solution - Alexander Kastil
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -83,10 +77,10 @@ Azure AI Foundry: Hubs, Projects …" />
         
 
   <div class="nav_parent">
-    <a href="http://localhost:52872/posts/" class="nav_item" title="Blog">Blog </a>
+    <a href="http://localhost:1313/posts/" class="nav_item" title="Blog">Blog </a>
   </div>
   <div class="nav_parent">
-    <a href="http://localhost:52872/classes/" class="nav_item" title="Classes">Classes </a>
+    <a href="http://localhost:1313/classes/" class="nav_item" title="Classes">Classes </a>
   </div>
   <div class="nav_parent">
     <a href="https://www.integrations.at" class="nav_item" title="Services">Services </a>
@@ -117,18 +111,18 @@ Azure AI Foundry: Hubs, Projects …" />
     <span class="post_date">
       May 1, 2025	  
     </span>
-    <span class="post_time"> · 2 min read</span>
+    <span class="post_time"> · 3 min read</span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Implementing%20Agents%20and%20Copilots%20using%20Semantic%20Kernel%20and%20Azure%20AI%20Agent%20Service&url=http%3a%2f%2flocalhost%3a52872%2fclasses%2fagents-copilots-sk-agent-service%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Implementing%20Agents%20and%20Copilots%20using%20Semantic%20Kernel%20and%20Azure%20AI%20Agent%20Service&url=http%3a%2f%2flocalhost%3a1313%2fclasses%2fagents-copilots-sk-agent-service%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a52872%2fclasses%2fagents-copilots-sk-agent-service%2f&t=Implementing%20Agents%20and%20Copilots%20using%20Semantic%20Kernel%20and%20Azure%20AI%20Agent%20Service" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclasses%2fagents-copilots-sk-agent-service%2f&t=Implementing%20Agents%20and%20Copilots%20using%20Semantic%20Kernel%20and%20Azure%20AI%20Agent%20Service" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -142,7 +136,7 @@ Azure AI Foundry: Hubs, Projects …" />
 </svg>
 
     </a>
-    <a href="http://localhost:52872/classes/agents-copilots-sk-agent-service/" title="Copy Link" class="link link_yank">
+    <a href="http://localhost:1313/classes/agents-copilots-sk-agent-service/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -153,93 +147,83 @@ Azure AI Foundry: Hubs, Projects …" />
   </span>
   </div>
 
-    <div class="post_body"><h2 id="module-1-copilot-agents--azure-ai-foundry-essentials">Module 1: Copilot, Agents &amp; Azure AI Foundry Essentials</h2>
+    <div class="post_body"><p>This workshop guides developers through implementing intelligent agents and copilots using Microsoft&rsquo;s Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.</p>
+<p>The curriculum progresses from core Semantic Kernel concepts and prompt engineering techniques to advanced implementation of plugins, function calling, and multi-agent solutions.</p>
+<p>Participants will learn to leverage Kernel Memory for RAG patterns, integrate with various prompt templates, and orchestrate complex agent behaviors.</p>
+<p>Advanced topics include implementing Microsoft 365 Copilot extensions, building agent-to-agent communication systems, and deploying production-ready AI solutions using Azure AI Agent Service with comprehensive content filtering and observability capabilities.</p>
+<h2 id="module-1-copilot-agents--azure-ai-foundry-essentials">Module 1: Copilot, Agents &amp; Azure AI Foundry Essentials</h2>
 <ul>
 <li>Overview Copilots and Agent Frameworks in the Microsoft Ecosystem</li>
 <li>Azure AI Foundry: Hubs, Projects and Resources</li>
-<li>Explore and deploy models from the model catalog in Azure AI Foundry</li>
+<li>Deploy and use Large Language Models (LLM) in Azure AI Foundry</li>
 <li>Effective Prompt Engineering</li>
 <li>Introduction to Azure AI Foundry SDK</li>
-<li>RAG-based copilot solution with your own data using Azure AI Foundry</li>
+<li>Integrating your own data using Retrieval Augmented Generation (RAG)</li>
+<li>Function Calling, Model Context Protocol (MCP) and Agent2Agent (A2A) Protocol Basics</li>
 <li>Ensuring App Behavior using Evaluations</li>
 <li>Deploy AI Apps using Azure Developer CLI</li>
 </ul>
-<h2 id="module-2-develop-ai-agents-using-azure-openai-and-the-semantic-kernel-sdk">Module 2: Develop AI Agents using Azure OpenAI and the Semantic Kernel SDK</h2>
-<h3 id="build-your-kernel">Build your kernel</h3>
+<h2 id="module-2-develop-ai-agents-using-azure-openai-and-semantic-kernel">Module 2: Develop AI Agents using Azure OpenAI and Semantic Kernel</h2>
+<h3 id="semantic-kernel-basics--concepts">Semantic Kernel Basics &amp; Concepts</h3>
 <ul>
 <li>Understand the purpose of Semantic Kernel</li>
-<li>Understand prompting basics &amp; techniques for more effective prompts</li>
-<li>Use OpenAI, Azure OpenAI &amp; 3rd party Large Language Models</li>
+<li>Semantic Kernel Components</li>
+<li>Chat History &amp; AI Services Integration</li>
+<li>ChatCompletion and Multi-modal capabilities</li>
 </ul>
-<h3 id="give-your-ai-agent-skills-using-native-functions">Give your AI agent skills using Native Functions</h3>
+<h3 id="optimizing-prompts">Optimizing Prompts</h3>
 <ul>
-<li>Understand Native Functions in the Semantic Kernel SDK</li>
-<li>Implement Native Functions using Prompts</li>
-<li>Using yaml based prompts</li>
-<li>Chaining Native Functions</li>
-<li>Using Pre- and Post Hooks</li>
+<li>Prompt Engineering with Semantic Kernel</li>
+<li>YAML Prompt Templates and Template Formats</li>
+<li>Handlebar Prompt Templates</li>
+<li>Liquid Prompt Templates</li>
+<li>Using Prompty Visual Studio Code Extension</li>
 </ul>
-<h3 id="create-plugins-for-semantic-kernel">Create Plugins for Semantic Kernel</h3>
+<h3 id="implement-plugins-for-semantic-kernel">Implement Plugins for Semantic Kernel</h3>
 <ul>
 <li>Understand the purpose of Semantic Kernel plugins</li>
-<li>Built-in plugins (ConversationSummary, FileIO, Http, Math, Time)</li>
-<li>Implementing data retrieval and task automation plugins</li>
-<li>Persisting Data using Plugins</li>
+<li>Learn how to use pre-made plugins</li>
+<li>Planners, Function Calling and Choice Behaviors</li>
+<li>Implement Native Functions using Prompts</li>
+<li>Integrate existing API&rsquo;s using OpenApi Plugins</li>
+<li>Using MCP Servers in Semantic Kernel</li>
+<li>Filters &amp; Observability</li>
 </ul>
-<h3 id="providing-state--history-using-kernel-memory">Providing state &amp; history using Kernel Memory</h3>
+<h3 id="kernel-memory--vector-store-connectors">Kernel Memory &amp; Vector Store Connectors</h3>
 <ul>
 <li>Understand the purpose of Kernel Memory</li>
-<li>Semantic Kernel Memory: In-process &amp; Connectors</li>
-<li>High performance memory using Azure Cosmos DB DiskANN</li>
+<li>Semantic Kernel Memory: In-process &amp; Out-of-the-box-Connectors</li>
+<li>Data Model And Embedding Generation</li>
 <li>Kernel Memory &amp; Retrieval Augmented Generation (RAG)</li>
-<li>Streaming Responses to Single Page Applications</li>
 </ul>
-<h3 id="use-intelligent-planners">Use intelligent planners</h3>
-<ul>
-<li>Understand planners in the Semantic Kernel SDK</li>
-<li>Use &amp; optimize planners to automate function calls</li>
-<li>Learn how to use Semantic Kernel SDK to automatically invoke functions</li>
-<li>Function calling as a planner replacement</li>
-<li>Automatic vs Manual Function Calling</li>
-<li>Using Function Filters and Function Calling Helpers</li>
-</ul>
-<h3 id="integrating-ai-services-with-semantic-kernel">Integrating AI Services with Semantic Kernel</h3>
+<h3 id="semantic-kernel-process-framework">Semantic Kernel Process Framework</h3>
 <ul>
 <li>Text to Image &amp; Image to Text</li>
-<li>Using Audio to Text</li>
+<li>Using Audio to text</li>
 <li>Using Hugging Face with Semantic Kernel</li>
 <li>Integrating Prompt-Flow with Semantic Kernel</li>
 </ul>
-<h3 id="implementing-copilots--assistant-using-semantic-kernel">Implementing Copilots &amp; Assistant using Semantic Kernel</h3>
+<h3 id="semantic-kernel-agent-framework">Semantic Kernel Agent Framework</h3>
 <ul>
-<li>Assistant Overview</li>
-<li>OpenAI Assistant Specification</li>
-<li>Completing multi-step tasks with Assistant</li>
-<li>Using Personas with Assistant</li>
-<li>Implementing Multi Assistant Solutions</li>
+<li>Agents Overview</li>
+<li>Completing multi-step tasks with Agents</li>
+<li>Using Personas with Agents</li>
+<li>Implementing Multi Agent Solutions</li>
 </ul>
-<h2 id="module-3-implement-multi-agent-solution-using-microsoft-autogen">Module 3: Implement multi-agent solution using Microsoft AutoGen</h2>
+<h2 id="module-3-develop-agents-using-azure-ai-agent-service">Module 3: Develop Agents using Azure AI Agent Service</h2>
 <ul>
-<li>
-<table>
-  <thead>
-      <tr>
-          <th>Introduction to Microsoft AutoGen</th>
-      </tr>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
-</li>
+<li>Introduction to Azure AI Agent Service</li>
+<li>Using Action Tools: Code Interpreter, Function Calling, Azure Functions and OpenAPI Tools</li>
+<li>Using Knowledge Tools: File Search, Azure AI Search and Bing Grounding</li>
+<li>Orchestrating Agents using Semantic Kernel</li>
+<li>Content Filtering and Observability</li>
 </ul>
-<h2 id="module-4-monitoring--deploying-llm-applications">Module 4: Monitoring &amp; Deploying LLM Applications</h2>
+<h2 id="module-4-implementing-copilots-for-microsoft-365">Module 4: Implementing Copilots for Microsoft 365</h2>
 <ul>
-<li>Understand the deployment process for LLM applications</li>
-<li>Introductions to Azure Container Apps</li>
-<li>Deploy LLM applications to Azure Container Apps</li>
-<li>Scale Azure OpenAI Apps with Azure Container Apps</li>
-<li>Azure Container Apps Dynamic Sessions</li>
-<li>Monitor and manage LLM applications</li>
+<li>Overview of the Microsoft 365 Copilot Ecosystem</li>
+<li>Implementing Plugins and Connectors for Microsoft 365 Copilot</li>
+<li>Declarative Agents vs Custom Engine Agents</li>
+<li>Copilot Agent Plugins Sample for Semantic Kernel</li>
 </ul>
 
     </div><div class="post_comments">
@@ -263,16 +247,19 @@ Azure AI Foundry: Hubs, Projects …" />
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
-        <a href="http://localhost:52872/classes/agents-copilots-sk-agent-service/" class="nav-link" title="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service">Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</a>
+        <a href="http://localhost:1313/classes/agents-copilots-sk-agent-service/" class="nav-link" title="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service">Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</a>
       </li>
       <li>
-        <a href="http://localhost:52872/classes/cloud-native-apps/" class="nav-link" title="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure">Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</a>
+        <a href="http://localhost:1313/classes/develop-copilots-m365/" class="nav-link" title="Develop Low- and Pro-Code Agents and Copilots for Microsoft 365">Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</a>
       </li>
       <li>
-        <a href="http://localhost:52872/classes/angular-advanced-development/" class="nav-link" title="Advanced Angular Development">Advanced Angular Development</a>
+        <a href="http://localhost:1313/classes/cloud-native-apps/" class="nav-link" title="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure">Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</a>
       </li>
       <li>
-        <a href="http://localhost:52872/classes/angular-development-essentials/" class="nav-link" title="Angular Development Essentials">Angular Development Essentials</a>
+        <a href="http://localhost:1313/classes/angular-advanced-development/" class="nav-link" title="Advanced Angular Development">Advanced Angular Development</a>
+      </li>
+      <li>
+        <a href="http://localhost:1313/classes/angular-development-essentials/" class="nav-link" title="Angular Development Essentials">Angular Development Essentials</a>
       </li>
     </ul>
   </section>
@@ -366,7 +353,7 @@ Azure AI Foundry: Hubs, Projects …" />
 
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='http://localhost:52872/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Integrations IT Solution - Alexander Kastil">
+    <img src='http://localhost:1313/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Integrations IT Solution - Alexander Kastil">
     <p>Copyright&nbsp;<span class="year"></span>&nbsp;INTEGRATIONS IT SOLUTION - ALEXANDER KASTIL. All Rights Reserved</p><a class="to_top" href="#documentTop">
   <svg class="icon">
   <title>to-top</title>
@@ -378,6 +365,6 @@ Azure AI Foundry: Hubs, Projects …" />
   </div>
 </footer>
 
-<script type="text/javascript" src="http://localhost:52872/en/js/bundle.6d4987b1275aa16db664dc6760dc41d6a496cab8ba3029d15b210f084977ccb202cc04243a7c9aa89cc7099c88ca364ecf06f3b91c3afd30a45a61759c2e4f1c.js" integrity="sha512-bUmHsSdaoW22ZNxnYNxB1qSWyri6MCnRWyEPCEl3zLICzAQkOnyaqJzHCZyIyjZOzwbzuRw6/TCkWmF1nC5PHA==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://localhost:1313/en/js/bundle.376bd918be37e661f253e3a4f5f8168aebc8327f437ffcc7a9d85134a3abc1d96b8818fd1fa8f0df477d737a0f01b189e8fa3c7a6c63c494b994a5096b30f903.js" integrity="sha512-N2vZGL435mHyU&#43;Ok9fgWiuvIMn9Df/zHqdhRNKOrwdlriBj9H6jw30d9c3oPAbGJ6Po8emxjxJS5lKUJazD5Aw==" crossorigin="anonymous"></script>
   </body>
 </html>

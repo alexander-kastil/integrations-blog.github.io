@@ -3,14 +3,18 @@ title: "Designing & Implementing Cloud Native Applications using Microsoft Azure
 date: '2023-06-01T12:00:00+02:00'
 ---
 
+This comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure's powerful ecosystem.
+
+Learn how to evolve from monolithic architectures to scalable microservices, master containerization with Azure Container Apps, leverage .NET Aspire and Dapr for distributed application development, implement event-driven architectures, and optimize application performance and security.
+
+You'll gain hands-on experience with modern cloud patterns, Azure services integration, and best practices for building resilient, scalable applications in the cloud.
+
 ### Introduction to Cloud Native Applications & Cloud Maturity Model
 
 - What are Cloud Native Applications
 - Cloud Maturity Model: Monolith vs Microservices Architecture
 - Introduction to .NET Aspire: Orchestration, Components, Tooling
 - Microservices Communication Patterns
-- Architecture Overview of the Sample App & Services
-- Cloud Architecture Design Patterns
 - Container Hosting & DevOps
 - Provisioning of Azure Resources using Azure Developer CLI (AZD) & Bicep
 - Introduction to Azure Cost Management

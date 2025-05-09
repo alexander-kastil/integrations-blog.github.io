@@ -8,7 +8,7 @@
   
   
   >
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=52872&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 <title>Designing &amp; Implementing Cloud Native Applications using Microsoft Azure | Integrations IT Solution - Alexander Kastil</title>
 <meta charset="utf-8">
 
@@ -19,39 +19,33 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Introduction to Cloud Native Applications &amp; Cloud Maturity Model
-
-What are Cloud Native Applications
-Cloud Maturity Model: Monolith vs Microservices …" />
+<meta name="description" content="This comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure&rsquo;s powerful …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure" />
-<meta name="twitter:image" content="http://localhost:52872/"/>
-<meta property="og:url" content="http://localhost:52872/classes/cloud-native-apps/" />
+<meta name="twitter:image" content="http://localhost:1313/"/>
+<meta property="og:url" content="http://localhost:1313/classes/cloud-native-apps/" />
 <meta property="og:title" content="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure" />
-<meta property="og:description" content="Introduction to Cloud Native Applications &amp; Cloud Maturity Model
+<meta property="og:description" content="This comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure&rsquo;s powerful …" />
+<meta property="og:image" content="http://localhost:1313/" />
 
-What are Cloud Native Applications
-Cloud Maturity Model: Monolith vs Microservices …" />
-<meta property="og:image" content="http://localhost:52872/" />
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icons/favicon-32x32.png">
+<link rel="manifest" href="http://localhost:1313/icons/site.webmanifest">
 
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:52872/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:52872/icons/favicon-32x32.png">
-<link rel="manifest" href="http://localhost:52872/icons/site.webmanifest">
-
-<link rel="canonical" href="http://localhost:52872/classes/cloud-native-apps/">
+<link rel="canonical" href="http://localhost:1313/classes/cloud-native-apps/">
 
 
 
-<link rel="preload" href="http://localhost:52872/css/styles.922ebcb07c5c91a3cd9562b972064272b210398926edd6f890d932dd402e656bb20646d1abbc4a619a7d7e53d8bfca0555fe56cae64f97a8e783dfbe8892681f.css" integrity = "sha512-ki68sHxckaPNlWK5cgZCcrIQOYkm7db4kNky3UAuZWuyBkbRq7xKYZp9flPYv8oFVf5WyuZPl6jng9&#43;&#43;iJJoHw==" as="style" crossorigin="anonymous">
+<link rel="preload" href="http://localhost:1313/css/styles.922ebcb07c5c91a3cd9562b972064272b210398926edd6f890d932dd402e656bb20646d1abbc4a619a7d7e53d8bfca0555fe56cae64f97a8e783dfbe8892681f.css" integrity = "sha512-ki68sHxckaPNlWK5cgZCcrIQOYkm7db4kNky3UAuZWuyBkbRq7xKYZp9flPYv8oFVf5WyuZPl6jng9&#43;&#43;iJJoHw==" as="style" crossorigin="anonymous">
 
 
 
-<link rel="preload" href="http://localhost:52872/en/js/bundle.6d4987b1275aa16db664dc6760dc41d6a496cab8ba3029d15b210f084977ccb202cc04243a7c9aa89cc7099c88ca364ecf06f3b91c3afd30a45a61759c2e4f1c.js" as="script" integrity=
-"sha512-bUmHsSdaoW22ZNxnYNxB1qSWyri6MCnRWyEPCEl3zLICzAQkOnyaqJzHCZyIyjZOzwbzuRw6/TCkWmF1nC5PHA==" crossorigin="anonymous">
+<link rel="preload" href="http://localhost:1313/en/js/bundle.376bd918be37e661f253e3a4f5f8168aebc8327f437ffcc7a9d85134a3abc1d96b8818fd1fa8f0df477d737a0f01b189e8fa3c7a6c63c494b994a5096b30f903.js" as="script" integrity=
+"sha512-N2vZGL435mHyU&#43;Ok9fgWiuvIMn9Df/zHqdhRNKOrwdlriBj9H6jw30d9c3oPAbGJ6Po8emxjxJS5lKUJazD5Aw==" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="http://localhost:52872/css/styles.922ebcb07c5c91a3cd9562b972064272b210398926edd6f890d932dd402e656bb20646d1abbc4a619a7d7e53d8bfca0555fe56cae64f97a8e783dfbe8892681f.css" integrity="sha512-ki68sHxckaPNlWK5cgZCcrIQOYkm7db4kNky3UAuZWuyBkbRq7xKYZp9flPYv8oFVf5WyuZPl6jng9&#43;&#43;iJJoHw==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.922ebcb07c5c91a3cd9562b972064272b210398926edd6f890d932dd402e656bb20646d1abbc4a619a7d7e53d8bfca0555fe56cae64f97a8e783dfbe8892681f.css" integrity="sha512-ki68sHxckaPNlWK5cgZCcrIQOYkm7db4kNky3UAuZWuyBkbRq7xKYZp9flPYv8oFVf5WyuZPl6jng9&#43;&#43;iJJoHw==" crossorigin="anonymous">
 
   </head>
   <body
@@ -62,7 +56,7 @@ Cloud Maturity Model: Monolith vs Microservices …" />
   >
 
 <header class="nav_header" >
-  <nav class="nav"><a href='http://localhost:52872/' class="nav_brand nav_item" title="Integrations IT Solution - Alexander Kastil">Integrations IT Solution - Alexander Kastil
+  <nav class="nav"><a href='http://localhost:1313/' class="nav_brand nav_item" title="Integrations IT Solution - Alexander Kastil">Integrations IT Solution - Alexander Kastil
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -83,10 +77,10 @@ Cloud Maturity Model: Monolith vs Microservices …" />
         
 
   <div class="nav_parent">
-    <a href="http://localhost:52872/posts/" class="nav_item" title="Blog">Blog </a>
+    <a href="http://localhost:1313/posts/" class="nav_item" title="Blog">Blog </a>
   </div>
   <div class="nav_parent">
-    <a href="http://localhost:52872/classes/" class="nav_item" title="Classes">Classes </a>
+    <a href="http://localhost:1313/classes/" class="nav_item" title="Classes">Classes </a>
   </div>
   <div class="nav_parent">
     <a href="https://www.integrations.at" class="nav_item" title="Services">Services </a>
@@ -121,14 +115,14 @@ Cloud Maturity Model: Monolith vs Microservices …" />
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Designing%20%26%20Implementing%20Cloud%20Native%20Applications%20using%20Microsoft%20Azure&url=http%3a%2f%2flocalhost%3a52872%2fclasses%2fcloud-native-apps%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Designing%20%26%20Implementing%20Cloud%20Native%20Applications%20using%20Microsoft%20Azure&url=http%3a%2f%2flocalhost%3a1313%2fclasses%2fcloud-native-apps%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a52872%2fclasses%2fcloud-native-apps%2f&t=Designing%20%26%20Implementing%20Cloud%20Native%20Applications%20using%20Microsoft%20Azure" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclasses%2fcloud-native-apps%2f&t=Designing%20%26%20Implementing%20Cloud%20Native%20Applications%20using%20Microsoft%20Azure" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -142,7 +136,7 @@ Cloud Maturity Model: Monolith vs Microservices …" />
 </svg>
 
     </a>
-    <a href="http://localhost:52872/classes/cloud-native-apps/" title="Copy Link" class="link link_yank">
+    <a href="http://localhost:1313/classes/cloud-native-apps/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -153,14 +147,15 @@ Cloud Maturity Model: Monolith vs Microservices …" />
   </span>
   </div>
 
-    <div class="post_body"><h3 id="introduction-to-cloud-native-applications--cloud-maturity-model">Introduction to Cloud Native Applications &amp; Cloud Maturity Model</h3>
+    <div class="post_body"><p>This comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure&rsquo;s powerful ecosystem.</p>
+<p>Learn how to evolve from monolithic architectures to scalable microservices, master containerization with Azure Container Apps, leverage .NET Aspire and Dapr for distributed application development, implement event-driven architectures, and optimize application performance and security.</p>
+<p>You&rsquo;ll gain hands-on experience with modern cloud patterns, Azure services integration, and best practices for building resilient, scalable applications in the cloud.</p>
+<h3 id="introduction-to-cloud-native-applications--cloud-maturity-model">Introduction to Cloud Native Applications &amp; Cloud Maturity Model</h3>
 <ul>
 <li>What are Cloud Native Applications</li>
 <li>Cloud Maturity Model: Monolith vs Microservices Architecture</li>
 <li>Introduction to .NET Aspire: Orchestration, Components, Tooling</li>
 <li>Microservices Communication Patterns</li>
-<li>Architecture Overview of the Sample App &amp; Services</li>
-<li>Cloud Architecture Design Patterns</li>
 <li>Container Hosting &amp; DevOps</li>
 <li>Provisioning of Azure Resources using Azure Developer CLI (AZD) &amp; Bicep</li>
 <li>Introduction to Azure Cost Management</li>
@@ -283,16 +278,19 @@ Cloud Maturity Model: Monolith vs Microservices …" />
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
-        <a href="http://localhost:52872/classes/agents-copilots-sk-agent-service/" class="nav-link" title="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service">Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</a>
+        <a href="http://localhost:1313/classes/agents-copilots-sk-agent-service/" class="nav-link" title="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service">Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</a>
       </li>
       <li>
-        <a href="http://localhost:52872/classes/cloud-native-apps/" class="nav-link" title="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure">Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</a>
+        <a href="http://localhost:1313/classes/develop-copilots-m365/" class="nav-link" title="Develop Low- and Pro-Code Agents and Copilots for Microsoft 365">Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</a>
       </li>
       <li>
-        <a href="http://localhost:52872/classes/angular-advanced-development/" class="nav-link" title="Advanced Angular Development">Advanced Angular Development</a>
+        <a href="http://localhost:1313/classes/cloud-native-apps/" class="nav-link" title="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure">Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</a>
       </li>
       <li>
-        <a href="http://localhost:52872/classes/angular-development-essentials/" class="nav-link" title="Angular Development Essentials">Angular Development Essentials</a>
+        <a href="http://localhost:1313/classes/angular-advanced-development/" class="nav-link" title="Advanced Angular Development">Advanced Angular Development</a>
+      </li>
+      <li>
+        <a href="http://localhost:1313/classes/angular-development-essentials/" class="nav-link" title="Angular Development Essentials">Angular Development Essentials</a>
       </li>
     </ul>
   </section>
@@ -386,7 +384,7 @@ Cloud Maturity Model: Monolith vs Microservices …" />
 
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='http://localhost:52872/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Integrations IT Solution - Alexander Kastil">
+    <img src='http://localhost:1313/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Integrations IT Solution - Alexander Kastil">
     <p>Copyright&nbsp;<span class="year"></span>&nbsp;INTEGRATIONS IT SOLUTION - ALEXANDER KASTIL. All Rights Reserved</p><a class="to_top" href="#documentTop">
   <svg class="icon">
   <title>to-top</title>
@@ -398,6 +396,6 @@ Cloud Maturity Model: Monolith vs Microservices …" />
   </div>
 </footer>
 
-<script type="text/javascript" src="http://localhost:52872/en/js/bundle.6d4987b1275aa16db664dc6760dc41d6a496cab8ba3029d15b210f084977ccb202cc04243a7c9aa89cc7099c88ca364ecf06f3b91c3afd30a45a61759c2e4f1c.js" integrity="sha512-bUmHsSdaoW22ZNxnYNxB1qSWyri6MCnRWyEPCEl3zLICzAQkOnyaqJzHCZyIyjZOzwbzuRw6/TCkWmF1nC5PHA==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://localhost:1313/en/js/bundle.376bd918be37e661f253e3a4f5f8168aebc8327f437ffcc7a9d85134a3abc1d96b8818fd1fa8f0df477d737a0f01b189e8fa3c7a6c63c494b994a5096b30f903.js" integrity="sha512-N2vZGL435mHyU&#43;Ok9fgWiuvIMn9Df/zHqdhRNKOrwdlriBj9H6jw30d9c3oPAbGJ6Po8emxjxJS5lKUJazD5Aw==" crossorigin="anonymous"></script>
   </body>
 </html>
