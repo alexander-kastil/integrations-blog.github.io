@@ -1,4 +1,4 @@
-baseURL = 'https://alexander-kastil.github.io/'
+baseURL = 'https://blog.integrations.at/'
 languageCode = 'en-us'
 title = 'Integrations IT Solution'
 theme = 'clarity'
