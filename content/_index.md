@@ -11,7 +11,7 @@ This site contains a collection of [blog posts](/posts) and [classes](/classes) 
 
 I am a Software Engineer with a passion for Microsoft technologies. I have experience in various domains including web development, cloud computing, and artificial. I enjoy sharing my knowledge and experiences through writing and teaching.
 
-My first Microsoft Certification goes back to 1997 when I passed the Microsoft Certified Professional exam for Windows 96. Since then I have been working with Microsoft technologies and have obtained several certifications including:
+My first Microsoft Certification goes back to 1997 when I passed the Microsoft Certified Professional exam for Windows 95. Since then I have been working with Microsoft technologies and have obtained several certifications including:
 
 * Microsoft Certified Systems Engineer (MCSE) on Windows NT 4.0, Windows 2000, and Windows 2003
 * Microsoft Certified Systems Administrator: Messaging on Windows 2000 and Windows 2003
