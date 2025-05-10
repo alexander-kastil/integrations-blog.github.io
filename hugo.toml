@@ -5,7 +5,7 @@ theme = 'clarity'
 
 [params]
   introDescription = "Software Engineering, DevOps & Training for Angular, Azure, AI & Microsoft 365"
-  introURL = "https://www.integrations.at/about.aspx"
+  introURL = "https://www.integrations.at"
   dateFormat = "Jan, 2006"
   lastmodSeparator = " - Last Updated: "
   [params.Author]
