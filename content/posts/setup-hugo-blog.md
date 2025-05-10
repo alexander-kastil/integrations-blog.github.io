@@ -1,6 +1,6 @@
 +++
 date = '2025-05-08T13:22:53+02:00'
-title = 'Setup a based Hugo Blog on GitHub Pages'
+title = 'Setup a Hugo based Blog on GitHub Pages'
 draft = false
 +++
 
