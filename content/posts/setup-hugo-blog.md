@@ -108,3 +108,7 @@ baseURL = 'https://blog.integrations.at/'
 ```
 
 Last but not least, add the custom domain in the GitHub Pages settings and enforce HTTPS. This will ensure that your custom domain is properly configured and linked to your GitHub Pages site.
+
+Now check the deployment status in the GitHub Actions tab. If everything is set up correctly, you should see a successful deployment message. You can also check the GitHub Pages settings to ensure that your custom domain is properly configured and linked to your GitHub Pages site.
+
+![dns](images/check-deploy.jpg)
