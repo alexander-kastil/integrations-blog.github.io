@@ -38,7 +38,7 @@ In 2024, I started focusing on Microsoft Semantic Kernel, Microsoft Copilot, and
 
 ## My personal Interests
 
-Beyond my professional interests, I am a passionate dog dad to my Sighthounds and have been working out in the gym since I was 14 years old. I also consider myself a master chef in the kitchen, with a love for cooking Thai and Indian cuisine. These culinary skills were honed during my travels around Southeast Asia, mostly between the ages of 27 and 35, where I used to escape the cold winters in Austria.
+Beyond my professional interests, I am a dog dad to my Sighthounds and have been working out in the gym since I was 14 years old. I also consider myself a master chef in the kitchen, with a love for cooking Thai and Indian cuisine. These culinary skills were honed during my travels around Southeast Asia, mostly between the ages of 27 and 35, where I used to escape the cold winters in Austria.
 
 You can connect with me on [LinkedIn](https://www.linkedin.com/in/alexander-kastil-3bb26511a/).
 
