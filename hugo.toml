@@ -4,11 +4,9 @@ title = 'Integrations IT Solutions'
 theme = 'clarity'
 
 [params]
-  # Set default theme to dark
-  darkMode = true
   introDescription = "Software Engineering, DevOps & Training for Angular, Azure, AI & Microsoft 365"
   introURL = "https://www.integrations.at/about.aspx"
-  dateFormat = "Jan 2, 2006"
+  dateFormat = "Jan, 2006"
   lastmodSeparator = " - Last Updated: "
   [params.Author]
     name = "Alexander Kastil"

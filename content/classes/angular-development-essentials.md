@@ -1,7 +1,7 @@
 ---
 title: "Angular Development Essentials"
 date: '2016-12-01T12:00:00+02:00'
-lastmod: '2024-03-20T11:30:00+02:00'
+lastmod: '2024-10-20T11:30:00+02:00'
 showLastmod: true
 ---
 
