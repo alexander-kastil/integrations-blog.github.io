@@ -80,10 +80,12 @@ Advanced topics include implementing Microsoft 365 Copilot extensions, building 
 - Using Knowledge Tools: File Search, Azure AI Search and Bing Grounding
 - Orchestrating Agents using Semantic Kernel
 - Content Filtering and Observability
+- Using .NET Aspire and AI Agents
 
 ## Module 4: Implementing Copilots for Microsoft 365
 
 - Overview of the Microsoft 365 Copilot Ecosystem
 - Implementing Plugins and Connectors for Microsoft 365 Copilot
 - Declarative Agents vs Custom Engine Agents
+- Using MCP Servers with Microsoft 365 Copilot Plugins & Agents
 - Copilot Agent Plugins for Semantic Kernel (CAPS)

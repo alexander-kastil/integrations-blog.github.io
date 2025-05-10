@@ -31,6 +31,7 @@ The curriculum progresses from fundamental concepts of AI and Microsoft 365 inte
 - Implementing Agents in Copilot Studio
 - Topics, Entities and Variables
 - Adding Actions & Integrating Data
+- Using Model Context Protocol (MCP) with Copilot Studio
 - Customizing SharePoint One-Click Agents using Copilot Studio
 - Guided Project - Create copilots with Microsoft Copilot Studio
 
