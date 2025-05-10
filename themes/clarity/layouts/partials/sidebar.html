@@ -60,7 +60,7 @@
       {{ end }}
     </ul>
     {{ else if eq .Section "classes" }}
-    <h2 class="mt-4">Classes written by me</h2>
+    <h2 class="mt-4">My Classes</h2>
     <ul class="flex-column">
       {{ range first 8 (where .Site.RegularPages "Section" "classes") }}
       <li>
