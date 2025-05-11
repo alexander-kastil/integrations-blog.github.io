@@ -14,16 +14,17 @@ By the end of the workshop, attendees will gain the skills to optimize their dev
 
 ## GitHub Copilot Introduction​
 
-- Overview Copilot and AI Models
+- Overview Copilot and Features
 - Settings & Instructions
 - Prompt Engineering & Reusable Prompts
 - Ask, Edit, Agents
+- AI Modell comparrison
 
 ## Generate Code using GitHub Copilot​
 
-- Inline Code Generation vs Edit and Agents
-- Chat Participants & Slash Commands
+- Inline Code Generation and suggestions
 - Understanding and using Context
+- Chat Participants & Slash Commands
 - Multi-File Edits
 
 ## Refactoring, Fixing Errors ​& Reducing Repetitive Tasks​
