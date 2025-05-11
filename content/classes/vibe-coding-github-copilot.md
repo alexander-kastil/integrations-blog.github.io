@@ -11,8 +11,8 @@ This one day workshop provides a hands-on introduction to GitHub Copilot, coveri
 ## GitHub Copilot Introduction​
 
 - Overview Copilot and AI Models
-- Prompt Engineering & Instructions (Reusable Prompts)
-- Features and Settings
+- Settings & Instructions
+- Prompt Engineering & Reusable Prompts
 - Ask, Edit, Agents
 
 ## Generate Code using GitHub Copilot​
@@ -20,18 +20,21 @@ This one day workshop provides a hands-on introduction to GitHub Copilot, coveri
 - Inline Code Generation vs Edit and Agents
 - Chat Participants & Slash Commands
 - Understanding and using Context
+- Multi-File Edits
 
 ## Refactoring, Fixing Errors ​& Reducing Repetitive Tasks​
 
-- Using Semantic Search
+- Semantic Search & Explaining Code
 - GitHub Copilot Thinking
 - Using Screenshots for Error Fixing
 - Implementing Instructions for Repetitive Tasks
 
 ## Working & Extending Agents
 
-- Github Copilot Agent Mode Overview & Features
+- Github Copilot Agent Mode Overview & Best Practice
+- Agent related Settings
 - Adding Tools using Model Context Protocol (MCP)
+- Manage Tool approvals
 - Using Custom Models
 
 ## Using Copilot for Documentation​
@@ -43,6 +46,7 @@ This one day workshop provides a hands-on introduction to GitHub Copilot, coveri
 ## Testing using Copilot​
 
 - Unit Tests (.NET, Node, Python, Single Page Apps)
+- Fix Test Errors
 - Integration Tests using Playwright MCP
 
 ## Copilot for DevOps​
