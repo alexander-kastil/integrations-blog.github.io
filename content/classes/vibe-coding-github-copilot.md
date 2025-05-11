@@ -54,7 +54,7 @@ By the end of the workshop, attendees will have practical skills to enhance thei
 - Fix Test Errors
 - Integration Tests using Playwright MCP
 
-## Copilot for DevOps​
+## Copilot for Git & DevOps​
 
 - Effective Commit Messages, Pull Requests
 - Using Code Reviews
