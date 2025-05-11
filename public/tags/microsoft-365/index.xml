@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microsoft 365 on Integrations IT Solutions</title>
-    <link>http://localhost:56570/tags/microsoft-365/</link>
+    <link>http://localhost:58400/tags/microsoft-365/</link>
     <description>Recent content in Microsoft 365 on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Dec 2024 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:56570/tags/microsoft-365/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Dec 2024 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:58400/tags/microsoft-365/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</title>
-      <link>http://localhost:56570/classes/develop-copilots-m365/</link>
+      <link>http://localhost:58400/classes/develop-copilots-m365/</link>
       <pubDate>Sun, 01 Dec 2024 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:56570/classes/develop-copilots-m365/</guid>
+      <guid>http://localhost:58400/classes/develop-copilots-m365/</guid>
       <description>
         
           
@@ -27,10 +27,10 @@
     
     <item>
       <title>Microsoft 365 Development Fundamentals</title>
-      <link>http://localhost:56570/classes/m356-development-basics/</link>
+      <link>http://localhost:58400/classes/m356-development-basics/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:56570/classes/m356-development-basics/</guid>
+      <guid>http://localhost:58400/classes/m356-development-basics/</guid>
       <description>
         
           
