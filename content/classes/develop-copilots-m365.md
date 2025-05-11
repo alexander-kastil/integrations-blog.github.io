@@ -6,7 +6,7 @@ showLastmod: true,
 tags: ['Copilots', 'Microsoft 365']
 ---
 
-This in-depth workshop guides learners through developing AI-powered experiences for Microsoft 365, covering both low-code and professional development approaches.
+This in-depth five days workshop guides learners through developing AI-powered experiences for Microsoft 365, covering both low-code and professional development approaches.
 
 Participants will learn to create and extend Copilot capabilities using Microsoft Copilot Studio, Teams Toolkit, and the Teams AI Library.
 

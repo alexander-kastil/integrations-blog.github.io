@@ -6,7 +6,7 @@ showLastmod: true
 tags: ['Angular']
 ---
 
-This workshop provides a comprehensive introduction to modern Angular development, covering essential concepts such as Angular related TypeScript fundamentals, dependency injection, and component architecture.
+This five days workshop provides a comprehensive introduction to modern Angular development, covering essential concepts such as Angular related TypeScript fundamentals, dependency injection, and component architecture.
 
 Participants will learn best practices for building responsive user interfaces, managing state, and implementing reactive programming with Signals and RxJS.
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vibe Coding on Integrations IT Solutions</title>
-    <link>http://localhost:58400/tags/vibe-coding/</link>
+    <link>http://localhost:58855/tags/vibe-coding/</link>
     <description>Recent content in Vibe Coding on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Mar 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:58400/tags/vibe-coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Mar 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:58855/tags/vibe-coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vibe Coding with GitHub Copilot</title>
-      <link>http://localhost:58400/classes/vibe-coding-github-copilot/</link>
+      <link>http://localhost:58855/classes/vibe-coding-github-copilot/</link>
       <pubDate>Sat, 01 Mar 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:58400/classes/vibe-coding-github-copilot/</guid>
+      <guid>http://localhost:58855/classes/vibe-coding-github-copilot/</guid>
       <description>
         
           
-            &lt;p&gt;This workshop provides a hands-on introduction to GitHub Copilot, covering its core features, prompt engineering, and AI-powered coding workflows. Participants will learn how to generate, refactor, and document code efficiently using Copilot’s inline, chat, and agent modes. The course also explores advanced topics like extending Copilot with custom tools, integrating with DevOps pipelines, and leveraging Copilot for testing and infrastructure as code. By the end, attendees will be equipped to boost productivity and streamline development with AI assistance.&lt;/p&gt;
+            &lt;p&gt;This one day workshop provides a hands-on introduction to GitHub Copilot, covering its core features, prompt engineering, and AI-powered coding workflows. Participants will learn how to generate, refactor, and document code efficiently using Copilot’s inline, chat, and agent modes. The course also explores advanced topics like extending Copilot with custom tools, integrating with DevOps pipelines, and leveraging Copilot for testing and infrastructure as code. By the end, attendees will be equipped to boost productivity and streamline development with AI assistance.&lt;/p&gt;
           
           
         

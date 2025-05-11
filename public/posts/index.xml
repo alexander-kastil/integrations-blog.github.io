@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Integrations IT Solutions</title>
-    <link>http://localhost:58400/posts/</link>
+    <link>http://localhost:58855/posts/</link>
     <description>Recent content in Posts on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 May 2025 13:22:53 +0200</lastBuildDate><atom:link href="http://localhost:58400/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 May 2025 13:22:53 +0200</lastBuildDate><atom:link href="http://localhost:58855/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

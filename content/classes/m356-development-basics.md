@@ -6,7 +6,7 @@ showLastmod: true,
 tags: ['Microsoft 365', 'SharePoint', 'MS Graph']
 ---
 
-The Workshop Microsoft 365 Development Fundamentals is a series of modules that provide an in-depth introduction to Microsoft 365 development. It covers theory, demos, hands-on labs as well as deployment and best practices.
+The five days workshop Microsoft 365 Development Fundamentals is a series of modules that provide an in-depth introduction to Microsoft 365 development. It covers theory, demos, hands-on labs as well as deployment and best practices.
 
 The workshop is designed for developers aiming to implement Microsoft 365 solutions and covers the following topics:
 

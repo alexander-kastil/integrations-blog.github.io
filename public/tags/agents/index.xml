@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agents on Integrations IT Solutions</title>
-    <link>http://localhost:58400/tags/agents/</link>
+    <link>http://localhost:58855/tags/agents/</link>
     <description>Recent content in Agents on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:58400/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:58855/tags/agents/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
-      <link>http://localhost:58400/classes/agents-copilots-sk-agent-service/</link>
+      <link>http://localhost:58855/classes/agents-copilots-sk-agent-service/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:58400/classes/agents-copilots-sk-agent-service/</guid>
+      <guid>http://localhost:58855/classes/agents-copilots-sk-agent-service/</guid>
       <description>
         
           
-            &lt;p&gt;This workshop guides developers through implementing intelligent agents and copilots using Microsoft&amp;rsquo;s Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.&lt;/p&gt;
+            &lt;p&gt;This five days workshop guides developers through implementing intelligent agents and copilots using Microsoft&amp;rsquo;s Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.&lt;/p&gt;
 &lt;p&gt;The curriculum progresses from core Semantic Kernel concepts and prompt engineering techniques to advanced implementation of plugins, function calling, and multi-agent solutions.&lt;/p&gt;
 &lt;p&gt;Participants will learn to leverage Kernel Memory for RAG patterns, integrate with various prompt templates, and orchestrate complex agent behaviors.&lt;/p&gt;
           

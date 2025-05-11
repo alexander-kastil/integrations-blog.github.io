@@ -6,7 +6,7 @@ showLastmod: true
 tags: ['Angular']
 ---
 
-This advanced Angular workshop is designed for experienced developers aiming to master modern Angular techniques and best practices.
+This advanced Angular five days workshop is designed for experienced developers aiming to master modern Angular techniques and best practices.
 
 Covering topics from standalone components, reactive programming with RxJS and Signals, to state management with NgRx, advanced routing, and comprehensive testing strategies, the course offers a deep dive into the Angular ecosystem. Participants will also explore reusability with libraries and Nx, real-time micro-frontends, progressive web apps, and performance optimization.
 

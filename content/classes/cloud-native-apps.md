@@ -6,7 +6,7 @@ showLastmod: true
 tags: ['Azure', 'Cloud Native', '.NET Aspire', 'Dapr']
 ---
 
-This comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure's powerful ecosystem.
+This five days comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure's powerful ecosystem.
 
 Learn how to evolve from monolithic architectures to scalable microservices, master containerization with Azure Container Apps, leverage .NET Aspire and Dapr for distributed application development, implement event-driven architectures, and optimize application performance and security.
 

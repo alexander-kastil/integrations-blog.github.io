@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Integrations IT Solutions</title>
-    <link>http://localhost:58400/</link>
+    <link>http://localhost:58855/</link>
     <description>Recent content in Home on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 May 2025 13:22:53 +0200</lastBuildDate><atom:link href="http://localhost:58400/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 May 2025 13:22:53 +0200</lastBuildDate><atom:link href="http://localhost:58855/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
-      <link>http://localhost:58400/classes/agents-copilots-sk-agent-service/</link>
+      <link>http://localhost:58855/classes/agents-copilots-sk-agent-service/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:58400/classes/agents-copilots-sk-agent-service/</guid>
+      <guid>http://localhost:58855/classes/agents-copilots-sk-agent-service/</guid>
       <description>
         
           
-            &lt;p&gt;This workshop guides developers through implementing intelligent agents and copilots using Microsoft&amp;rsquo;s Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.&lt;/p&gt;
+            &lt;p&gt;This five days workshop guides developers through implementing intelligent agents and copilots using Microsoft&amp;rsquo;s Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.&lt;/p&gt;
 &lt;p&gt;The curriculum progresses from core Semantic Kernel concepts and prompt engineering techniques to advanced implementation of plugins, function calling, and multi-agent solutions.&lt;/p&gt;
 &lt;p&gt;Participants will learn to leverage Kernel Memory for RAG patterns, integrate with various prompt templates, and orchestrate complex agent behaviors.&lt;/p&gt;
           
@@ -27,14 +27,14 @@
     
     <item>
       <title>Vibe Coding with GitHub Copilot</title>
-      <link>http://localhost:58400/classes/vibe-coding-github-copilot/</link>
+      <link>http://localhost:58855/classes/vibe-coding-github-copilot/</link>
       <pubDate>Sat, 01 Mar 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:58400/classes/vibe-coding-github-copilot/</guid>
+      <guid>http://localhost:58855/classes/vibe-coding-github-copilot/</guid>
       <description>
         
           
-            &lt;p&gt;This workshop provides a hands-on introduction to GitHub Copilot, covering its core features, prompt engineering, and AI-powered coding workflows. Participants will learn how to generate, refactor, and document code efficiently using Copilot’s inline, chat, and agent modes. The course also explores advanced topics like extending Copilot with custom tools, integrating with DevOps pipelines, and leveraging Copilot for testing and infrastructure as code. By the end, attendees will be equipped to boost productivity and streamline development with AI assistance.&lt;/p&gt;
+            &lt;p&gt;This one day workshop provides a hands-on introduction to GitHub Copilot, covering its core features, prompt engineering, and AI-powered coding workflows. Participants will learn how to generate, refactor, and document code efficiently using Copilot’s inline, chat, and agent modes. The course also explores advanced topics like extending Copilot with custom tools, integrating with DevOps pipelines, and leveraging Copilot for testing and infrastructure as code. By the end, attendees will be equipped to boost productivity and streamline development with AI assistance.&lt;/p&gt;
           
           
         
@@ -43,14 +43,14 @@
     
     <item>
       <title>Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</title>
-      <link>http://localhost:58400/classes/develop-copilots-m365/</link>
+      <link>http://localhost:58855/classes/develop-copilots-m365/</link>
       <pubDate>Sun, 01 Dec 2024 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:58400/classes/develop-copilots-m365/</guid>
+      <guid>http://localhost:58855/classes/develop-copilots-m365/</guid>
       <description>
         
           
-            &lt;p&gt;This in-depth workshop guides learners through developing AI-powered experiences for Microsoft 365, covering both low-code and professional development approaches.&lt;/p&gt;
+            &lt;p&gt;This in-depth five days workshop guides learners through developing AI-powered experiences for Microsoft 365, covering both low-code and professional development approaches.&lt;/p&gt;
 &lt;p&gt;Participants will learn to create and extend Copilot capabilities using Microsoft Copilot Studio, Teams Toolkit, and the Teams AI Library.&lt;/p&gt;
 &lt;p&gt;The curriculum progresses from fundamental concepts of AI and Microsoft 365 integration to advanced implementation of custom agents, plugins, and connectors that leverage enterprise data and enhance user experiences through conversational interfaces.&lt;/p&gt;
           
@@ -61,14 +61,14 @@
     
     <item>
       <title>Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</title>
-      <link>http://localhost:58400/classes/cloud-native-apps/</link>
+      <link>http://localhost:58855/classes/cloud-native-apps/</link>
       <pubDate>Thu, 01 Jun 2023 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:58400/classes/cloud-native-apps/</guid>
+      <guid>http://localhost:58855/classes/cloud-native-apps/</guid>
       <description>
         
           
-            &lt;p&gt;This comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure&amp;rsquo;s powerful ecosystem.&lt;/p&gt;
+            &lt;p&gt;This five days comprehensive workshop guides you through the journey of designing and implementing cloud-native applications using Microsoft Azure&amp;rsquo;s powerful ecosystem.&lt;/p&gt;
 &lt;p&gt;Learn how to evolve from monolithic architectures to scalable microservices, master containerization with Azure Container Apps, leverage .NET Aspire and Dapr for distributed application development, implement event-driven architectures, and optimize application performance and security.&lt;/p&gt;
 &lt;p&gt;You&amp;rsquo;ll gain hands-on experience with modern cloud patterns, Azure services integration, and best practices for building resilient, scalable applications in the cloud.&lt;/p&gt;
           
@@ -79,14 +79,14 @@
     
     <item>
       <title>Advanced Angular Development</title>
-      <link>http://localhost:58400/classes/angular-advanced-development/</link>
+      <link>http://localhost:58855/classes/angular-advanced-development/</link>
       <pubDate>Fri, 01 Dec 2017 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:58400/classes/angular-advanced-development/</guid>
+      <guid>http://localhost:58855/classes/angular-advanced-development/</guid>
       <description>
         
           
-            &lt;p&gt;This advanced Angular workshop is designed for experienced developers aiming to master modern Angular techniques and best practices.&lt;/p&gt;
+            &lt;p&gt;This advanced Angular five days workshop is designed for experienced developers aiming to master modern Angular techniques and best practices.&lt;/p&gt;
 &lt;p&gt;Covering topics from standalone components, reactive programming with RxJS and Signals, to state management with NgRx, advanced routing, and comprehensive testing strategies, the course offers a deep dive into the Angular ecosystem. Participants will also explore reusability with libraries and Nx, real-time micro-frontends, progressive web apps, and performance optimization.&lt;/p&gt;
 &lt;p&gt;Through hands-on modules, attendees will gain practical skills to architect, test, and optimize complex Angular applications.&lt;/p&gt;
           
@@ -97,14 +97,14 @@
     
     <item>
       <title>Angular Development Essentials</title>
-      <link>http://localhost:58400/classes/angular-development-essentials/</link>
+      <link>http://localhost:58855/classes/angular-development-essentials/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:58400/classes/angular-development-essentials/</guid>
+      <guid>http://localhost:58855/classes/angular-development-essentials/</guid>
       <description>
         
           
-            &lt;p&gt;This workshop provides a comprehensive introduction to modern Angular development, covering essential concepts such as Angular related TypeScript fundamentals, dependency injection, and component architecture.&lt;/p&gt;
+            &lt;p&gt;This five days workshop provides a comprehensive introduction to modern Angular development, covering essential concepts such as Angular related TypeScript fundamentals, dependency injection, and component architecture.&lt;/p&gt;
 &lt;p&gt;Participants will learn best practices for building responsive user interfaces, managing state, and implementing reactive programming with Signals and RxJS.&lt;/p&gt;
 &lt;p&gt;The curriculum also includes hands-on guidance for testing, securing, and publishing Angular applications.&lt;/p&gt;
 &lt;p&gt;By the end, attendees will be equipped to develop robust, maintainable, and scalable Angular projects using current industry standards.&lt;/p&gt;
@@ -116,14 +116,14 @@
     
     <item>
       <title>Microsoft 365 Development Fundamentals</title>
-      <link>http://localhost:58400/classes/m356-development-basics/</link>
+      <link>http://localhost:58855/classes/m356-development-basics/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:58400/classes/m356-development-basics/</guid>
+      <guid>http://localhost:58855/classes/m356-development-basics/</guid>
       <description>
         
           
-            &lt;p&gt;The Workshop Microsoft 365 Development Fundamentals is a series of modules that provide an in-depth introduction to Microsoft 365 development. It covers theory, demos, hands-on labs as well as deployment and best practices.&lt;/p&gt;
+            &lt;p&gt;The five days workshop Microsoft 365 Development Fundamentals is a series of modules that provide an in-depth introduction to Microsoft 365 development. It covers theory, demos, hands-on labs as well as deployment and best practices.&lt;/p&gt;
 &lt;p&gt;The workshop is designed for developers aiming to implement Microsoft 365 solutions and covers the following topics:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

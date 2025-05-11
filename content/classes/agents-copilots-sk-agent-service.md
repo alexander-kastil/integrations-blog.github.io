@@ -6,7 +6,7 @@ showLastmod: true
 tags: ['Copilots', 'Agents', 'Semantic Kernel']
 ---
 
-This workshop guides developers through implementing intelligent agents and copilots using Microsoft's Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.
+This five days workshop guides developers through implementing intelligent agents and copilots using Microsoft's Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.
 
 The curriculum progresses from core Semantic Kernel concepts and prompt engineering techniques to advanced implementation of plugins, function calling, and multi-agent solutions.
 
