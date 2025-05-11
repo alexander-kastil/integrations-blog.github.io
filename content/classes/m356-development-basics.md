@@ -2,7 +2,8 @@
 title: "Microsoft 365 Development Fundamentals"
 date: '2016-12-01T12:00:00+02:00'
 lastmod: '2024-10-08T14:30:00+02:00'
-showLastmod: true
+showLastmod: true,
+tags: ['Microsoft 365', 'SharePoint', 'MS Graph']
 ---
 
 The Workshop Microsoft 365 Development Fundamentals is a series of modules that provide an in-depth introduction to Microsoft 365 development. It covers theory, demos, hands-on labs as well as deployment and best practices.

@@ -3,6 +3,7 @@ title: "Advanced Angular Development"
 date: '2017-12-01T12:00:00+02:00'
 lastmod: '2024-10-05T14:20:00+02:00'
 showLastmod: true
+tags: ['Angular']
 ---
 
 This advanced Angular workshop is designed for experienced developers aiming to master modern Angular techniques and best practices.

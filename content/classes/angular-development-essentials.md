@@ -3,6 +3,7 @@ title: "Angular Development Essentials"
 date: '2016-12-01T12:00:00+02:00'
 lastmod: '2024-10-20T11:30:00+02:00'
 showLastmod: true
+tags: ['Angular']
 ---
 
 This workshop provides a comprehensive introduction to modern Angular development, covering essential concepts such as Angular related TypeScript fundamentals, dependency injection, and component architecture.

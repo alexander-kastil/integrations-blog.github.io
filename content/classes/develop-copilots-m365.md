@@ -2,7 +2,8 @@
 title: "Develop Low- and Pro-Code Agents and Copilots for Microsoft 365"
 date: '2024-12-01T12:00:00+02:00'
 lastmod: '2025-05-08T14:30:00+02:00'
-showLastmod: true
+showLastmod: true,
+tags: ['Copilots', 'Microsoft 365']
 ---
 
 This in-depth workshop guides learners through developing AI-powered experiences for Microsoft 365, covering both low-code and professional development approaches.

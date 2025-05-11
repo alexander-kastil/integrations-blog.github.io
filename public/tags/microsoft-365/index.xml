@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft 365 on Integrations IT Solutions</title>
+    <link>http://localhost:1313/tags/microsoft-365/</link>
+    <description>Recent content in Microsoft 365 on Integrations IT Solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/microsoft-365/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</title>
+      <link>http://localhost:1313/classes/develop-copilots-m365/</link>
+      <pubDate>Sun, 01 Dec 2024 12:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/classes/develop-copilots-m365/</guid>
+      <description>
+        
+          
+            &lt;p&gt;This in-depth workshop guides learners through developing AI-powered experiences for Microsoft 365, covering both low-code and professional development approaches.&lt;/p&gt;
+&lt;p&gt;Participants will learn to create and extend Copilot capabilities using Microsoft Copilot Studio, Teams Toolkit, and the Teams AI Library.&lt;/p&gt;
+&lt;p&gt;The curriculum progresses from fundamental concepts of AI and Microsoft 365 integration to advanced implementation of custom agents, plugins, and connectors that leverage enterprise data and enhance user experiences through conversational interfaces.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft 365 Development Fundamentals</title>
+      <link>http://localhost:1313/classes/m356-development-basics/</link>
+      <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/classes/m356-development-basics/</guid>
+      <description>
+        
+          
+            &lt;p&gt;The Workshop Microsoft 365 Development Fundamentals is a series of modules that provide an in-depth introduction to Microsoft 365 development. It covers theory, demos, hands-on labs as well as deployment and best practices.&lt;/p&gt;
+&lt;p&gt;The workshop is designed for developers aiming to implement Microsoft 365 solutions and covers the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Introduction to Microsoft 365 Development: Provides an overview of Microsoft 365 services, apps, and extension patterns, and discusses the integration with Azure and app deployment processes.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
