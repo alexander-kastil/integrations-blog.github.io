@@ -48,5 +48,6 @@ This one day workshop provides a hands-on introduction to GitHub Copilot, coveri
 ## Copilot for DevOps​
 
 - Effective Commit Messages, Pull Requests & Code Reviews
+- Resolving Merge Conflicts
 - Using DevContainers & CodeSpaces
 - GitHub Actions & Azure DevOps
