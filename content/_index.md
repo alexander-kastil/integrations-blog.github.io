@@ -26,6 +26,7 @@ My journey with Microsoft certifications began in 1997 when I passed the Microso
 - Microsoft Certified Solutions Developer (MCSD)
 - Microsoft Certified: Azure Developer Associate
 - Microsoft Certified: DevOps Engineer Expert
+- Microsoft 365 Certified: Teams Application Developer Associate
 - Microsoft Certified: Azure AI Engineer Associate
 
 You can find my full Microsoft Certification history on my [Microsoft Transcript](https://learn.microsoft.com/en-us/users/alexander-kastil/transcript/dloowug2y85m9lm).
