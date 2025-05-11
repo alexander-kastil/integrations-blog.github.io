@@ -8,7 +8,7 @@
   
   
   >
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=56570&amp;path=livereload" data-no-instant defer></script>
 <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service | Integrations IT Solutions</title>
 <meta charset="utf-8">
 
@@ -23,30 +23,30 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service" />
-<meta name="twitter:image" content="http://localhost:1313/"/>
-<meta property="og:url" content="http://localhost:1313/classes/agents-copilots-sk-agent-service/" />
+<meta name="twitter:image" content="http://localhost:56570/"/>
+<meta property="og:url" content="http://localhost:56570/classes/agents-copilots-sk-agent-service/" />
 <meta property="og:title" content="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service" />
 <meta property="og:description" content="This workshop guides developers through implementing intelligent agents and copilots using Microsoft&rsquo;s Semantic Kernel and Azure AI frameworks. …" />
-<meta property="og:image" content="http://localhost:1313/" />
+<meta property="og:image" content="http://localhost:56570/" />
   <meta name="keywords" content="Copilots,Agents,Semantic Kernel" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icons/favicon-32x32.png">
-<link rel="manifest" href="http://localhost:1313/icons/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:56570/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:56570/icons/favicon-32x32.png">
+<link rel="manifest" href="http://localhost:56570/icons/site.webmanifest">
 
-<link rel="canonical" href="http://localhost:1313/classes/agents-copilots-sk-agent-service/">
-
-
-
-<link rel="preload" href="http://localhost:1313/css/styles.68ebd1fc6951f310f38e7f617f5b3ef006625dbe441d379c1315023658f12af8cb23a781ea2dc9f1f80871d09c1f62c0bf1e361a25575f73b2db1b47b1af3e70.css" integrity = "sha512-aOvR/GlR8xDzjn9hf1s&#43;8AZiXb5EHTecExUCNljxKvjLI6eB6i3J8fgIcdCcH2LAvx42GiVXX3Oy2xtHsa8&#43;cA==" as="style" crossorigin="anonymous">
+<link rel="canonical" href="http://localhost:56570/classes/agents-copilots-sk-agent-service/">
 
 
 
-<link rel="preload" href="http://localhost:1313/en/js/bundle.376bd918be37e661f253e3a4f5f8168aebc8327f437ffcc7a9d85134a3abc1d96b8818fd1fa8f0df477d737a0f01b189e8fa3c7a6c63c494b994a5096b30f903.js" as="script" integrity=
-"sha512-N2vZGL435mHyU&#43;Ok9fgWiuvIMn9Df/zHqdhRNKOrwdlriBj9H6jw30d9c3oPAbGJ6Po8emxjxJS5lKUJazD5Aw==" crossorigin="anonymous">
+<link rel="preload" href="http://localhost:56570/css/styles.68ebd1fc6951f310f38e7f617f5b3ef006625dbe441d379c1315023658f12af8cb23a781ea2dc9f1f80871d09c1f62c0bf1e361a25575f73b2db1b47b1af3e70.css" integrity = "sha512-aOvR/GlR8xDzjn9hf1s&#43;8AZiXb5EHTecExUCNljxKvjLI6eB6i3J8fgIcdCcH2LAvx42GiVXX3Oy2xtHsa8&#43;cA==" as="style" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.68ebd1fc6951f310f38e7f617f5b3ef006625dbe441d379c1315023658f12af8cb23a781ea2dc9f1f80871d09c1f62c0bf1e361a25575f73b2db1b47b1af3e70.css" integrity="sha512-aOvR/GlR8xDzjn9hf1s&#43;8AZiXb5EHTecExUCNljxKvjLI6eB6i3J8fgIcdCcH2LAvx42GiVXX3Oy2xtHsa8&#43;cA==" crossorigin="anonymous">
+
+<link rel="preload" href="http://localhost:56570/en/js/bundle.f27b0eed35cf83fe38526af7b6334b1855a9f1c2216fa09d9fd012228048f151476cf0c08e99d3aed5ee00aff3519324e33d4a47d763eddbe6b63a0d9276f7c8.js" as="script" integrity=
+"sha512-8nsO7TXPg/44Umr3tjNLGFWp8cIhb6Cdn9ASIoBI8VFHbPDAjpnTrtXuAK/zUZMk4z1KR9dj7dvmtjoNknb3yA==" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="http://localhost:56570/css/styles.68ebd1fc6951f310f38e7f617f5b3ef006625dbe441d379c1315023658f12af8cb23a781ea2dc9f1f80871d09c1f62c0bf1e361a25575f73b2db1b47b1af3e70.css" integrity="sha512-aOvR/GlR8xDzjn9hf1s&#43;8AZiXb5EHTecExUCNljxKvjLI6eB6i3J8fgIcdCcH2LAvx42GiVXX3Oy2xtHsa8&#43;cA==" crossorigin="anonymous">
 
   </head>
   <body
@@ -57,7 +57,7 @@
   >
 
 <header class="nav_header" >
-  <nav class="nav"><a href='http://localhost:1313/' class="nav_brand nav_item" title="Integrations IT Solutions">Integrations IT Solutions
+  <nav class="nav"><a href='http://localhost:56570/' class="nav_brand nav_item" title="Integrations IT Solutions">Integrations IT Solutions
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -78,10 +78,10 @@
         
 
   <div class="nav_parent">
-    <a href="http://localhost:1313/posts/" class="nav_item" title="Blog">Blog </a>
+    <a href="http://localhost:56570/posts/" class="nav_item" title="Blog">Blog </a>
   </div>
   <div class="nav_parent">
-    <a href="http://localhost:1313/classes/" class="nav_item" title="Classes">Classes </a>
+    <a href="http://localhost:56570/classes/" class="nav_item" title="Classes">Classes </a>
   </div>
   <div class="nav_parent">
     <a href="https://www.integrations.at" class="nav_item" title="Services">Services </a>
@@ -165,6 +165,7 @@
 <li>Completing multi-step tasks with Agents</li>
 <li>Using Personas with Agents</li>
 <li>Implementing Multi Agent Solutions</li>
+<li>Sematic Kernel A2A Integration</li>
 </ul>
 <h2 id="module-3-develop-agents-using-azure-ai-agent-service">Module 3: Develop Agents using Azure AI Agent Service</h2>
 <ul>
@@ -201,7 +202,7 @@
     
 
     <div class="author_header">
-      <img src="http://localhost:1313/images/alexander.jpg" alt="Alexander Kastil photo" />
+      <img src="http://localhost:56570/images/alexander.jpg" alt="Alexander Kastil photo" />
       <h2>Alexander Kastil</h2>
     </div>
     <div class="author_bio">Software Engineering, DevOps &amp; Training for Angular, Azure, AI &amp; Microsoft 365</div>
@@ -216,37 +217,43 @@
     <ul class="flex-column">
       
       <li>
-        <a href="http://localhost:1313/classes/agents-copilots-sk-agent-service/" class="nav-link" title="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service"
+        <a href="http://localhost:56570/classes/agents-copilots-sk-agent-service/" class="nav-link" title="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service"
           >Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/develop-copilots-m365/" class="nav-link" title="Develop Low- and Pro-Code Agents and Copilots for Microsoft 365"
+        <a href="http://localhost:56570/classes/vibe-coding-github-copilot/" class="nav-link" title="Vibe Coding with GitHub Copilot"
+          >Vibe Coding with GitHub Copilot</a
+        >
+      </li>
+      
+      <li>
+        <a href="http://localhost:56570/classes/develop-copilots-m365/" class="nav-link" title="Develop Low- and Pro-Code Agents and Copilots for Microsoft 365"
           >Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/cloud-native-apps/" class="nav-link" title="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure"
+        <a href="http://localhost:56570/classes/cloud-native-apps/" class="nav-link" title="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure"
           >Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/angular-advanced-development/" class="nav-link" title="Advanced Angular Development"
+        <a href="http://localhost:56570/classes/angular-advanced-development/" class="nav-link" title="Advanced Angular Development"
           >Advanced Angular Development</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/angular-development-essentials/" class="nav-link" title="Angular Development Essentials"
+        <a href="http://localhost:56570/classes/angular-development-essentials/" class="nav-link" title="Angular Development Essentials"
           >Angular Development Essentials</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/m356-development-basics/" class="nav-link" title="Microsoft 365 Development Fundamentals"
+        <a href="http://localhost:56570/classes/m356-development-basics/" class="nav-link" title="Microsoft 365 Development Fundamentals"
           >Microsoft 365 Development Fundamentals</a
         >
       </li>
@@ -257,7 +264,7 @@
       <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
       <nav class="tags_nav">
         <a
-          href='http://localhost:1313/tags/angular/'
+          href='http://localhost:56570/tags/angular/'
           class=" post_tag button button_translucent"
           data-position="2"
           title="angular"
@@ -265,7 +272,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/copilots/'
+          href='http://localhost:56570/tags/copilots/'
           class=" post_tag button button_translucent"
           data-position="2"
           title="copilots"
@@ -273,7 +280,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/microsoft-365/'
+          href='http://localhost:56570/tags/microsoft-365/'
           class=" post_tag button button_translucent"
           data-position="2"
           title="microsoft 365"
@@ -281,7 +288,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/.net-aspire/'
+          href='http://localhost:56570/tags/.net-aspire/'
           class=" post_tag button button_translucent"
           data-position="1"
           title=".net aspire"
@@ -289,7 +296,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/agents/'
+          href='http://localhost:56570/tags/agents/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="agents"
@@ -297,7 +304,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/azure/'
+          href='http://localhost:56570/tags/azure/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="azure"
@@ -305,7 +312,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/cloud-native/'
+          href='http://localhost:56570/tags/cloud-native/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="cloud native"
@@ -313,7 +320,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/dapr/'
+          href='http://localhost:56570/tags/dapr/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="dapr"
@@ -321,7 +328,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/general/'
+          href='http://localhost:56570/tags/general/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="general"
@@ -329,7 +336,15 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/ms-graph/'
+          href='http://localhost:56570/tags/github-copilot/'
+          class=" post_tag button button_translucent"
+          data-position="1"
+          title="github copilot"
+        >GITHUB COPILOT<span class="button_tally">1</span>
+        </a>
+        
+        <a
+          href='http://localhost:56570/tags/ms-graph/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="ms graph"
@@ -337,7 +352,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/semantic-kernel/'
+          href='http://localhost:56570/tags/semantic-kernel/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="semantic kernel"
@@ -345,11 +360,19 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/sharepoint/'
+          href='http://localhost:56570/tags/sharepoint/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="sharepoint"
         >SHAREPOINT<span class="button_tally">1</span>
+        </a>
+        
+        <a
+          href='http://localhost:56570/tags/vibe-coding/'
+          class=" post_tag button button_translucent"
+          data-position="1"
+          title="vibe coding"
+        >VIBE CODING<span class="button_tally">1</span>
         </a>
          
       </nav>
@@ -445,7 +468,7 @@
 
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='http://localhost:1313/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Integrations IT Solutions">
+    <img src='http://localhost:56570/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Integrations IT Solutions">
     <p>Copyright&nbsp;<span class="year"></span>&nbsp;INTEGRATIONS IT SOLUTIONS. All Rights Reserved</p><a class="to_top" href="#documentTop">
   <svg class="icon">
   <title>to-top</title>
@@ -457,6 +480,6 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="http://localhost:1313/en/js/bundle.376bd918be37e661f253e3a4f5f8168aebc8327f437ffcc7a9d85134a3abc1d96b8818fd1fa8f0df477d737a0f01b189e8fa3c7a6c63c494b994a5096b30f903.js" integrity="sha512-N2vZGL435mHyU&#43;Ok9fgWiuvIMn9Df/zHqdhRNKOrwdlriBj9H6jw30d9c3oPAbGJ6Po8emxjxJS5lKUJazD5Aw==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://localhost:56570/en/js/bundle.f27b0eed35cf83fe38526af7b6334b1855a9f1c2216fa09d9fd012228048f151476cf0c08e99d3aed5ee00aff3519324e33d4a47d763eddbe6b63a0d9276f7c8.js" integrity="sha512-8nsO7TXPg/44Umr3tjNLGFWp8cIhb6Cdn9ASIoBI8VFHbPDAjpnTrtXuAK/zUZMk4z1KR9dj7dvmtjoNknb3yA==" crossorigin="anonymous"></script>
   </body>
 </html>

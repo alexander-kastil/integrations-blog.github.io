@@ -73,6 +73,7 @@ Advanced topics include implementing Microsoft 365 Copilot extensions, building 
 - Completing multi-step tasks with Agents
 - Using Personas with Agents
 - Implementing Multi Agent Solutions
+- Sematic Kernel A2A Integration
 
 ## Module 3: Develop Agents using Azure AI Agent Service
 
