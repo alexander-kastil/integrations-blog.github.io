@@ -18,7 +18,7 @@ By the end of the workshop, attendees will have practical skills to enhance thei
 - Settings & Instructions
 - Prompt Engineering & Reusable Prompts
 - Ask, Edit & Agent Mode
-- AI Modell comparrison
+- AI Modell comparison
 
 ## Generate Code using GitHub Copilot​
 
