@@ -8,7 +8,7 @@ tags: ['Vibe Coding', 'GitHub Copilot']
 
 This one day workshop provides a hands-on introduction to GitHub Copilot, covering its core features, prompt engineering, and AI-powered coding workflows. Participants will learn how to generate, refactor, and document code efficiently using Copilot’s inline, chat, and agent modes. The course also explores advanced topics like extending Copilot with custom tools, integrating with DevOps pipelines, and leveraging Copilot for testing and infrastructure as code. By the end, attendees will be equipped to boost productivity and streamline development with AI assistance.
 
-## Module: GitHub Copilot Introduction​
+## GitHub Copilot Introduction​
 
 - Overview Copilot and AI Models
 - Prompt Engineering & Instructions (Reusable Prompts)
