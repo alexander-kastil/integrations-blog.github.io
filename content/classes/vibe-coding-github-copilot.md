@@ -46,7 +46,7 @@ By the end of the workshop, attendees will gain the skills to optimize their dev
 
 - Code Comments
 - Generate Markdown Documentation
-- Creating Mermaid Diagrams
+- Creating Mermaid Archtecture Diagrams
 
 ## Testing using Copilot​
 
