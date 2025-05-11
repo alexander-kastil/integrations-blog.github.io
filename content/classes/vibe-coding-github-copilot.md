@@ -33,7 +33,7 @@ By the end of the workshop, attendees will gain the skills to optimize their dev
 - Using Screenshots for Error Fixing
 - Implementing Instructions for Repetitive Tasks
 
-## Working & Extending Agents
+## Using & Extending Agents Mode
 
 - Github Copilot Agent Mode Overview & Best Practice
 - Agent related Settings
