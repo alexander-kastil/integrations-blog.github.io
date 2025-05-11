@@ -6,18 +6,18 @@ showLastmod: true,
 tags: ['Vibe Coding', 'GitHub Copilot']
 ---
 
-This one day workshop, "Vibe Coding with GitHub Copilot," provides a comprehensive, hands-on introduction to leveraging GitHub Copilot for enhanced coding workflows. Participants will explore core features such as prompt engineering, inline code generation, and AI-powered agents to streamline development tasks. 
+The one day "Vibe Coding with GitHub Copilot" workshop is a one-day, hands-on session designed to introduce participants to the powerful capabilities of GitHub Copilot. 
 
-The class covers practical techniques for refactoring, fixing errors, and reducing repetitive coding while utilizing advanced tools like semantic search and multi-file editing. Additional sessions focus on integrating Copilot with documentation, testing, and DevOps workflows, including generating markdown, creating diagrams, and managing CI/CD pipelines. 
+The class covers essential topics such as prompt engineering, inline code generation, and leveraging AI-powered workflows to boost productivity. Participants will explore tools for refactoring, error fixing, and automating repetitive tasks while learning to use agents, semantic search, and multi-file edits. Additional modules focus on integrating Copilot into testing workflows, creating documentation, and handling DevOps tasks like managing pull requests, resolving merge conflicts, and setting up CI/CD pipelines. 
 
-By the end of the workshop, attendees will gain the skills to optimize their development process and integrate Copilot seamlessly into their projects.
+By the end of the workshop, attendees will have practical skills to enhance their development processes and effectively integrate Copilot into various aspects of their projects.
 
 ## GitHub Copilot Introduction​
 
 - Overview Copilot and Features
 - Settings & Instructions
 - Prompt Engineering & Reusable Prompts
-- Ask, Edit, Agents
+- Ask, Edit & Agent Mode
 - AI Modell comparrison
 
 ## Generate Code using GitHub Copilot​
@@ -25,13 +25,13 @@ By the end of the workshop, attendees will gain the skills to optimize their dev
 - Inline Code Generation and suggestions
 - Understanding and using Context
 - Chat Participants & Slash Commands
-- Multi-File Edits
+- Mastering Multi-File Edits
 
 ## Refactoring, Fixing Errors ​& Reducing Repetitive Tasks​
 
 - Semantic Search & Explaining Code
-- GitHub Copilot Thinking
-- Using Screenshots for Error Fixing
+- Using GitHub Copilot Thinking for Archtecture and Refactoring
+- Using Screenshots & Vision for Error Fixing
 - Implementing Instructions for Repetitive Tasks
 
 ## Using & Extending Agents Mode
@@ -56,7 +56,8 @@ By the end of the workshop, attendees will gain the skills to optimize their dev
 
 ## Copilot for DevOps​
 
-- Effective Commit Messages, Pull Requests & Code Reviews
+- Effective Commit Messages, Pull Requests
+- Using Code Reviews
 - Resolving Merge Conflicts
 - Using DevContainers & CodeSpaces
 - GitHub Actions & Azure DevOps
