@@ -2,84 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:58855/tags/general/</loc>
+    <loc>http://localhost:62602/tags/general/</loc>
     <lastmod>2025-05-08T13:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/</loc>
+    <loc>http://localhost:62602/</loc>
     <lastmod>2025-05-09T10:15:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/posts/</loc>
+    <loc>http://localhost:62602/posts/</loc>
     <lastmod>2025-05-08T13:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/posts/setup-hugo-blog/</loc>
+    <loc>http://localhost:62602/posts/setup-hugo-blog/</loc>
     <lastmod>2025-05-08T13:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/</loc>
+    <loc>http://localhost:62602/tags/</loc>
     <lastmod>2025-05-09T10:15:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/agents/</loc>
+    <loc>http://localhost:62602/tags/agents/</loc>
     <lastmod>2025-05-09T10:15:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/classes/</loc>
+    <loc>http://localhost:62602/classes/</loc>
     <lastmod>2025-05-09T10:15:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/copilots/</loc>
+    <loc>http://localhost:62602/tags/copilots/</loc>
     <lastmod>2025-05-09T10:15:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/classes/agents-copilots-sk-agent-service/</loc>
+    <loc>http://localhost:62602/classes/agents-copilots-sk-agent-service/</loc>
     <lastmod>2025-05-09T10:15:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/semantic-kernel/</loc>
+    <loc>http://localhost:62602/tags/semantic-kernel/</loc>
     <lastmod>2025-05-09T10:15:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/github-copilot/</loc>
+    <loc>http://localhost:62602/tags/github-copilot/</loc>
     <lastmod>2025-03-01T14:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/vibe-coding/</loc>
+    <loc>http://localhost:62602/tags/vibe-coding/</loc>
     <lastmod>2025-03-01T14:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/classes/vibe-coding-github-copilot/</loc>
+    <loc>http://localhost:62602/classes/vibe-coding-github-copilot/</loc>
     <lastmod>2025-03-01T14:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/classes/develop-copilots-m365/</loc>
+    <loc>http://localhost:62602/classes/develop-copilots-m365/</loc>
     <lastmod>2025-05-08T14:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/microsoft-365/</loc>
+    <loc>http://localhost:62602/tags/microsoft-365/</loc>
     <lastmod>2025-05-08T14:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/.net-aspire/</loc>
+    <loc>http://localhost:62602/tags/.net-aspire/</loc>
     <lastmod>2024-02-15T09:45:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/azure/</loc>
+    <loc>http://localhost:62602/tags/azure/</loc>
     <lastmod>2024-02-15T09:45:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/cloud-native/</loc>
+    <loc>http://localhost:62602/tags/cloud-native/</loc>
     <lastmod>2024-02-15T09:45:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/dapr/</loc>
+    <loc>http://localhost:62602/tags/dapr/</loc>
     <lastmod>2024-02-15T09:45:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/classes/cloud-native-apps/</loc>
+    <loc>http://localhost:62602/classes/cloud-native-apps/</loc>
     <lastmod>2024-02-15T09:45:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/classes/angular-advanced-development/</loc>
+    <loc>http://localhost:62602/classes/angular-advanced-development/</loc>
     <lastmod>2024-10-05T14:20:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/angular/</loc>
+    <loc>http://localhost:62602/tags/angular/</loc>
     <lastmod>2024-10-20T11:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/classes/angular-development-essentials/</loc>
+    <loc>http://localhost:62602/classes/angular-development-essentials/</loc>
     <lastmod>2024-10-20T11:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/classes/m356-development-basics/</loc>
+    <loc>http://localhost:62602/classes/m356-development-basics/</loc>
     <lastmod>2024-10-08T14:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/ms-graph/</loc>
+    <loc>http://localhost:62602/tags/ms-graph/</loc>
     <lastmod>2024-10-08T14:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/tags/sharepoint/</loc>
+    <loc>http://localhost:62602/tags/sharepoint/</loc>
     <lastmod>2024-10-08T14:30:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:58855/categories/</loc>
+    <loc>http://localhost:62602/categories/</loc>
   </url>
 </urlset>

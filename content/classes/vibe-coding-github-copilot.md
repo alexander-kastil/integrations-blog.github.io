@@ -6,9 +6,9 @@ showLastmod: true,
 tags: ['Vibe Coding', 'GitHub Copilot']
 ---
 
-The one day "Vibe Coding with GitHub Copilot" workshop is a one-day, hands-on session designed to introduce participants to the powerful capabilities of GitHub Copilot. 
+The one day "Vibe Coding with GitHub Copilot" workshop is a one-day, hands-on session designed to introduce participants to the powerful capabilities of GitHub Copilot.
 
-The class covers essential topics such as prompt engineering, inline code generation, and leveraging AI-powered workflows to boost productivity. Participants will explore tools for refactoring, error fixing, and automating repetitive tasks while learning to use agents, semantic search, and multi-file edits. Additional modules focus on integrating Copilot into testing workflows, creating documentation, and handling DevOps tasks like managing pull requests, resolving merge conflicts, and setting up CI/CD pipelines. 
+The class covers essential topics such as prompt engineering, inline code generation, and leveraging AI-powered workflows to boost productivity. Participants will explore tools for refactoring, error fixing, and automating repetitive tasks while learning to use agents, semantic search, and multi-file edits. Additional modules focus on integrating Copilot into testing workflows, creating documentation, and handling DevOps tasks like managing pull requests, resolving merge conflicts, and setting up CI/CD pipelines.
 
 By the end of the workshop, attendees will have practical skills to enhance their development processes and effectively integrate Copilot into various aspects of their projects.
 
@@ -18,7 +18,7 @@ By the end of the workshop, attendees will have practical skills to enhance thei
 - Enabling & Configuring Feature using Setting
 - Prompt Engineering & Reusable Prompts
 - Ask, Edit & Agent Mode
-- AI Modell comparison
+- AI Model comparison
 
 ## Generate Code using GitHub Copilot​
 
@@ -26,14 +26,8 @@ By the end of the workshop, attendees will have practical skills to enhance thei
 - Understanding and using Context
 - Chat Participants & Slash Commands
 - Mastering Multi-File Edits
-- Overriding Traing Data using Instructions
-
-## Refactoring, Fixing Errors ​& Reducing Repetitive Tasks​
-
-- Semantic Search & Explaining Code
-- Using GitHub Copilot Thinking for Archtecture and Refactoring
-- Using Screenshots & Vision for Error Fixing
-- Implementing Instructions for Repetitive Tasks
+- Integrating Code from Online Resources
+- Overriding LLM Data using Instructions
 
 ## Using & Extending Agents Mode
 
@@ -43,22 +37,29 @@ By the end of the workshop, attendees will have practical skills to enhance thei
 - Manage Tool approvals
 - Using Custom Models
 
-## Using Copilot for Documentation​
-
-- Code Comments
-- Generate Markdown Documentation
-- Creating Mermaid Archtecture Diagrams
-
-## Testing using Copilot​
-
-- Unit Tests (.NET, Node, Python, Single Page Apps)
-- Fix Test Errors
-- Integration Tests using Playwright MCP
-
-## Copilot for Git & DevOps​
+## Copilot for Git & Source Control​
 
 - Effective Commit Messages, Pull Requests
 - Using Code Reviews
 - Resolving Merge Conflicts
 - Using DevContainers & CodeSpaces
-- GitHub Actions & Azure DevOps
+- Using the GitHub MCP
+
+## Refactoring, Fixing Errors ​& Reducing Repetitive Tasks​
+
+- Semantic Search & Explaining Code
+- Using Thinking Models for Architecture and Code Optimization
+- Using Screenshots & Vision for Error Fixing
+- Implementing Instructions for Repetitive Tasks
+
+## Using Copilot for Documentation​
+
+- Code Comments
+- Generate Markdown Documentation
+- Creating Mermaid Architecture Diagrams
+
+## Testing using Copilot​
+
+- Unit Tests (.NET, Node, Python, Java, Single Page Apps)
+- Fix Test Errors
+- Integration Tests using Playwright MCP
