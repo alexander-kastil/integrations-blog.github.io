@@ -14,11 +14,12 @@ By the end of the workshop, attendees will have practical skills to enhance thei
 
 ## GitHub Copilot Introduction​
 
-- Overview Copilot and Features
-- Settings & Instructions
+- Overview GitHub Copilot
+- Enabling & Configuring Feature using Setting
 - Prompt Engineering & Reusable Prompts
 - Ask, Edit & Agent Mode
 - AI Modell comparison
+- Overriding Traing Data using Instructions
 
 ## Generate Code using GitHub Copilot​
 
