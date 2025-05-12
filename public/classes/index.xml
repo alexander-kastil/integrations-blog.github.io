@@ -34,58 +34,8 @@
       <description>
         
           
-            &lt;h2 id=&#34;github-copilot-introduction&#34;&gt;GitHub Copilot Introduction​&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Overview GitHub Copilot&lt;/li&gt;
-&lt;li&gt;Enabling &amp;amp; Configuring Feature using Setting&lt;/li&gt;
-&lt;li&gt;Prompt Engineering &amp;amp; Reusable Prompts&lt;/li&gt;
-&lt;li&gt;Ask, Edit &amp;amp; Agent Mode&lt;/li&gt;
-&lt;li&gt;AI Model comparison&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;generate-code-using-github-copilot&#34;&gt;Generate Code using GitHub Copilot​&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Inline Code Generation and suggestions&lt;/li&gt;
-&lt;li&gt;Understanding and using Context&lt;/li&gt;
-&lt;li&gt;Chat Participants &amp;amp; Slash Commands&lt;/li&gt;
-&lt;li&gt;Mastering Multi-File Edits&lt;/li&gt;
-&lt;li&gt;Integrating Code from Online Resources&lt;/li&gt;
-&lt;li&gt;Overriding LLM Data using Instructions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;using--extending-agents-mode&#34;&gt;Using &amp;amp; Extending Agents Mode&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Github Copilot Agent Mode Overview &amp;amp; Best Practice&lt;/li&gt;
-&lt;li&gt;Agent related Settings&lt;/li&gt;
-&lt;li&gt;Adding Tools using Model Context Protocol (MCP)&lt;/li&gt;
-&lt;li&gt;Manage Tool approvals&lt;/li&gt;
-&lt;li&gt;Using Custom Models&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;copilot-for-git--source-control&#34;&gt;Copilot for Git &amp;amp; Source Control​&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Effective Commit Messages, Pull Requests&lt;/li&gt;
-&lt;li&gt;Using Code Reviews&lt;/li&gt;
-&lt;li&gt;Resolving Merge Conflicts&lt;/li&gt;
-&lt;li&gt;Using DevContainers &amp;amp; CodeSpaces&lt;/li&gt;
-&lt;li&gt;Using the GitHub MCP&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;refactoring-fixing-errors--reducing-repetitive-tasks&#34;&gt;Refactoring, Fixing Errors ​&amp;amp; Reducing Repetitive Tasks​&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Semantic Search &amp;amp; Explaining Code&lt;/li&gt;
-&lt;li&gt;Using Thinking Models for Architecture and Code Optimization&lt;/li&gt;
-&lt;li&gt;Using Screenshots &amp;amp; Vision for Error Fixing&lt;/li&gt;
-&lt;li&gt;Implementing Instructions for Repetitive Tasks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;using-copilot-for-documentation&#34;&gt;Using Copilot for Documentation​&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Code Comments&lt;/li&gt;
-&lt;li&gt;Generate Markdown Documentation&lt;/li&gt;
-&lt;li&gt;Creating Mermaid Architecture Diagrams&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;testing-using-copilot&#34;&gt;Testing using Copilot​&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Unit Tests (.NET, Node, Python, Java, Single Page Apps)&lt;/li&gt;
-&lt;li&gt;Fix Test Errors&lt;/li&gt;
-&lt;li&gt;Integration Tests using Playwright MCP&lt;/li&gt;
-&lt;/ul&gt;
+            &lt;p&gt;This comprehensive one-day online class, &amp;ldquo;Vibe Coding with GitHub Copilot,&amp;rdquo; equips participants with advanced skills to maximize productivity using AI-assisted development.&lt;/p&gt;
+&lt;p&gt;It begins with a thorough introduction to GitHub Copilot, exploring its configuration options, prompt engineering techniques, and comparing various AI models before diving into practical code generation across multiple files and contexts. The next module focuses on extending GitHub Copilot with agent mode and custom tools via the Model Context Protocol, leveraging AI for git operations and source control, and applying Copilot to refactoring tasks and error resolution. Participants will also learn to generate high-quality documentation including code comments and architecture diagrams using Mermaid.&lt;/p&gt;
           
           
         

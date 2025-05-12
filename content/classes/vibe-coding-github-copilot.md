@@ -54,14 +54,14 @@ Samples will be provided in Python, TypeScript, .NET and Java, but the concepts 
 - Using Screenshots & Vision for Error Fixing
 - Implementing Instructions for Repetitive Tasks
 
-## Using Copilot for Documentation​
-
-- Code Comments
-- Generate Markdown Documentation
-- Creating Mermaid Architecture Diagrams
-
 ## Testing using Copilot​
 
 - Implementing Unit Tests
 - Fixing Test Errors
 - Integration Tests using Playwright MCP
+
+## Using Copilot for Documentation​
+
+- Code Comments
+- Generate Markdown Documentation
+- Creating Mermaid Architecture Diagrams
