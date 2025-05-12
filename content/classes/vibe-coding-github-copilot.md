@@ -12,6 +12,8 @@ It begins with a thorough introduction to GitHub Copilot, exploring its configur
 
 The class concludes with testing strategies across various programming languages and frameworks, including integration testing with Playwright MCP, preparing developers to integrate AI-assisted development seamlessly into their workflow.
 
+Samples will be provided in Python, TypeScript, .NET and Java, but the concepts are applicable to any programming language. Various Cloud scenarios will be addressed.
+
 ## GitHub Copilot Introduction​
 
 - Overview GitHub Copilot
@@ -60,6 +62,6 @@ The class concludes with testing strategies across various programming languages
 
 ## Testing using Copilot​
 
-- Unit Tests (.NET, Node, Python, Java, Single Page Apps)
-- Fix Test Errors
+- Implementing Unit Tests
+- Fixing Test Errors
 - Integration Tests using Playwright MCP
