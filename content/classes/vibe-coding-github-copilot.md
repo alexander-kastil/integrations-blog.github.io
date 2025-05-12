@@ -19,7 +19,6 @@ By the end of the workshop, attendees will have practical skills to enhance thei
 - Prompt Engineering & Reusable Prompts
 - Ask, Edit & Agent Mode
 - AI Modell comparison
-- Overriding Traing Data using Instructions
 
 ## Generate Code using GitHub Copilot​
 
@@ -27,6 +26,7 @@ By the end of the workshop, attendees will have practical skills to enhance thei
 - Understanding and using Context
 - Chat Participants & Slash Commands
 - Mastering Multi-File Edits
+- Overriding Traing Data using Instructions
 
 ## Refactoring, Fixing Errors ​& Reducing Repetitive Tasks​
 
