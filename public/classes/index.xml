@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classes on Integrations IT Solutions</title>
-    <link>http://localhost:62602/classes/</link>
+    <link>http://localhost:1313/classes/</link>
     <description>Recent content in Classes on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:62602/classes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
-      <link>http://localhost:62602/classes/agents-copilots-sk-agent-service/</link>
+      <link>http://localhost:1313/classes/agents-copilots-sk-agent-service/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:62602/classes/agents-copilots-sk-agent-service/</guid>
+      <guid>http://localhost:1313/classes/agents-copilots-sk-agent-service/</guid>
       <description>
         
           
@@ -27,15 +27,65 @@
     
     <item>
       <title>Vibe Coding with GitHub Copilot</title>
-      <link>http://localhost:62602/classes/vibe-coding-github-copilot/</link>
+      <link>http://localhost:1313/classes/vibe-coding-github-copilot/</link>
       <pubDate>Sat, 01 Mar 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:62602/classes/vibe-coding-github-copilot/</guid>
+      <guid>http://localhost:1313/classes/vibe-coding-github-copilot/</guid>
       <description>
         
           
-            &lt;p&gt;The one day &amp;ldquo;Vibe Coding with GitHub Copilot&amp;rdquo; workshop is a one-day, hands-on session designed to introduce participants to the powerful capabilities of GitHub Copilot.&lt;/p&gt;
-&lt;p&gt;The class covers essential topics such as prompt engineering, inline code generation, and leveraging AI-powered workflows to boost productivity. Participants will explore tools for refactoring, error fixing, and automating repetitive tasks while learning to use agents, semantic search, and multi-file edits. Additional modules focus on integrating Copilot into testing workflows, creating documentation, and handling DevOps tasks like managing pull requests, resolving merge conflicts, and setting up CI/CD pipelines.&lt;/p&gt;
+            &lt;h2 id=&#34;github-copilot-introduction&#34;&gt;GitHub Copilot Introduction​&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Overview GitHub Copilot&lt;/li&gt;
+&lt;li&gt;Enabling &amp;amp; Configuring Feature using Setting&lt;/li&gt;
+&lt;li&gt;Prompt Engineering &amp;amp; Reusable Prompts&lt;/li&gt;
+&lt;li&gt;Ask, Edit &amp;amp; Agent Mode&lt;/li&gt;
+&lt;li&gt;AI Model comparison&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;generate-code-using-github-copilot&#34;&gt;Generate Code using GitHub Copilot​&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Inline Code Generation and suggestions&lt;/li&gt;
+&lt;li&gt;Understanding and using Context&lt;/li&gt;
+&lt;li&gt;Chat Participants &amp;amp; Slash Commands&lt;/li&gt;
+&lt;li&gt;Mastering Multi-File Edits&lt;/li&gt;
+&lt;li&gt;Integrating Code from Online Resources&lt;/li&gt;
+&lt;li&gt;Overriding LLM Data using Instructions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;using--extending-agents-mode&#34;&gt;Using &amp;amp; Extending Agents Mode&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Github Copilot Agent Mode Overview &amp;amp; Best Practice&lt;/li&gt;
+&lt;li&gt;Agent related Settings&lt;/li&gt;
+&lt;li&gt;Adding Tools using Model Context Protocol (MCP)&lt;/li&gt;
+&lt;li&gt;Manage Tool approvals&lt;/li&gt;
+&lt;li&gt;Using Custom Models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;copilot-for-git--source-control&#34;&gt;Copilot for Git &amp;amp; Source Control​&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Effective Commit Messages, Pull Requests&lt;/li&gt;
+&lt;li&gt;Using Code Reviews&lt;/li&gt;
+&lt;li&gt;Resolving Merge Conflicts&lt;/li&gt;
+&lt;li&gt;Using DevContainers &amp;amp; CodeSpaces&lt;/li&gt;
+&lt;li&gt;Using the GitHub MCP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;refactoring-fixing-errors--reducing-repetitive-tasks&#34;&gt;Refactoring, Fixing Errors ​&amp;amp; Reducing Repetitive Tasks​&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Semantic Search &amp;amp; Explaining Code&lt;/li&gt;
+&lt;li&gt;Using Thinking Models for Architecture and Code Optimization&lt;/li&gt;
+&lt;li&gt;Using Screenshots &amp;amp; Vision for Error Fixing&lt;/li&gt;
+&lt;li&gt;Implementing Instructions for Repetitive Tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;using-copilot-for-documentation&#34;&gt;Using Copilot for Documentation​&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Code Comments&lt;/li&gt;
+&lt;li&gt;Generate Markdown Documentation&lt;/li&gt;
+&lt;li&gt;Creating Mermaid Architecture Diagrams&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;testing-using-copilot&#34;&gt;Testing using Copilot​&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Unit Tests (.NET, Node, Python, Java, Single Page Apps)&lt;/li&gt;
+&lt;li&gt;Fix Test Errors&lt;/li&gt;
+&lt;li&gt;Integration Tests using Playwright MCP&lt;/li&gt;
+&lt;/ul&gt;
           
           
         
@@ -44,10 +94,10 @@
     
     <item>
       <title>Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</title>
-      <link>http://localhost:62602/classes/develop-copilots-m365/</link>
+      <link>http://localhost:1313/classes/develop-copilots-m365/</link>
       <pubDate>Sun, 01 Dec 2024 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:62602/classes/develop-copilots-m365/</guid>
+      <guid>http://localhost:1313/classes/develop-copilots-m365/</guid>
       <description>
         
           
@@ -62,10 +112,10 @@
     
     <item>
       <title>Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</title>
-      <link>http://localhost:62602/classes/cloud-native-apps/</link>
+      <link>http://localhost:1313/classes/cloud-native-apps/</link>
       <pubDate>Thu, 01 Jun 2023 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:62602/classes/cloud-native-apps/</guid>
+      <guid>http://localhost:1313/classes/cloud-native-apps/</guid>
       <description>
         
           
@@ -80,10 +130,10 @@
     
     <item>
       <title>Advanced Angular Development</title>
-      <link>http://localhost:62602/classes/angular-advanced-development/</link>
+      <link>http://localhost:1313/classes/angular-advanced-development/</link>
       <pubDate>Fri, 01 Dec 2017 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:62602/classes/angular-advanced-development/</guid>
+      <guid>http://localhost:1313/classes/angular-advanced-development/</guid>
       <description>
         
           
@@ -98,10 +148,10 @@
     
     <item>
       <title>Angular Development Essentials</title>
-      <link>http://localhost:62602/classes/angular-development-essentials/</link>
+      <link>http://localhost:1313/classes/angular-development-essentials/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:62602/classes/angular-development-essentials/</guid>
+      <guid>http://localhost:1313/classes/angular-development-essentials/</guid>
       <description>
         
           
@@ -117,10 +167,10 @@
     
     <item>
       <title>Microsoft 365 Development Fundamentals</title>
-      <link>http://localhost:62602/classes/m356-development-basics/</link>
+      <link>http://localhost:1313/classes/m356-development-basics/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:62602/classes/m356-development-basics/</guid>
+      <guid>http://localhost:1313/classes/m356-development-basics/</guid>
       <description>
         
           
