@@ -8,7 +8,7 @@
   
   
   >
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
 <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service | Integrations IT Solutions</title>
 <meta charset="utf-8">
 
@@ -16,37 +16,40 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
+
+
+
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This five days workshop guides developers through implementing intelligent agents and copilots using Microsoft&rsquo;s Semantic Kernel and Azure AI frameworks. …" />
+<meta name="description" content="This intensive five-day online class will transform how you build intelligent AI solutions using Microsoft&rsquo;s Semantic Kernel framework and Azure AI …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service" />
-<meta name="twitter:image" content="http://localhost:1313/"/>
-<meta property="og:url" content="http://localhost:1313/classes/agents-copilots-sk-agent-service/" />
+<meta name="twitter:image" content="https://blog.integrations.at/"/>
+<meta property="og:url" content="https://blog.integrations.at/classes/agents-copilots-sk-agent-service/" />
 <meta property="og:title" content="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service" />
-<meta property="og:description" content="This five days workshop guides developers through implementing intelligent agents and copilots using Microsoft&rsquo;s Semantic Kernel and Azure AI frameworks. …" />
-<meta property="og:image" content="http://localhost:1313/" />
+<meta property="og:description" content="This intensive five-day online class will transform how you build intelligent AI solutions using Microsoft&rsquo;s Semantic Kernel framework and Azure AI …" />
+<meta property="og:image" content="https://blog.integrations.at/" />
   <meta name="keywords" content="Copilots,Agents,Semantic Kernel" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icons/favicon-32x32.png">
-<link rel="manifest" href="http://localhost:1313/icons/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="https://blog.integrations.at/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.integrations.at/icons/favicon-32x32.png">
+<link rel="manifest" href="https://blog.integrations.at/icons/site.webmanifest">
 
-<link rel="canonical" href="http://localhost:1313/classes/agents-copilots-sk-agent-service/">
-
-
-
-<link rel="preload" href="http://localhost:1313/css/styles.68ebd1fc6951f310f38e7f617f5b3ef006625dbe441d379c1315023658f12af8cb23a781ea2dc9f1f80871d09c1f62c0bf1e361a25575f73b2db1b47b1af3e70.css" integrity = "sha512-aOvR/GlR8xDzjn9hf1s&#43;8AZiXb5EHTecExUCNljxKvjLI6eB6i3J8fgIcdCcH2LAvx42GiVXX3Oy2xtHsa8&#43;cA==" as="style" crossorigin="anonymous">
+<link rel="canonical" href="https://blog.integrations.at/classes/agents-copilots-sk-agent-service/">
 
 
 
-<link rel="preload" href="http://localhost:1313/en/js/bundle.376bd918be37e661f253e3a4f5f8168aebc8327f437ffcc7a9d85134a3abc1d96b8818fd1fa8f0df477d737a0f01b189e8fa3c7a6c63c494b994a5096b30f903.js" as="script" integrity=
-"sha512-N2vZGL435mHyU&#43;Ok9fgWiuvIMn9Df/zHqdhRNKOrwdlriBj9H6jw30d9c3oPAbGJ6Po8emxjxJS5lKUJazD5Aw==" crossorigin="anonymous">
+<link rel="preload" href="https://blog.integrations.at/css/styles.68ebd1fc6951f310f38e7f617f5b3ef006625dbe441d379c1315023658f12af8cb23a781ea2dc9f1f80871d09c1f62c0bf1e361a25575f73b2db1b47b1af3e70.css" integrity = "sha512-aOvR/GlR8xDzjn9hf1s&#43;8AZiXb5EHTecExUCNljxKvjLI6eB6i3J8fgIcdCcH2LAvx42GiVXX3Oy2xtHsa8&#43;cA==" as="style" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.68ebd1fc6951f310f38e7f617f5b3ef006625dbe441d379c1315023658f12af8cb23a781ea2dc9f1f80871d09c1f62c0bf1e361a25575f73b2db1b47b1af3e70.css" integrity="sha512-aOvR/GlR8xDzjn9hf1s&#43;8AZiXb5EHTecExUCNljxKvjLI6eB6i3J8fgIcdCcH2LAvx42GiVXX3Oy2xtHsa8&#43;cA==" crossorigin="anonymous">
+
+<link rel="preload" href="https://blog.integrations.at/en/js/bundle.6a580dee64ffa15ccd22bdb3e0c321221a4090e1ccd704cd7a6c2383ba8c2d20f97af622a166e3eb7ba2dba4fb13e0a55dc090ebc8c1bf83ce75f9a906150257.js" as="script" integrity=
+"sha512-algN7mT/oVzNIr2z4MMhIhpAkOHM1wTNemwjg7qMLSD5evYioWbj63ui26T7E&#43;ClXcCQ68jBv4POdfmpBhUCVw==" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="https://blog.integrations.at/css/styles.68ebd1fc6951f310f38e7f617f5b3ef006625dbe441d379c1315023658f12af8cb23a781ea2dc9f1f80871d09c1f62c0bf1e361a25575f73b2db1b47b1af3e70.css" integrity="sha512-aOvR/GlR8xDzjn9hf1s&#43;8AZiXb5EHTecExUCNljxKvjLI6eB6i3J8fgIcdCcH2LAvx42GiVXX3Oy2xtHsa8&#43;cA==" crossorigin="anonymous">
 
   </head>
   <body
@@ -57,7 +60,7 @@
   >
 
 <header class="nav_header" >
-  <nav class="nav"><a href='http://localhost:1313/' class="nav_brand nav_item" title="Integrations IT Solutions">Integrations IT Solutions
+  <nav class="nav"><a href='https://blog.integrations.at/' class="nav_brand nav_item" title="Integrations IT Solutions">Integrations IT Solutions
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -78,10 +81,10 @@
         
 
   <div class="nav_parent">
-    <a href="http://localhost:1313/posts/" class="nav_item" title="Blog">Blog </a>
+    <a href="https://blog.integrations.at/posts/" class="nav_item" title="Blog">Blog </a>
   </div>
   <div class="nav_parent">
-    <a href="http://localhost:1313/classes/" class="nav_item" title="Classes">Classes </a>
+    <a href="https://blog.integrations.at/classes/" class="nav_item" title="Classes">Classes </a>
   </div>
   <div class="nav_parent">
     <a href="https://www.integrations.at" class="nav_item" title="Services">Services </a>
@@ -110,25 +113,38 @@
 </svg>
 </span>
   <span class="post_date">
-    May, 2025 - Last Updated:  May, 2025</span>  <span class="post_time">
-     · 3 min read
-  </span><span>&nbsp;· <a href='http://localhost:1313/tags/copilots/' title="Copilots" class="post_tag button button_translucent">Copilots
-    </a><a href='http://localhost:1313/tags/agents/' title="Agents" class="post_tag button button_translucent">Agents
-    </a><a href='http://localhost:1313/tags/semantic-kernel/' title="Semantic Kernel" class="post_tag button button_translucent">Semantic Kernel
+    May, 2025 - Last Updated:  May, 2025</span>
+  <span class="post_time">
+     &middot; 4 min read
+  </span><span>&nbsp;&middot; <a
+      href="https://blog.integrations.at/tags/copilots/"
+      title="Copilots"
+      class="post_tag button button_translucent"
+    >Copilots
+    </a><a
+      href="https://blog.integrations.at/tags/agents/"
+      title="Agents"
+      class="post_tag button button_translucent"
+    >Agents
+    </a><a
+      href="https://blog.integrations.at/tags/semantic-kernel/"
+      title="Semantic Kernel"
+      class="post_tag button button_translucent"
+    >Semantic Kernel
     </a>
   </span>
   <span class="page_only">
-    &nbsp;·
+    &nbsp;&middot; 
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Implementing%20Agents%20and%20Copilots%20using%20Semantic%20Kernel%20and%20Azure%20AI%20Agent%20Service&url=http%3a%2f%2flocalhost%3a1313%2fclasses%2fagents-copilots-sk-agent-service%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Implementing%20Agents%20and%20Copilots%20using%20Semantic%20Kernel%20and%20Azure%20AI%20Agent%20Service&url=https%3a%2f%2fblog.integrations.at%2fclasses%2fagents-copilots-sk-agent-service%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclasses%2fagents-copilots-sk-agent-service%2f&t=Implementing%20Agents%20and%20Copilots%20using%20Semantic%20Kernel%20and%20Azure%20AI%20Agent%20Service" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.integrations.at%2fclasses%2fagents-copilots-sk-agent-service%2f&t=Implementing%20Agents%20and%20Copilots%20using%20Semantic%20Kernel%20and%20Azure%20AI%20Agent%20Service" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -142,7 +158,7 @@
 </svg>
 
     </a>
-    <a href="http://localhost:1313/classes/agents-copilots-sk-agent-service/" title="Copy Link" class="link link_yank">
+    <a href="https://blog.integrations.at/classes/agents-copilots-sk-agent-service/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -151,13 +167,13 @@
     </a>
   </div>
   
-  </span>
-</div>
-
-    <div class="post_body"><p>This five days workshop guides developers through implementing intelligent agents and copilots using Microsoft&rsquo;s Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.</p>
-<p>The curriculum progresses from core Semantic Kernel concepts and prompt engineering techniques to advanced implementation of plugins, function calling, and multi-agent solutions.</p>
-<p>Participants will learn to leverage Kernel Memory for RAG patterns, integrate with various prompt templates, and orchestrate complex agent behaviors.</p>
-<p>Advanced topics include implementing Microsoft 365 Copilot extensions, building agent-to-agent communication systems, and deploying production-ready AI solutions using Azure AI Agent Service with comprehensive content filtering and observability capabilities.</p>
+  </span></div>
+    <div class="post_body"><p>This intensive five-day online class will transform how you build intelligent AI solutions using Microsoft&rsquo;s Semantic Kernel framework and Azure AI services.</p>
+<p>Beginning with Azure AI Foundry fundamentals, you&rsquo;ll master essential concepts like prompt engineering techniques and Retrieval Augmented Generation (RAG) for integrating enterprise data with LLMs, as well as integrating AI skills using Model Context Protocol (MCP) and Agent2Agent (A2A) protocols. You&rsquo;ll also learn how to deploy AI applications using the Azure Developer CLI, as well as ensuring a predictable outcome using Evaluations.</p>
+<p>You&rsquo;ll then dive deep into Semantic Kernel development, exploring its core components, chat history integration, and multi-modal capabilities while learning to optimize prompts using various template formats. The course progresses to advanced plugin development, where you&rsquo;ll implement native functions, integrate existing APIs via OpenAPI, and utilize planners with function calling capabilities. In the more advanced sections, you&rsquo;ll work with Kernel Memory for vector search, implement sophisticated multi-agent solutions with personas, and orchestrate complex workflows using the Semantic Kernel Process Framework with Orleans and Dapr runtimes.</p>
+<p>In Develop Agents using Azure AI Agent Service, you&rsquo;ll master Azure AI Agent Service to build sophisticated AI agents capable of taking complex actions and accessing knowledge sources. You&rsquo;ll implement and integrate diverse action tools including Code Interpreter, Function Calling, and OpenAPI tools, while also leveraging knowledge tools such as File Search, Azure AI Search, and Bing Grounding to enhance your agents&rsquo; capabilities. The module culminates with practical techniques for orchestrating these agents using Semantic Kernel framework and implementing essential production safeguards through content filtering and comprehensive observability practices.</p>
+<p>Building on the foundational knowledge of Semantic Kernel and Azure AI Agent Service from previous modules, this module focuses specifically on integrating these technologies within the Microsoft 365 ecosystem. You&rsquo;ll learn how to extend Microsoft 365 Copilot with custom plugins and connectors, understand the differences between declarative and custom engine agents, and implement practical Semantic Kernel-based solutions that seamlessly integrate with Microsoft&rsquo;s productivity suite.</p>
+<p>Throughout all modules, you&rsquo;ll work with production-grade code samples in both Python and C#, providing you with immediately applicable skills for building enterprise-ready AI agent solutions.</p>
 <h2 id="module-1-copilot-agents--azure-ai-foundry-essentials">Module 1: Copilot, Agents &amp; Azure AI Foundry Essentials</h2>
 <ul>
 <li>Overview Copilots and Agent Frameworks in the Microsoft Ecosystem</li>
@@ -203,20 +219,21 @@
 <li>Data Model And Embedding Generation</li>
 <li>Kernel Memory &amp; Retrieval Augmented Generation (RAG)</li>
 </ul>
-<h3 id="semantic-kernel-process-framework">Semantic Kernel Process Framework</h3>
-<ul>
-<li>Text to Image &amp; Image to Text</li>
-<li>Using Audio to text</li>
-<li>Using Hugging Face with Semantic Kernel</li>
-<li>Integrating Prompt-Flow with Semantic Kernel</li>
-</ul>
-<h3 id="semantic-kernel-agent-framework">Semantic Kernel Agent Framework</h3>
+<h2 id="semantic-kernel-agent-framework">Semantic Kernel Agent Framework</h2>
 <ul>
 <li>Agents Overview</li>
 <li>Completing multi-step tasks with Agents</li>
 <li>Using Personas with Agents</li>
 <li>Implementing Multi Agent Solutions</li>
 <li>Sematic Kernel A2A Integration</li>
+<li>Using .NET Aspire in multi-agent scenarios</li>
+</ul>
+<h2 id="semantic-kernel-process-framework">Semantic Kernel Process Framework</h2>
+<ul>
+<li>Process Framework Overview</li>
+<li>Core Components and Patterns</li>
+<li>Runtimes: Orleans vs Dapr</li>
+<li>Implementing Human in the Loop</li>
 </ul>
 <h2 id="module-3-develop-agents-using-azure-ai-agent-service">Module 3: Develop Agents using Azure AI Agent Service</h2>
 <ul>
@@ -225,15 +242,13 @@
 <li>Using Knowledge Tools: File Search, Azure AI Search and Bing Grounding</li>
 <li>Orchestrating Agents using Semantic Kernel</li>
 <li>Content Filtering and Observability</li>
-<li>Using .NET Aspire and AI Agents</li>
 </ul>
 <h2 id="module-4-implementing-copilots-for-microsoft-365">Module 4: Implementing Copilots for Microsoft 365</h2>
 <ul>
 <li>Overview of the Microsoft 365 Copilot Ecosystem</li>
 <li>Implementing Plugins and Connectors for Microsoft 365 Copilot</li>
 <li>Declarative Agents vs Custom Engine Agents</li>
-<li>Using MCP Servers with Microsoft 365 Copilot Plugins &amp; Agents</li>
-<li>Copilot Agent Plugins for Semantic Kernel (CAPS)</li>
+<li>Copilot Agent Plugins Sample for Semantic Kernel</li>
 </ul>
 
     </div><div class="post_comments">
@@ -253,7 +268,7 @@
     
 
     <div class="author_header">
-      <img src="http://localhost:1313/images/alexander.jpg" alt="Alexander Kastil photo" />
+      <img src="https://blog.integrations.at/images/alexander.jpg" alt="Alexander Kastil photo" />
       <h2>Alexander Kastil</h2>
     </div>
     <div class="author_bio">Software Engineering, DevOps &amp; Training for Angular, Azure, AI &amp; Microsoft 365</div>
@@ -268,43 +283,43 @@
     <ul class="flex-column">
       
       <li>
-        <a href="http://localhost:1313/classes/agents-copilots-sk-agent-service/" class="nav-link" title="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service"
+        <a href="https://blog.integrations.at/classes/agents-copilots-sk-agent-service/" class="nav-link" title="Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service"
           >Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/vibe-coding-github-copilot/" class="nav-link" title="Vibe Coding with GitHub Copilot"
+        <a href="https://blog.integrations.at/classes/vibe-coding-github-copilot/" class="nav-link" title="Vibe Coding with GitHub Copilot"
           >Vibe Coding with GitHub Copilot</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/develop-copilots-m365/" class="nav-link" title="Develop Low- and Pro-Code Agents and Copilots for Microsoft 365"
+        <a href="https://blog.integrations.at/classes/develop-copilots-m365/" class="nav-link" title="Develop Low- and Pro-Code Agents and Copilots for Microsoft 365"
           >Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/cloud-native-apps/" class="nav-link" title="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure"
+        <a href="https://blog.integrations.at/classes/cloud-native-apps/" class="nav-link" title="Designing &amp; Implementing Cloud Native Applications using Microsoft Azure"
           >Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/angular-advanced-development/" class="nav-link" title="Advanced Angular Development"
+        <a href="https://blog.integrations.at/classes/angular-advanced-development/" class="nav-link" title="Advanced Angular Development"
           >Advanced Angular Development</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/angular-development-essentials/" class="nav-link" title="Angular Development Essentials"
+        <a href="https://blog.integrations.at/classes/angular-development-essentials/" class="nav-link" title="Angular Development Essentials"
           >Angular Development Essentials</a
         >
       </li>
       
       <li>
-        <a href="http://localhost:1313/classes/m356-development-basics/" class="nav-link" title="Microsoft 365 Development Fundamentals"
+        <a href="https://blog.integrations.at/classes/m356-development-basics/" class="nav-link" title="Microsoft 365 Development Fundamentals"
           >Microsoft 365 Development Fundamentals</a
         >
       </li>
@@ -315,7 +330,7 @@
       <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
       <nav class="tags_nav">
         <a
-          href='http://localhost:1313/tags/angular/'
+          href='https://blog.integrations.at/tags/angular/'
           class=" post_tag button button_translucent"
           data-position="2"
           title="angular"
@@ -323,7 +338,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/copilots/'
+          href='https://blog.integrations.at/tags/copilots/'
           class=" post_tag button button_translucent"
           data-position="2"
           title="copilots"
@@ -331,7 +346,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/microsoft-365/'
+          href='https://blog.integrations.at/tags/microsoft-365/'
           class=" post_tag button button_translucent"
           data-position="2"
           title="microsoft 365"
@@ -339,7 +354,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/.net-aspire/'
+          href='https://blog.integrations.at/tags/.net-aspire/'
           class=" post_tag button button_translucent"
           data-position="1"
           title=".net aspire"
@@ -347,7 +362,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/agents/'
+          href='https://blog.integrations.at/tags/agents/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="agents"
@@ -355,7 +370,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/azure/'
+          href='https://blog.integrations.at/tags/azure/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="azure"
@@ -363,7 +378,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/cloud-native/'
+          href='https://blog.integrations.at/tags/cloud-native/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="cloud native"
@@ -371,7 +386,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/dapr/'
+          href='https://blog.integrations.at/tags/dapr/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="dapr"
@@ -379,7 +394,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/general/'
+          href='https://blog.integrations.at/tags/general/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="general"
@@ -387,7 +402,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/github-copilot/'
+          href='https://blog.integrations.at/tags/github-copilot/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="github copilot"
@@ -395,7 +410,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/ms-graph/'
+          href='https://blog.integrations.at/tags/ms-graph/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="ms graph"
@@ -403,7 +418,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/semantic-kernel/'
+          href='https://blog.integrations.at/tags/semantic-kernel/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="semantic kernel"
@@ -411,7 +426,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/sharepoint/'
+          href='https://blog.integrations.at/tags/sharepoint/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="sharepoint"
@@ -419,7 +434,7 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/vibe-coding/'
+          href='https://blog.integrations.at/tags/vibe-coding/'
           class=" post_tag button button_translucent"
           data-position="1"
           title="vibe coding"
@@ -519,7 +534,7 @@
 
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='http://localhost:1313/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Integrations IT Solutions">
+    <img src='https://blog.integrations.at/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Integrations IT Solutions">
     <p>Copyright&nbsp;<span class="year"></span>&nbsp;INTEGRATIONS IT SOLUTIONS. All Rights Reserved</p><a class="to_top" href="#documentTop">
   <svg class="icon">
   <title>to-top</title>
@@ -531,6 +546,6 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="http://localhost:1313/en/js/bundle.376bd918be37e661f253e3a4f5f8168aebc8327f437ffcc7a9d85134a3abc1d96b8818fd1fa8f0df477d737a0f01b189e8fa3c7a6c63c494b994a5096b30f903.js" integrity="sha512-N2vZGL435mHyU&#43;Ok9fgWiuvIMn9Df/zHqdhRNKOrwdlriBj9H6jw30d9c3oPAbGJ6Po8emxjxJS5lKUJazD5Aw==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://blog.integrations.at/en/js/bundle.6a580dee64ffa15ccd22bdb3e0c321221a4090e1ccd704cd7a6c2383ba8c2d20f97af622a166e3eb7ba2dba4fb13e0a55dc090ebc8c1bf83ce75f9a906150257.js" integrity="sha512-algN7mT/oVzNIr2z4MMhIhpAkOHM1wTNemwjg7qMLSD5evYioWbj63ui26T7E&#43;ClXcCQ68jBv4POdfmpBhUCVw==" crossorigin="anonymous"></script>
   </body>
 </html>

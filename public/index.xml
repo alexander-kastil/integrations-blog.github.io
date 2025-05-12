@@ -2,23 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Integrations IT Solutions</title>
-    <link>http://localhost:1313/</link>
+    <link>https://blog.integrations.at/</link>
     <description>Recent content in Home on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 May 2025 13:22:53 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 May 2025 13:22:53 +0200</lastBuildDate><atom:link href="https://blog.integrations.at/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
-      <link>http://localhost:1313/classes/agents-copilots-sk-agent-service/</link>
+      <link>https://blog.integrations.at/classes/agents-copilots-sk-agent-service/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/agents-copilots-sk-agent-service/</guid>
+      <guid>https://blog.integrations.at/classes/agents-copilots-sk-agent-service/</guid>
       <description>
         
           
-            &lt;p&gt;This five days workshop guides developers through implementing intelligent agents and copilots using Microsoft&amp;rsquo;s Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.&lt;/p&gt;
-&lt;p&gt;The curriculum progresses from core Semantic Kernel concepts and prompt engineering techniques to advanced implementation of plugins, function calling, and multi-agent solutions.&lt;/p&gt;
-&lt;p&gt;Participants will learn to leverage Kernel Memory for RAG patterns, integrate with various prompt templates, and orchestrate complex agent behaviors.&lt;/p&gt;
+            &lt;p&gt;This intensive five-day online class will transform how you build intelligent AI solutions using Microsoft&amp;rsquo;s Semantic Kernel framework and Azure AI services.&lt;/p&gt;
+&lt;p&gt;Beginning with Azure AI Foundry fundamentals, you&amp;rsquo;ll master essential concepts like prompt engineering techniques and Retrieval Augmented Generation (RAG) for integrating enterprise data with LLMs, as well as integrating AI skills using Model Context Protocol (MCP) and Agent2Agent (A2A) protocols. You&amp;rsquo;ll also learn how to deploy AI applications using the Azure Developer CLI, as well as ensuring a predictable outcome using Evaluations.&lt;/p&gt;
           
           
         
@@ -27,10 +26,10 @@
     
     <item>
       <title>Vibe Coding with GitHub Copilot</title>
-      <link>http://localhost:1313/classes/vibe-coding-github-copilot/</link>
+      <link>https://blog.integrations.at/classes/vibe-coding-github-copilot/</link>
       <pubDate>Sat, 01 Mar 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/vibe-coding-github-copilot/</guid>
+      <guid>https://blog.integrations.at/classes/vibe-coding-github-copilot/</guid>
       <description>
         
           
@@ -44,10 +43,10 @@
     
     <item>
       <title>Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</title>
-      <link>http://localhost:1313/classes/develop-copilots-m365/</link>
+      <link>https://blog.integrations.at/classes/develop-copilots-m365/</link>
       <pubDate>Sun, 01 Dec 2024 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/develop-copilots-m365/</guid>
+      <guid>https://blog.integrations.at/classes/develop-copilots-m365/</guid>
       <description>
         
           
@@ -62,10 +61,10 @@
     
     <item>
       <title>Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</title>
-      <link>http://localhost:1313/classes/cloud-native-apps/</link>
+      <link>https://blog.integrations.at/classes/cloud-native-apps/</link>
       <pubDate>Thu, 01 Jun 2023 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/cloud-native-apps/</guid>
+      <guid>https://blog.integrations.at/classes/cloud-native-apps/</guid>
       <description>
         
           
@@ -80,10 +79,10 @@
     
     <item>
       <title>Advanced Angular Development</title>
-      <link>http://localhost:1313/classes/angular-advanced-development/</link>
+      <link>https://blog.integrations.at/classes/angular-advanced-development/</link>
       <pubDate>Fri, 01 Dec 2017 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/angular-advanced-development/</guid>
+      <guid>https://blog.integrations.at/classes/angular-advanced-development/</guid>
       <description>
         
           
@@ -98,10 +97,10 @@
     
     <item>
       <title>Angular Development Essentials</title>
-      <link>http://localhost:1313/classes/angular-development-essentials/</link>
+      <link>https://blog.integrations.at/classes/angular-development-essentials/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/angular-development-essentials/</guid>
+      <guid>https://blog.integrations.at/classes/angular-development-essentials/</guid>
       <description>
         
           
@@ -117,10 +116,10 @@
     
     <item>
       <title>Microsoft 365 Development Fundamentals</title>
-      <link>http://localhost:1313/classes/m356-development-basics/</link>
+      <link>https://blog.integrations.at/classes/m356-development-basics/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/m356-development-basics/</guid>
+      <guid>https://blog.integrations.at/classes/m356-development-basics/</guid>
       <description>
         
           

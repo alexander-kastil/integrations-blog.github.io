@@ -2,7 +2,7 @@
 title: "Vibe Coding with GitHub Copilot"
 date: '2025-03-01T12:00:00+02:00'
 lastmod: '2025-03-01T14:30:00+02:00'
-showLastmod: true,
+showLastmod: true
 tags: ['Vibe Coding', 'GitHub Copilot']
 ---
 
@@ -44,7 +44,7 @@ Samples will be provided in Python, TypeScript, .NET and Java, but the concepts 
 - Effective Commit Messages, Pull Requests
 - Using Code Reviews
 - Resolving Merge Conflicts
-- Using DevContainers & CodeSpaces
+- Creating DevContainers & CodeSpaces
 - Using the GitHub MCP
 
 ## Refactoring, Fixing Errors ​& Reducing Repetitive Tasks​

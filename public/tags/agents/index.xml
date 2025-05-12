@@ -2,23 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agents on Integrations IT Solutions</title>
-    <link>http://localhost:1313/tags/agents/</link>
+    <link>https://blog.integrations.at/tags/agents/</link>
     <description>Recent content in Agents on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="https://blog.integrations.at/tags/agents/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
-      <link>http://localhost:1313/classes/agents-copilots-sk-agent-service/</link>
+      <link>https://blog.integrations.at/classes/agents-copilots-sk-agent-service/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 +0200</pubDate>
       
-      <guid>http://localhost:1313/classes/agents-copilots-sk-agent-service/</guid>
+      <guid>https://blog.integrations.at/classes/agents-copilots-sk-agent-service/</guid>
       <description>
         
           
-            &lt;p&gt;This five days workshop guides developers through implementing intelligent agents and copilots using Microsoft&amp;rsquo;s Semantic Kernel and Azure AI frameworks. Participants will explore the Azure AI ecosystem including Azure AI Foundry, Azure OpenAI Service, and the Azure AI Agent Service while mastering agent development fundamentals.&lt;/p&gt;
-&lt;p&gt;The curriculum progresses from core Semantic Kernel concepts and prompt engineering techniques to advanced implementation of plugins, function calling, and multi-agent solutions.&lt;/p&gt;
-&lt;p&gt;Participants will learn to leverage Kernel Memory for RAG patterns, integrate with various prompt templates, and orchestrate complex agent behaviors.&lt;/p&gt;
+            &lt;p&gt;This intensive five-day online class will transform how you build intelligent AI solutions using Microsoft&amp;rsquo;s Semantic Kernel framework and Azure AI services.&lt;/p&gt;
+&lt;p&gt;Beginning with Azure AI Foundry fundamentals, you&amp;rsquo;ll master essential concepts like prompt engineering techniques and Retrieval Augmented Generation (RAG) for integrating enterprise data with LLMs, as well as integrating AI skills using Model Context Protocol (MCP) and Agent2Agent (A2A) protocols. You&amp;rsquo;ll also learn how to deploy AI applications using the Azure Developer CLI, as well as ensuring a predictable outcome using Evaluations.&lt;/p&gt;
           
           
         
