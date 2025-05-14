@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Copilots on Integrations IT Solutions</title>
-    <link>https://blog.integrations.at/tags/copilots/</link>
+    <link>http://localhost:1313/tags/copilots/</link>
     <description>Recent content in Copilots on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="https://blog.integrations.at/tags/copilots/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/copilots/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
-      <link>https://blog.integrations.at/classes/agents-copilots-sk-agent-service/</link>
+      <link>http://localhost:1313/classes/agents-copilots-sk-agent-service/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 +0200</pubDate>
       
-      <guid>https://blog.integrations.at/classes/agents-copilots-sk-agent-service/</guid>
+      <guid>http://localhost:1313/classes/agents-copilots-sk-agent-service/</guid>
       <description>
         
           
@@ -26,10 +26,10 @@
     
     <item>
       <title>Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</title>
-      <link>https://blog.integrations.at/classes/develop-copilots-m365/</link>
+      <link>http://localhost:1313/classes/develop-copilots-m365/</link>
       <pubDate>Sun, 01 Dec 2024 12:00:00 +0200</pubDate>
       
-      <guid>https://blog.integrations.at/classes/develop-copilots-m365/</guid>
+      <guid>http://localhost:1313/classes/develop-copilots-m365/</guid>
       <description>
         
           

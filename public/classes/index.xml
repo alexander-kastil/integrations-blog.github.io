@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classes on Integrations IT Solutions</title>
-    <link>https://blog.integrations.at/classes/</link>
+    <link>http://localhost:1313/classes/</link>
     <description>Recent content in Classes on Integrations IT Solutions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="https://blog.integrations.at/classes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/classes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing Agents and Copilots using Semantic Kernel and Azure AI Agent Service</title>
-      <link>https://blog.integrations.at/classes/agents-copilots-sk-agent-service/</link>
+      <link>http://localhost:1313/classes/agents-copilots-sk-agent-service/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 +0200</pubDate>
       
-      <guid>https://blog.integrations.at/classes/agents-copilots-sk-agent-service/</guid>
+      <guid>http://localhost:1313/classes/agents-copilots-sk-agent-service/</guid>
       <description>
         
           
@@ -26,10 +26,10 @@
     
     <item>
       <title>Vibe Coding with GitHub Copilot</title>
-      <link>https://blog.integrations.at/classes/vibe-coding-github-copilot/</link>
+      <link>http://localhost:1313/classes/vibe-coding-github-copilot/</link>
       <pubDate>Sat, 01 Mar 2025 12:00:00 +0200</pubDate>
       
-      <guid>https://blog.integrations.at/classes/vibe-coding-github-copilot/</guid>
+      <guid>http://localhost:1313/classes/vibe-coding-github-copilot/</guid>
       <description>
         
           
@@ -43,10 +43,10 @@
     
     <item>
       <title>Develop Low- and Pro-Code Agents and Copilots for Microsoft 365</title>
-      <link>https://blog.integrations.at/classes/develop-copilots-m365/</link>
+      <link>http://localhost:1313/classes/develop-copilots-m365/</link>
       <pubDate>Sun, 01 Dec 2024 12:00:00 +0200</pubDate>
       
-      <guid>https://blog.integrations.at/classes/develop-copilots-m365/</guid>
+      <guid>http://localhost:1313/classes/develop-copilots-m365/</guid>
       <description>
         
           
@@ -61,10 +61,10 @@
     
     <item>
       <title>Designing &amp; Implementing Cloud Native Applications using Microsoft Azure</title>
-      <link>https://blog.integrations.at/classes/cloud-native-apps/</link>
+      <link>http://localhost:1313/classes/cloud-native-apps/</link>
       <pubDate>Thu, 01 Jun 2023 12:00:00 +0200</pubDate>
       
-      <guid>https://blog.integrations.at/classes/cloud-native-apps/</guid>
+      <guid>http://localhost:1313/classes/cloud-native-apps/</guid>
       <description>
         
           
@@ -79,10 +79,10 @@
     
     <item>
       <title>Advanced Angular Development</title>
-      <link>https://blog.integrations.at/classes/angular-advanced-development/</link>
+      <link>http://localhost:1313/classes/angular-advanced-development/</link>
       <pubDate>Fri, 01 Dec 2017 12:00:00 +0200</pubDate>
       
-      <guid>https://blog.integrations.at/classes/angular-advanced-development/</guid>
+      <guid>http://localhost:1313/classes/angular-advanced-development/</guid>
       <description>
         
           
@@ -97,10 +97,10 @@
     
     <item>
       <title>Angular Development Essentials</title>
-      <link>https://blog.integrations.at/classes/angular-development-essentials/</link>
+      <link>http://localhost:1313/classes/angular-development-essentials/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>https://blog.integrations.at/classes/angular-development-essentials/</guid>
+      <guid>http://localhost:1313/classes/angular-development-essentials/</guid>
       <description>
         
           
@@ -116,10 +116,10 @@
     
     <item>
       <title>Microsoft 365 Development Fundamentals</title>
-      <link>https://blog.integrations.at/classes/m356-development-basics/</link>
+      <link>http://localhost:1313/classes/m356-development-basics/</link>
       <pubDate>Thu, 01 Dec 2016 12:00:00 +0200</pubDate>
       
-      <guid>https://blog.integrations.at/classes/m356-development-basics/</guid>
+      <guid>http://localhost:1313/classes/m356-development-basics/</guid>
       <description>
         
           
