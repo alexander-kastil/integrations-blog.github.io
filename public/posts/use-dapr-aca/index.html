@@ -9,7 +9,7 @@
   
   >
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-<title>Setup a Hugo based Blog on GitHub Pages | Integrations IT Solutions</title>
+<title>Use Dapr with Azure Container Apps | Integrations IT Solutions</title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -19,22 +19,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="I&rsquo;m starting a new blog to share my technical knowledge, hosted on GitHub Pages. I chose Hugo as the static site generator along with the elegant Clarity …" />
+<meta name="description" content="In this post, I will show you how to use Dapr with Azure Container Apps (ACA) and demonstrate how easy it is to use Dapr for Lift and Shift scenarios. The …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Setup a Hugo based Blog on GitHub Pages" />
+<meta name="twitter:title" content="Use Dapr with Azure Container Apps" />
 <meta name="twitter:image" content="http://localhost:1313/"/>
-<meta property="og:url" content="http://localhost:1313/posts/setup-hugo-blog/" />
-<meta property="og:title" content="Setup a Hugo based Blog on GitHub Pages" />
-<meta property="og:description" content="I&rsquo;m starting a new blog to share my technical knowledge, hosted on GitHub Pages. I chose Hugo as the static site generator along with the elegant Clarity …" />
+<meta property="og:url" content="http://localhost:1313/posts/use-dapr-aca/" />
+<meta property="og:title" content="Use Dapr with Azure Container Apps" />
+<meta property="og:description" content="In this post, I will show you how to use Dapr with Azure Container Apps (ACA) and demonstrate how easy it is to use Dapr for Lift and Shift scenarios. The …" />
 <meta property="og:image" content="http://localhost:1313/" />
-  <meta name="keywords" content="General" />
+  <meta name="keywords" content="Cloud Native,Azure,Dapr" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icons/favicon-32x32.png">
 <link rel="manifest" href="http://localhost:1313/icons/site.webmanifest">
 
-<link rel="canonical" href="http://localhost:1313/posts/setup-hugo-blog/">
+<link rel="canonical" href="http://localhost:1313/posts/use-dapr-aca/">
 
 
 
@@ -102,7 +102,7 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Setup a Hugo based Blog on GitHub Pages</h1>
+    <h1 class="post_title">Use Dapr with Azure Container Apps</h1>
 <div class="post_meta">
   <span><svg class="icon">
   <title>calendar</title>
@@ -110,28 +110,38 @@
 </svg>
 </span>
   <span class="post_date">
-    May, 2025</span>
+    Feb, 2023</span>
   <span class="post_time">
-     &middot; 2 min read
+     &middot; 3 min read
   </span><span>&nbsp;&middot; <a
-      href="http://localhost:1313/tags/general/"
-      title="General"
+      href="http://localhost:1313/tags/cloud-native/"
+      title="Cloud Native"
       class="post_tag button button_translucent"
-    >General
+    >Cloud Native
+    </a><a
+      href="http://localhost:1313/tags/azure/"
+      title="Azure"
+      class="post_tag button button_translucent"
+    >Azure
+    </a><a
+      href="http://localhost:1313/tags/dapr/"
+      title="Dapr"
+      class="post_tag button button_translucent"
+    >Dapr
     </a>
   </span>
   <span class="page_only">
     &nbsp;&middot; 
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Setup%20a%20Hugo%20based%20Blog%20on%20GitHub%20Pages&url=http%3a%2f%2flocalhost%3a1313%2fposts%2fsetup-hugo-blog%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Use%20Dapr%20with%20Azure%20Container%20Apps&url=http%3a%2f%2flocalhost%3a1313%2fposts%2fuse-dapr-aca%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fsetup-hugo-blog%2f&t=Setup%20a%20Hugo%20based%20Blog%20on%20GitHub%20Pages" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fuse-dapr-aca%2f&t=Use%20Dapr%20with%20Azure%20Container%20Apps" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -145,7 +155,7 @@
 </svg>
 
     </a>
-    <a href="http://localhost:1313/posts/setup-hugo-blog/" title="Copy Link" class="link link_yank">
+    <a href="http://localhost:1313/posts/use-dapr-aca/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -155,141 +165,106 @@
   </div>
   
   </span></div>
-    <div class="post_body"><p>I&rsquo;m starting a new blog to share my technical knowledge, hosted on GitHub Pages. I chose Hugo as the static site generator along with the elegant <a href="https://github.com/chipzoller/hugo-clarity">Clarity theme</a>. Let me walk you through the setup process:</p>
-<h2 id="base-setup">Base Setup</h2>
-<p>Download and install <a href="https://gohugo.io/installation/">Hugo CLI</a></p>
-<p>Create the Hugo blog directory using Hugo CLI:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site integrations-blog
-</span></span><span style="display:flex;"><span>cd integrations-blog
-</span></span><span style="display:flex;"><span>git init
-</span></span><span style="display:flex;"><span>git submodule add https://github.com/chipzoller/hugo-clarity themes/clarity
-</span></span><span style="display:flex;"><span>echo theme <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;clarity&#39;</span> &gt;&gt; hugo.toml
-</span></span><span style="display:flex;"><span>hugo server
-</span></span></code></pre></div><p>Add the first post:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/setup-hugo-blog.md
-</span></span></code></pre></div><p>Edit the post in content/posts/setup-hugo-blog.md:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>... add some content ...
-</span></span></code></pre></div><p>Create a base menu in hugo.toml:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">menu</span>]
-</span></span><span style="display:flex;"><span>  [[<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Blog&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/posts/&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">1</span>
+    <div class="post_body"><p>In this post, I will show you how to use Dapr with Azure Container Apps (ACA) and demonstrate how easy it is to use Dapr for Lift and Shift scenarios. The complete code and details can be found in my <a href="https://github.com/alexander-kastil/az-204/tree/main/demos/05-containers/demo-08">az-204 GitHub repository</a>.</p>
+<p>Dapr is a portable, event-driven runtime that makes it easy for developers to build resilient, microservices-based applications. It provides a set of building blocks for common application patterns, such as service invocation, state management, and pub/sub messaging. Dapr can be used with any programming language and framework, and it can run on any cloud or on-premises environment.</p>
+<p><figure>
+  <picture>
+
+    
+      
+        
+        
+        
+        
+        
+        
+    <img
+      loading="lazy"
+      decoding="async"
+      alt="dapr-architecture"
+      
+        class="image_figure image_internal image_unprocessed"
+        src="http://localhost:1313/images/posts/aca-dapr/dapr-architecture.png"
+      
+      
+    />
+
+    </picture>
+</figure>
+</p>
+<p>Our sample consists of a simple .NET 9 Web API that uses Dapr to save its state, a simple count. It includes the Dapr.Client and Dapr.AspNetCore NuGet packages. The API exposes a single endpoint that increments the count and returns the current value. The API uses Dapr&rsquo;s state management building block to store the count in a Redis state store. A full list of Dapr state stores can be found in the <a href="https://docs.dapr.io/reference/components-reference/supported-state-stores/">Dapr State stores documentation</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">dapr.io/v1alpha1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">Component</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">food-state</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">spec</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">type</span>: <span style="color:#ae81ff">state.redis</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">version</span>: <span style="color:#ae81ff">v1</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">redisHost</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">value</span>: <span style="color:#ae81ff">localhost:6379</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">redisPassword</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">value</span>: <span style="color:#e6db74">&#34;&#34;</span>
+</span></span></code></pre></div><p>In order to use Redis locally, you need to install it. You can do this using Docker:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -d --name redis/redis-stack -p 6379:6379 redis
+</span></span></code></pre></div><p>The DaprClient is registered in Program.cs:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>builder.Services.AddDaprClient();
+</span></span></code></pre></div><p>The DaprClient is injected into the controller and the name of the state store is kept in the appsettings.json file as <code>DAPR_STATE_STORE</code>. The <code>GetStateAsync</code> and <code>SaveStateAsync</code> methods are used to get and save the state, respectively.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#a6e22e">[Route(&#34;[controller]</span><span style="color:#e6db74">&#34;)]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span><span style="color:#a6e22e">[ApiController]</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CountController</span> : ControllerBase
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">string</span> storeName = <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">string</span> key = <span style="color:#e6db74">&#34;counter&#34;</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  [[<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Classes&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/classes/&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">readonly</span> DaprClient client;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  [[<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Services&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;https://www.integrations.at&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">3</span>
-</span></span></code></pre></div><p>Add padding to the code blocks in <code>_syntax.scss</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-SCSS" data-lang="SCSS"><span style="display:flex;"><span><span style="color:#f92672">code</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">...</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">padding-left</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">1rem</span>
-</span></span></code></pre></div><p>Create a repo <code>GITHUB_USERNAME/'URL.github.io</code> ie <code>alexander-kastil/integrations.github.io</code> and update the base URL in <code>hugo.toml</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#39;https://alexander-kastil.github.io/&#39;</span>
-</span></span></code></pre></div><p>Rebuild the Hugo site:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
-</span></span></code></pre></div><p>Read through the deployment options, Change to folder <code>public</code> and commit the changes:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd public
-</span></span><span style="display:flex;"><span>git init
-</span></span><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
-</span></span><span style="display:flex;"><span>git remote add origin https://github.com/alexander-kastil/integrations.github.io.git
-</span></span><span style="display:flex;"><span>git push -u origin master
-</span></span></code></pre></div><h2 id="deployment">Deployment</h2>
-<p>Next we will set up the GitHub Pages deployment. Go to the repository settings and enable GitHub Pages. Set the Build and Deployment source to GitHub Actions and search for the Hugo action. Select the latest version and add it to your repository. This will automatically build and deploy your Hugo site to GitHub Pages whenever you push changes to the main branch.</p>
-<p><figure>
-  <picture>
-
-    
-      
-        
-        
-        
-        
-        
-        
-    <img
-      loading="lazy"
-      decoding="async"
-      alt="hugo-action"
-      
-        class="image_figure image_internal image_unprocessed"
-        src="http://localhost:1313/images/hugo-action.jpg"
-      
-      
-    />
-
-    </picture>
-</figure>
-</p>
-<h2 id="custom-domain">Custom Domain</h2>
-<p>I am using Microsoft DNS to manage my custom domain. I created a CNAME record pointing to <code>alexander-kastil.github.io</code> and four a records pointing to the following IP addresses:</p>
-<ul>
-<li>185.199.108.153</li>
-<li>185.199.109.153</li>
-<li>185.199.110.153</li>
-<li>185.199.111.153</li>
-</ul>
-<p><figure>
-  <picture>
-
-    
-      
-        
-        
-        
-        
-        
-        
-    <img
-      loading="lazy"
-      decoding="async"
-      alt="dns"
-      
-        class="image_figure image_internal image_unprocessed"
-        src="http://localhost:1313/images/dns.jpg"
-      
-      
-    />
-
-    </picture>
-</figure>
-</p>
-<p>Update the following line in the <code>hugo.toml</code> file:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#39;https://blog.integrations.at/&#39;</span>
-</span></span></code></pre></div><p>Last but not least, add the custom domain in the GitHub Pages settings and enforce HTTPS. This will ensure that your custom domain is properly configured and linked to your GitHub Pages site.</p>
-<p>Now check the deployment status in the GitHub Actions tab. If everything is set up correctly, you should see a successful deployment message. You can also check the GitHub Pages settings to ensure that your custom domain is properly configured and linked to your GitHub Pages site.</p>
-<p><figure>
-  <picture>
-
-    
-      
-        
-        
-        
-        
-        
-        
-    <img
-      loading="lazy"
-      decoding="async"
-      alt="dns"
-      
-        class="image_figure image_internal image_unprocessed"
-        src="http://localhost:1313/images/check-deploy.jpg"
-      
-      
-    />
-
-    </picture>
-</figure>
-</p>
-
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> CountController(DaprClient daprClient, IConfiguration cfg)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        client = daprClient;
+</span></span><span style="display:flex;"><span>        storeName = cfg.GetValue&lt;<span style="color:#66d9ef">string</span>&gt;(<span style="color:#e6db74">&#34;DAPR_STATE_STORE&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">
+</span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">    [HttpGet(&#34;get&#34;)]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">async</span> Task&lt;<span style="color:#66d9ef">int</span>&gt; Get()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">var</span> counter = <span style="color:#66d9ef">await</span> client.GetStateAsync&lt;<span style="color:#66d9ef">int</span>&gt;(storeName, key);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> client.SaveStateAsync(storeName, key, counter + <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> counter;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The App will be deployed to Azure Container Apps into an existing environment. Just for demonstration purposes, we will switch the Redis state store to use an Azure Storage Account and create an alternative component file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">componentType</span>: <span style="color:#ae81ff">state.azure.blobstorage</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">version</span>: <span style="color:#ae81ff">v1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">accountName</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">value</span>: <span style="color:#e6db74">&#34;foodstoragedev&#34;</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">accountKey</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">value</span>: <span style="color:#e6db74">&#34;&lt;ACCOUNT_KEY&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">containerName</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">value</span>: <span style="color:#e6db74">&#34;food-state&#34;</span>
+</span></span></code></pre></div><p>In the Container App Environment, we will create a new component using the Azure CLI. The component name is <code>food-state</code> and the type is <code>state.azure.blobstorage</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>az containerapp env dapr-component set -n $acaenv -g $grp <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --dapr-component-name $statestore <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --yaml statestore-blob.yaml
+</span></span></code></pre></div><p>Deployment of the container app will be done using the Azure CLI. Note that .NET 8+ is using <code>8080</code> as the default port.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pwd<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>az acr credential show -n $acr -g $grp --query passwords<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>.value -o tsv<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>loginSrv<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>az acr list -g $grp --query <span style="color:#e6db74">&#34;[?name==&#39;</span>$acr<span style="color:#e6db74">&#39;].loginServer&#34;</span> -o tsv<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>az containerapp create -n $app -g $grp <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --image $img <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --environment $acaenv <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --target-port <span style="color:#ae81ff">8080</span> --ingress external <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --min-replicas <span style="color:#ae81ff">1</span> --max-replicas <span style="color:#ae81ff">1</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --enable-dapr <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --dapr-app-port <span style="color:#ae81ff">8080</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --dapr-app-id $app <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --registry-server $loginSrv <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --registry-username $acr <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --registry-password $pwd
+</span></span></code></pre></div>
     </div><div class="post_comments">
   
   
@@ -347,6 +322,22 @@
         </a>
         
         <a
+          href='http://localhost:1313/tags/azure/'
+          class=" post_tag button button_translucent"
+          data-position="2"
+          title="azure"
+        >AZURE<span class="button_tally">2</span>
+        </a>
+        
+        <a
+          href='http://localhost:1313/tags/cloud-native/'
+          class=" post_tag button button_translucent"
+          data-position="2"
+          title="cloud native"
+        >CLOUD NATIVE<span class="button_tally">2</span>
+        </a>
+        
+        <a
           href='http://localhost:1313/tags/copilots/'
           class=" post_tag button button_translucent"
           data-position="2"
@@ -355,11 +346,11 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/general/'
+          href='http://localhost:1313/tags/dapr/'
           class=" post_tag button button_translucent"
           data-position="2"
-          title="general"
-        >GENERAL<span class="button_tally">2</span>
+          title="dapr"
+        >DAPR<span class="button_tally">2</span>
         </a>
         
         <a
@@ -387,27 +378,11 @@
         </a>
         
         <a
-          href='http://localhost:1313/tags/azure/'
+          href='http://localhost:1313/tags/general/'
           class=" post_tag button button_translucent"
           data-position="1"
-          title="azure"
-        >AZURE<span class="button_tally">1</span>
-        </a>
-        
-        <a
-          href='http://localhost:1313/tags/cloud-native/'
-          class=" post_tag button button_translucent"
-          data-position="1"
-          title="cloud native"
-        >CLOUD NATIVE<span class="button_tally">1</span>
-        </a>
-        
-        <a
-          href='http://localhost:1313/tags/dapr/'
-          class=" post_tag button button_translucent"
-          data-position="1"
-          title="dapr"
-        >DAPR<span class="button_tally">1</span>
+          title="general"
+        >GENERAL<span class="button_tally">1</span>
         </a>
         
         <a
@@ -440,14 +415,6 @@
           data-position="1"
           title="sharepoint"
         >SHAREPOINT<span class="button_tally">1</span>
-        </a>
-        
-        <a
-          href='http://localhost:1313/tags/vibe-coding/'
-          class=" post_tag button button_translucent"
-          data-position="1"
-          title="vibe coding"
-        >VIBE CODING<span class="button_tally">1</span>
         </a>
          
       </nav>

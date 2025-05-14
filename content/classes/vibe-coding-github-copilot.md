@@ -1,12 +1,12 @@
 ---
-title: "Vibe Coding with GitHub Copilot"
+title: "Developing Applications using GitHub Copilot"
 date: '2025-03-01T12:00:00+02:00'
 lastmod: '2025-03-01T14:30:00+02:00'
 showLastmod: true
-tags: ['Vibe Coding', 'GitHub Copilot']
+tags: ['GitHub Copilot']
 ---
 
-This comprehensive one-day online class, "Vibe Coding with GitHub Copilot," equips participants with advanced skills to maximize productivity using AI-assisted development.
+This comprehensive one-day online class, "Developing Applications using GitHub Copilot" equips participants with advanced skills to maximize productivity using AI-assisted development.
 
 It begins with a thorough introduction to GitHub Copilot, exploring its configuration options, prompt engineering techniques, and comparing various AI models before diving into practical code generation across multiple files and contexts. The next module focuses on extending GitHub Copilot with agent mode and custom tools via the Model Context Protocol, leveraging AI for git operations and source control, and applying Copilot to refactoring tasks and error resolution. Participants will also learn to generate high-quality documentation including code comments and architecture diagrams using Mermaid.
 

@@ -32,13 +32,10 @@
     <loc>http://localhost:1313/tags/semantic-kernel/</loc>
     <lastmod>2025-05-09T10:15:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/github-copilot/</loc>
-    <lastmod>2025-03-01T14:30:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vibe-coding/</loc>
-    <lastmod>2025-03-01T14:30:00+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/classes/vibe-coding-github-copilot/</loc>
+    <lastmod>2025-03-01T14:30:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github-copilot/</loc>
     <lastmod>2025-03-01T14:30:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/classes/develop-copilots-m365/</loc>
@@ -62,6 +59,9 @@
     <loc>http://localhost:1313/classes/cloud-native-apps/</loc>
     <lastmod>2024-02-15T09:45:00+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/use-dapr-aca/</loc>
+    <lastmod>2023-02-05T13:22:53+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/classes/angular-advanced-development/</loc>
     <lastmod>2024-10-05T14:20:00+02:00</lastmod>
   </url><url>
@@ -81,5 +81,7 @@
     <lastmod>2024-10-08T14:30:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/vibe-coding/</loc>
   </url>
 </urlset>
