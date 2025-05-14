@@ -1,7 +1,6 @@
 +++
 date = '2023-02-05T13:22:53+02:00'
 title = 'Use Dapr with Azure Container Apps'
-draft = true
 tags = ['Cloud Native', 'Azure', 'Dapr']
 +++
 
