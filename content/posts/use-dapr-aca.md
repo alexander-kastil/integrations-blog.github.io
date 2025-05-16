@@ -8,9 +8,27 @@ In this post, I will show you how to use Dapr with Azure Container Apps (ACA) an
 
 Dapr is a portable, event-driven runtime that makes it easy for developers to build resilient, microservices-based applications. It provides a set of building blocks for common application patterns, such as service invocation, state management, and pub/sub messaging. Dapr can be used with any programming language and framework, and it can run on any cloud or on-premises environment.
 
+Azure Container Apps (ACA) natively supports [Dapr](https://docs.dapr.io/concepts/overview/), a distributed application runtime that simplifies building resilient microservices. By enabling Dapr in your container app, you gain access to a set of managed APIs and building blocks—such as service invocation, state management, pub/sub, bindings, actors, and secrets—through a Dapr sidecar that runs alongside your app. This sidecar can be invoked via HTTP or gRPC, and Dapr components can be shared across multiple container apps using scopes.
+
 ![dapr-architecture](/images/posts/aca-dapr/dapr-architecture.png)
 
-Our sample consists of a simple .NET 9 Web API that uses Dapr to save its state, a simple count. It includes the Dapr.Client and Dapr.AspNetCore NuGet packages. The API exposes a single endpoint that increments the count and returns the current value. The API uses Dapr's state management building block to store the count in a Redis state store. A full list of Dapr state stores can be found in the [Dapr State stores documentation](https://docs.dapr.io/reference/components-reference/supported-state-stores/).
+## Step-by-Step Guide: Using Dapr with Azure Container Apps
+
+This post walks you through a practical scenario of integrating Dapr with Azure Container Apps (ACA) for a simple .NET 9 Web API. Here’s a more detailed breakdown of the steps:
+
+1. **Project Overview & Prerequisites**
+
+   - The sample project is a .NET 9 Web API that uses Dapr for state management. It leverages the Dapr.Client and Dapr.AspNetCore NuGet packages.
+   - Ensure you have the Azure CLI, Docker, and the .NET SDK installed. You’ll also need an Azure subscription and permissions to create resources.
+
+2. **Understanding Dapr in ACA**
+
+   - ACA provides native support for Dapr, enabling you to add distributed system capabilities (like state management, pub/sub, and service invocation) to your microservices with minimal code changes.
+   - Dapr runs as a sidecar alongside your app, exposing HTTP/gRPC endpoints for building block APIs. Components can be shared across apps using scopes.
+
+3. **Configuring State Store (Redis Example)**
+   - The blog demonstrates configuring a Redis state store for local development. The provided YAML defines a Dapr component for Redis, which Dapr uses to persist state.
+   - You can run Redis locally using Docker for quick setup and testing.
 
 ```yaml
 apiVersion: dapr.io/v1alpha1
@@ -33,13 +51,14 @@ In order to use Redis locally, you need to install it. You can do this using Doc
 docker run -d --name redis/redis-stack -p 6379:6379 redis
 ```
 
-The DaprClient is registered in Program.cs:
+4. **Registering and Using DaprClient**
+   - The DaprClient is registered in `Program.cs` and injected into the controller. The state store name is managed via configuration, making it easy to switch between local and cloud state stores.
 
 ```csharp
 builder.Services.AddDaprClient();
 ```
 
-The DaprClient is injected into the controller and the name of the state store is kept in the appsettings.json file as `DAPR_STATE_STORE`. The `GetStateAsync` and `SaveStateAsync` methods are used to get and save the state, respectively.
+- The controller uses `GetStateAsync` and `SaveStateAsync` to retrieve and update the counter value, demonstrating Dapr’s state management API in action.
 
 ```c#
 [Route("[controller]")]
@@ -67,7 +86,8 @@ public class CountController : ControllerBase
 }
 ```
 
-The App will be deployed to Azure Container Apps into an existing environment. Just for demonstration purposes, we will switch the Redis state store to use an Azure Storage Account and create an alternative component file:
+5. **Switching to Azure State Store**
+   - For cloud deployment, the state store is switched to Azure Blob Storage by providing a new Dapr component YAML. This demonstrates how Dapr abstracts the underlying state provider, making it easy to change backends without code changes.
 
 ```yaml
 componentType: state.azure.blobstorage
@@ -87,10 +107,11 @@ In the Container App Environment, we will create a new component using the Azure
 az containerapp env dapr-component set -n $acaenv -g $grp \
     --dapr-component-name $statestore \
     --yaml statestore-blob.yaml
-
 ```
 
-Deployment of the container app will be done using the Azure CLI. Note that .NET 8+ is using `8080` as the default port.
+6. **Deploying to Azure Container Apps**
+   - The post details how to deploy the app to ACA using the Azure CLI. It covers setting up the environment, configuring the Dapr component, and deploying the container with Dapr enabled.
+   - The deployment uses .NET 8+ conventions (port 8080) and demonstrates how to pass container registry credentials securely.
 
 ```bash
 pwd=$(az acr credential show -n $acr -g $grp --query passwords[0].value -o tsv)
@@ -110,3 +131,13 @@ az containerapp create -n $app -g $grp \
     --registry-username $acr \
     --registry-password $pwd
 ```
+
+7. **Verifying and Monitoring**
+
+   - After deployment, you can verify state persistence in your Azure Storage account or other configured state store.
+   - Logs can be viewed in the Azure Portal or queried using the Azure CLI and Log Analytics, helping you monitor and troubleshoot your Dapr-enabled app.
+
+8. **Cleanup**
+   - To avoid unnecessary costs, remember to delete your resource group when finished.
+
+By following these steps, you can quickly enable Dapr’s powerful distributed application features in your Azure Container Apps, with minimal changes to your application code and maximum flexibility for future enhancements.

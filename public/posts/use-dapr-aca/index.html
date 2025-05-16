@@ -38,7 +38,7 @@
 
 
 
-<link rel="preload" href="http://localhost:1313/css/styles.92fa22818b84fcfd9ee0b856d9a3671764cfc088842ca42b88fda27fd36d1f4ae2303ed8bb038ccf93389140b679325433703236f91a60ab222cb2e9cf0ec968.css" integrity = "sha512-kvoigYuE/P2e4LhW2aNnF2TPwIiELKQriP2if9NtH0riMD7YuwOMz5M4kUC2eTJUM3AyNvkaYKsiLLLpzw7JaA==" as="style" crossorigin="anonymous">
+<link rel="preload" href="http://localhost:1313/css/styles.12e2522151d5ca31e1d7bccf8ed329e297a46194d9d4bf271cb88ba830048d6c334c55c50a72b2332466da6ddceec160af0c095548b47cb58fcaa9933fe79393.css" integrity = "sha512-EuJSIVHVyjHh17zPjtMp4pekYZTZ1L8nHLiLqDAEjWwzTFXFCnKyMyRm2m3c7sFgrwwJVUi0fLWPyqmTP&#43;eTkw==" as="style" crossorigin="anonymous">
 
 
 
@@ -46,7 +46,7 @@
 "sha512-N2vZGL435mHyU&#43;Ok9fgWiuvIMn9Df/zHqdhRNKOrwdlriBj9H6jw30d9c3oPAbGJ6Po8emxjxJS5lKUJazD5Aw==" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.92fa22818b84fcfd9ee0b856d9a3671764cfc088842ca42b88fda27fd36d1f4ae2303ed8bb038ccf93389140b679325433703236f91a60ab222cb2e9cf0ec968.css" integrity="sha512-kvoigYuE/P2e4LhW2aNnF2TPwIiELKQriP2if9NtH0riMD7YuwOMz5M4kUC2eTJUM3AyNvkaYKsiLLLpzw7JaA==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.12e2522151d5ca31e1d7bccf8ed329e297a46194d9d4bf271cb88ba830048d6c334c55c50a72b2332466da6ddceec160af0c095548b47cb58fcaa9933fe79393.css" integrity="sha512-EuJSIVHVyjHh17zPjtMp4pekYZTZ1L8nHLiLqDAEjWwzTFXFCnKyMyRm2m3c7sFgrwwJVUi0fLWPyqmTP&#43;eTkw==" crossorigin="anonymous">
 
   </head>
   <body
@@ -112,7 +112,7 @@
   <span class="post_date">
     Feb, 2023</span>
   <span class="post_time">
-     &middot; 3 min read
+     &middot; 4 min read
   </span><span>&nbsp;&middot; <a
       href="http://localhost:1313/tags/cloud-native/"
       title="Cloud Native"
@@ -167,6 +167,7 @@
   </span></div>
     <div class="post_body"><p>In this post, I will show you how to use Dapr with Azure Container Apps (ACA) and demonstrate how easy it is to use Dapr for Lift and Shift scenarios. The complete code and details can be found in my <a href="https://github.com/alexander-kastil/az-204/tree/main/demos/05-containers/demo-08">az-204 GitHub repository</a>.</p>
 <p>Dapr is a portable, event-driven runtime that makes it easy for developers to build resilient, microservices-based applications. It provides a set of building blocks for common application patterns, such as service invocation, state management, and pub/sub messaging. Dapr can be used with any programming language and framework, and it can run on any cloud or on-premises environment.</p>
+<p>Azure Container Apps (ACA) natively supports <a href="https://docs.dapr.io/concepts/overview/">Dapr</a>, a distributed application runtime that simplifies building resilient microservices. By enabling Dapr in your container app, you gain access to a set of managed APIs and building blocks—such as service invocation, state management, pub/sub, bindings, actors, and secrets—through a Dapr sidecar that runs alongside your app. This sidecar can be invoked via HTTP or gRPC, and Dapr components can be shared across multiple container apps using scopes.</p>
 <p><figure>
   <picture>
 
@@ -192,7 +193,31 @@
     </picture>
 </figure>
 </p>
-<p>Our sample consists of a simple .NET 9 Web API that uses Dapr to save its state, a simple count. It includes the Dapr.Client and Dapr.AspNetCore NuGet packages. The API exposes a single endpoint that increments the count and returns the current value. The API uses Dapr&rsquo;s state management building block to store the count in a Redis state store. A full list of Dapr state stores can be found in the <a href="https://docs.dapr.io/reference/components-reference/supported-state-stores/">Dapr State stores documentation</a>.</p>
+<h2 id="step-by-step-guide-using-dapr-with-azure-container-apps">Step-by-Step Guide: Using Dapr with Azure Container Apps</h2>
+<p>This post walks you through a practical scenario of integrating Dapr with Azure Container Apps (ACA) for a simple .NET 9 Web API. Here’s a more detailed breakdown of the steps:</p>
+<ol>
+<li>
+<p><strong>Project Overview &amp; Prerequisites</strong></p>
+<ul>
+<li>The sample project is a .NET 9 Web API that uses Dapr for state management. It leverages the Dapr.Client and Dapr.AspNetCore NuGet packages.</li>
+<li>Ensure you have the Azure CLI, Docker, and the .NET SDK installed. You’ll also need an Azure subscription and permissions to create resources.</li>
+</ul>
+</li>
+<li>
+<p><strong>Understanding Dapr in ACA</strong></p>
+<ul>
+<li>ACA provides native support for Dapr, enabling you to add distributed system capabilities (like state management, pub/sub, and service invocation) to your microservices with minimal code changes.</li>
+<li>Dapr runs as a sidecar alongside your app, exposing HTTP/gRPC endpoints for building block APIs. Components can be shared across apps using scopes.</li>
+</ul>
+</li>
+<li>
+<p><strong>Configuring State Store (Redis Example)</strong></p>
+<ul>
+<li>The blog demonstrates configuring a Redis state store for local development. The provided YAML defines a Dapr component for Redis, which Dapr uses to persist state.</li>
+<li>You can run Redis locally using Docker for quick setup and testing.</li>
+</ul>
+</li>
+</ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">dapr.io/v1alpha1</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">Component</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
@@ -207,9 +232,17 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">value</span>: <span style="color:#e6db74">&#34;&#34;</span>
 </span></span></code></pre></div><p>In order to use Redis locally, you need to install it. You can do this using Docker:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -d --name redis/redis-stack -p 6379:6379 redis
-</span></span></code></pre></div><p>The DaprClient is registered in Program.cs:</p>
+</span></span></code></pre></div><ol start="4">
+<li><strong>Registering and Using DaprClient</strong>
+<ul>
+<li>The DaprClient is registered in <code>Program.cs</code> and injected into the controller. The state store name is managed via configuration, making it easy to switch between local and cloud state stores.</li>
+</ul>
+</li>
+</ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>builder.Services.AddDaprClient();
-</span></span></code></pre></div><p>The DaprClient is injected into the controller and the name of the state store is kept in the appsettings.json file as <code>DAPR_STATE_STORE</code>. The <code>GetStateAsync</code> and <code>SaveStateAsync</code> methods are used to get and save the state, respectively.</p>
+</span></span></code></pre></div><ul>
+<li>The controller uses <code>GetStateAsync</code> and <code>SaveStateAsync</code> to retrieve and update the counter value, demonstrating Dapr’s state management API in action.</li>
+</ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#a6e22e">[Route(&#34;[controller]</span><span style="color:#e6db74">&#34;)]
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span><span style="color:#a6e22e">[ApiController]</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CountController</span> : ControllerBase
@@ -233,7 +266,13 @@
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> counter;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>The App will be deployed to Azure Container Apps into an existing environment. Just for demonstration purposes, we will switch the Redis state store to use an Azure Storage Account and create an alternative component file:</p>
+</span></span></code></pre></div><ol start="5">
+<li><strong>Switching to Azure State Store</strong>
+<ul>
+<li>For cloud deployment, the state store is switched to Azure Blob Storage by providing a new Dapr component YAML. This demonstrates how Dapr abstracts the underlying state provider, making it easy to change backends without code changes.</li>
+</ul>
+</li>
+</ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">componentType</span>: <span style="color:#ae81ff">state.azure.blobstorage</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">version</span>: <span style="color:#ae81ff">v1</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
@@ -247,7 +286,14 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>az containerapp env dapr-component set -n $acaenv -g $grp <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --dapr-component-name $statestore <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --yaml statestore-blob.yaml
-</span></span></code></pre></div><p>Deployment of the container app will be done using the Azure CLI. Note that .NET 8+ is using <code>8080</code> as the default port.</p>
+</span></span></code></pre></div><ol start="6">
+<li><strong>Deploying to Azure Container Apps</strong>
+<ul>
+<li>The post details how to deploy the app to ACA using the Azure CLI. It covers setting up the environment, configuring the Dapr component, and deploying the container with Dapr enabled.</li>
+<li>The deployment uses .NET 8+ conventions (port 8080) and demonstrates how to pass container registry credentials securely.</li>
+</ul>
+</li>
+</ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pwd<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>az acr credential show -n $acr -g $grp --query passwords<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span>.value -o tsv<span style="color:#66d9ef">)</span>
 </span></span><span style="display:flex;"><span>loginSrv<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>az acr list -g $grp --query <span style="color:#e6db74">&#34;[?name==&#39;</span>$acr<span style="color:#e6db74">&#39;].loginServer&#34;</span> -o tsv<span style="color:#66d9ef">)</span>
 </span></span><span style="display:flex;"><span>
@@ -264,7 +310,23 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --registry-server $loginSrv <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --registry-username $acr <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --registry-password $pwd
-</span></span></code></pre></div>
+</span></span></code></pre></div><ol start="7">
+<li>
+<p><strong>Verifying and Monitoring</strong></p>
+<ul>
+<li>After deployment, you can verify state persistence in your Azure Storage account or other configured state store.</li>
+<li>Logs can be viewed in the Azure Portal or queried using the Azure CLI and Log Analytics, helping you monitor and troubleshoot your Dapr-enabled app.</li>
+</ul>
+</li>
+<li>
+<p><strong>Cleanup</strong></p>
+<ul>
+<li>To avoid unnecessary costs, remember to delete your resource group when finished.</li>
+</ul>
+</li>
+</ol>
+<p>By following these steps, you can quickly enable Dapr’s powerful distributed application features in your Azure Container Apps, with minimal changes to your application code and maximum flexibility for future enhancements.</p>
+
     </div><div class="post_comments">
   
   
