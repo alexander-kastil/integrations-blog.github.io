@@ -1,6 +1,6 @@
 ---
 title: "Home"
-description: "Welcome to the homepage! Edit this file to update your site's main landing page."
+description: "Hello and welcome to my blog!"
 ---
 
 # Hello and welcome to my blog!
