@@ -19,14 +19,14 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="I&rsquo;m starting a new blog to share my technical knowledge, hosted on GitHub Pages. I chose Hugo as the static site generator along with the elegant Clarity …" />
+<meta name="description" content="Hugo is a fast and flexible static site generator written in Go. It allows you to create and manage content easily, making it a popular choice for technical …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Setup a Hugo based Blog on GitHub Pages" />
 <meta name="twitter:image" content="http://localhost:1313/"/>
 <meta property="og:url" content="http://localhost:1313/posts/setup-hugo-blog/" />
 <meta property="og:title" content="Setup a Hugo based Blog on GitHub Pages" />
-<meta property="og:description" content="I&rsquo;m starting a new blog to share my technical knowledge, hosted on GitHub Pages. I chose Hugo as the static site generator along with the elegant Clarity …" />
+<meta property="og:description" content="Hugo is a fast and flexible static site generator written in Go. It allows you to create and manage content easily, making it a popular choice for technical …" />
 <meta property="og:image" content="http://localhost:1313/" />
   <meta name="keywords" content="General" />
 
@@ -112,7 +112,7 @@
   <span class="post_date">
     May, 2025</span>
   <span class="post_time">
-     &middot; 2 min read
+     &middot; 4 min read
   </span><span>&nbsp;&middot; <a
       href="http://localhost:1313/tags/general/"
       title="General"
@@ -155,9 +155,16 @@
   </div>
   
   </span></div>
-    <div class="post_body"><p>I&rsquo;m starting a new blog to share my technical knowledge, hosted on GitHub Pages. I chose Hugo as the static site generator along with the elegant <a href="https://github.com/chipzoller/hugo-clarity">Clarity theme</a>. Let me walk you through the setup process:</p>
+    <div class="post_body"><p>Hugo is a fast and flexible static site generator written in Go. It allows you to create and manage content easily, making it a popular choice for technical blogs and documentation sites. In this guide, I&rsquo;ll show you how to set up a Hugo-based blog and deploy it to GitHub Pages, using the elegant <a href="https://github.com/chipzoller/hugo-clarity">Clarity theme</a>. Whether you&rsquo;re new to static site generators or looking to migrate from another platform, these steps will help you get started quickly.</p>
+<h2 id="why-hugo">Why Hugo?</h2>
+<ul>
+<li><strong>Speed:</strong> Hugo builds sites in milliseconds, even for large content bases.</li>
+<li><strong>Simplicity:</strong> Content is written in Markdown, and configuration is straightforward.</li>
+<li><strong>Flexibility:</strong> Hundreds of themes and easy customization.</li>
+<li><strong>No vendor lock-in:</strong> Your content stays in plain files, versioned with Git.</li>
+</ul>
 <h2 id="base-setup">Base Setup</h2>
-<p>Download and install <a href="https://gohugo.io/installation/">Hugo CLI</a></p>
+<p>Download and install <a href="https://gohugo.io/installation/">Hugo CLI</a>. Make sure you have <a href="https://git-scm.com/">Git</a> installed as well.</p>
 <p>Create the Hugo blog directory using Hugo CLI:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site integrations-blog
 </span></span><span style="display:flex;"><span>cd integrations-blog
@@ -165,11 +172,18 @@
 </span></span><span style="display:flex;"><span>git submodule add https://github.com/chipzoller/hugo-clarity themes/clarity
 </span></span><span style="display:flex;"><span>echo theme <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;clarity&#39;</span> &gt;&gt; hugo.toml
 </span></span><span style="display:flex;"><span>hugo server
-</span></span></code></pre></div><p>Add the first post:</p>
+</span></span></code></pre></div><ul>
+<li>The <code>hugo new site</code> command scaffolds a new Hugo project.</li>
+<li>Adding the Clarity theme as a submodule keeps your theme up to date and separate from your content.</li>
+<li><code>hugo server</code> starts a local development server. Visit <code>http://localhost:1313</code> to preview your site.</li>
+</ul>
+<p>Add the first post:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/setup-hugo-blog.md
 </span></span></code></pre></div><p>Edit the post in content/posts/setup-hugo-blog.md:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>... add some content ...
-</span></span></code></pre></div><p>Create a base menu in hugo.toml:</p>
+</span></span></code></pre></div><blockquote>
+<p><strong>Tip:</strong> Hugo uses front matter (the section between <code>+++</code> or <code>---</code>) to store metadata like title, date, and tags. Adjust these as needed for each post.</p></blockquote>
+<p>Create a base menu in hugo.toml:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">menu</span>]
 </span></span><span style="display:flex;"><span>  [[<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Blog&#34;</span>
@@ -185,23 +199,40 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Services&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;https://www.integrations.at&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">3</span>
-</span></span></code></pre></div><p>Add padding to the code blocks in <code>_syntax.scss</code>:</p>
+</span></span></code></pre></div><ul>
+<li>The menu configuration helps users navigate your site. Adjust names, URLs, and weights to fit your content structure.</li>
+</ul>
+<p>Add padding to the code blocks in <code>_syntax.scss</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-SCSS" data-lang="SCSS"><span style="display:flex;"><span><span style="color:#f92672">code</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">...</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">padding-left</span><span style="color:#a6e22e">:</span> <span style="color:#f92672">1rem</span>
-</span></span></code></pre></div><p>Create a repo <code>GITHUB_USERNAME/'URL.github.io</code> ie <code>alexander-kastil/integrations.github.io</code> and update the base URL in <code>hugo.toml</code>:</p>
+</span></span></code></pre></div><blockquote>
+<p><strong>Tip:</strong> Customizing your theme&rsquo;s CSS allows you to fine-tune the appearance of code blocks and other elements. Place your custom styles in <code>assets/css/custom.css</code> or the appropriate SCSS file for your theme.</p></blockquote>
+<p>Create a repo <code>GITHUB_USERNAME/'URL.github.io</code> ie <code>alexander-kastil/integrations.github.io</code> and update the base URL in <code>hugo.toml</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#39;https://alexander-kastil.github.io/&#39;</span>
-</span></span></code></pre></div><p>Rebuild the Hugo site:</p>
+</span></span></code></pre></div><ul>
+<li>The <code>baseURL</code> should match your GitHub Pages URL. This ensures all links and resources are generated correctly.</li>
+</ul>
+<p>Rebuild the Hugo site:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
-</span></span></code></pre></div><p>Read through the deployment options, Change to folder <code>public</code> and commit the changes:</p>
+</span></span></code></pre></div><ul>
+<li>The <code>-D</code> flag includes draft posts in your local preview.</li>
+</ul>
+<p>Read through the deployment options, Change to folder <code>public</code> and commit the changes:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd public
 </span></span><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>git add .
 </span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
 </span></span><span style="display:flex;"><span>git remote add origin https://github.com/alexander-kastil/integrations.github.io.git
 </span></span><span style="display:flex;"><span>git push -u origin master
-</span></span></code></pre></div><h2 id="deployment">Deployment</h2>
+</span></span></code></pre></div><blockquote>
+<p><strong>Note:</strong> The <code>public</code> folder contains the generated static site. For manual deployment, you push this folder to your GitHub Pages repository. For automated deployment, see the next section.</p></blockquote>
+<h2 id="deployment">Deployment</h2>
 <p>Next we will set up the GitHub Pages deployment. Go to the repository settings and enable GitHub Pages. Set the Build and Deployment source to GitHub Actions and search for the Hugo action. Select the latest version and add it to your repository. This will automatically build and deploy your Hugo site to GitHub Pages whenever you push changes to the main branch.</p>
+<ul>
+<li>Using GitHub Actions for deployment is recommended, as it automates the build and publish process. You can find sample workflows in the <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo documentation</a>.</li>
+<li>After setup, every push to your main branch will trigger a new deployment.</li>
+</ul>
 <p><figure>
   <picture>
 
@@ -262,7 +293,10 @@
 </p>
 <p>Update the following line in the <code>hugo.toml</code> file:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#39;https://blog.integrations.at/&#39;</span>
-</span></span></code></pre></div><p>Last but not least, add the custom domain in the GitHub Pages settings and enforce HTTPS. This will ensure that your custom domain is properly configured and linked to your GitHub Pages site.</p>
+</span></span></code></pre></div><ul>
+<li>This ensures your site generates links for your custom domain.</li>
+</ul>
+<p>Last but not least, add the custom domain in the GitHub Pages settings and enforce HTTPS. This will ensure that your custom domain is properly configured and linked to your GitHub Pages site.</p>
 <p>Now check the deployment status in the GitHub Actions tab. If everything is set up correctly, you should see a successful deployment message. You can also check the GitHub Pages settings to ensure that your custom domain is properly configured and linked to your GitHub Pages site.</p>
 <p><figure>
   <picture>
@@ -289,6 +323,20 @@
     </picture>
 </figure>
 </p>
+<h2 id="troubleshooting--tips">Troubleshooting &amp; Tips</h2>
+<ul>
+<li>If you see a 404 error after deployment, double-check your <code>baseURL</code> and DNS settings.</li>
+<li>For theme updates, run <code>git submodule update --remote --merge</code> in your project root.</li>
+<li>Use <a href="https://www.netlify.com/">Netlify</a> or <a href="https://vercel.com/">Vercel</a> for alternative hosting options with continuous deployment.</li>
+<li>Explore Hugo&rsquo;s <a href="https://gohugo.io/documentation/">official documentation</a> for advanced features like taxonomies, shortcodes, and custom layouts.</li>
+</ul>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://themes.gohugo.io/">Hugo Themes</a></li>
+<li><a href="https://docs.github.com/en/pages">GitHub Pages Documentation</a></li>
+<li><a href="https://www.markdownguide.org/">Markdown Guide</a></li>
+</ul>
+<p>Happy blogging! If you have questions or want to share your own Hugo setup tips, feel free to leave a comment or reach out.</p>
 
     </div><div class="post_comments">
   
