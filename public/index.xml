@@ -16,8 +16,8 @@
       <description>
         
           
-            &lt;p&gt;This intensive five-day online class will transform how you build intelligent AI solutions using Microsoft&amp;rsquo;s Semantic Kernel framework and Azure AI services.&lt;/p&gt;
-&lt;p&gt;Beginning with Azure AI Foundry fundamentals, you&amp;rsquo;ll master essential concepts like prompt engineering techniques and Retrieval Augmented Generation (RAG) for integrating enterprise data with LLMs, as well as integrating AI skills using Model Context Protocol (MCP) and Agent2Agent (A2A) protocols. You&amp;rsquo;ll also learn how to deploy AI applications using the Azure Developer CLI, as well as ensuring a predictable outcome using Evaluations.&lt;/p&gt;
+            &lt;p&gt;This in-depth course that takes developers from foundational concepts to advanced multi-agent orchestration using Microsoft&amp;rsquo;s AI ecosystem. The course begins with Azure AI Foundry essentials, covering hubs, projects, and resources while establishing expertise in prompt engineering, GitHub Models, and the Agent-to-Agent (A2A) protocol fundamentals. Students dive deep into Semantic Kernel development, mastering chat completion, multi-modal capabilities, and advanced prompt templating using YAML, Handlebar, and Liquid formats.&lt;/p&gt;
+&lt;p&gt;The curriculum provides extensive coverage of Semantic Kernel&amp;rsquo;s plugin architecture, including native functions, OpenAPI integrations, and MCP server implementations, alongside Kernel Memory and vector store connectors for RAG solutions. Participants will master both the Semantic Kernel Agent and Process Frameworks, learning to build multi-step task agents with personas while choosing between Orleans and Dapr runtimes. The course emphasizes Azure AI Foundry&amp;rsquo;s multi-agent solutions, teaching students to leverage the Azure AI Agent Service with action tools (code interpreters, function calling) and knowledge tools (file search, Azure AI Search, Bing Grounding).&lt;/p&gt;
           
           
         

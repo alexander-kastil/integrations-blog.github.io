@@ -6,29 +6,34 @@ showLastmod: true
 tags: ['Copilots', 'Agents', 'Semantic Kernel']
 ---
 
-This intensive five-day online class will transform how you build intelligent AI solutions using Microsoft's Semantic Kernel framework and Azure AI services.
+This in-depth course that takes developers from foundational concepts to advanced multi-agent orchestration using Microsoft's AI ecosystem. The course begins with Azure AI Foundry essentials, covering hubs, projects, and resources while establishing expertise in prompt engineering, GitHub Models, and the Agent-to-Agent (A2A) protocol fundamentals. Students dive deep into Semantic Kernel development, mastering chat completion, multi-modal capabilities, and advanced prompt templating using YAML, Handlebar, and Liquid formats.
 
-Beginning with Azure AI Foundry fundamentals, you'll master essential concepts like prompt engineering techniques and Retrieval Augmented Generation (RAG) for integrating enterprise data with LLMs, as well as integrating AI skills using Model Context Protocol (MCP) and Agent2Agent (A2A) protocols. You'll also learn how to deploy AI applications using the Azure Developer CLI, as well as ensuring a predictable outcome using Evaluations.
+The curriculum provides extensive coverage of Semantic Kernel's plugin architecture, including native functions, OpenAPI integrations, and MCP server implementations, alongside Kernel Memory and vector store connectors for RAG solutions. Participants will master both the Semantic Kernel Agent and Process Frameworks, learning to build multi-step task agents with personas while choosing between Orleans and Dapr runtimes. The course emphasizes Azure AI Foundry's multi-agent solutions, teaching students to leverage the Azure AI Agent Service with action tools (code interpreters, function calling) and knowledge tools (file search, Azure AI Search, Bing Grounding).
 
-You'll then dive deep into Semantic Kernel development, exploring its core components, chat history integration, and multi-modal capabilities while learning to optimize prompts using various template formats. The course progresses to advanced plugin development, where you'll implement native functions, integrate existing APIs via OpenAPI, and utilize planners with function calling capabilities. In the more advanced sections, you'll work with Kernel Memory for vector search, implement sophisticated multi-agent solutions with personas, and orchestrate complex workflows using the Semantic Kernel Process Framework with Orleans and Dapr runtimes.
+Advanced topics include orchestrating complex multi-agent solutions, implementing human-in-the-loop patterns, and integrating .NET Aspire for scalable deployments. The final module ensures production readiness through security, monitoring, and evaluation strategies including agent guardrails, risk monitoring, and Azure AI Foundry's governance and observability features. By completion, students will architect and deploy secure, monitored multi-agent systems leveraging the full power of Azure AI Foundry's orchestration capabilities.
 
-In Develop Agents using Azure AI Agent Service, you'll master Azure AI Agent Service to build sophisticated AI agents capable of taking complex actions and accessing knowledge sources. You'll implement and integrate diverse action tools including Code Interpreter, Function Calling, and OpenAPI tools, while also leveraging knowledge tools such as File Search, Azure AI Search, and Bing Grounding to enhance your agents' capabilities. The module culminates with practical techniques for orchestrating these agents using Semantic Kernel framework and implementing essential production safeguards through content filtering and comprehensive observability practices.
-
-Building on the foundational knowledge of Semantic Kernel and Azure AI Agent Service from previous modules, this module focuses specifically on integrating these technologies within the Microsoft 365 ecosystem. You'll learn how to extend Microsoft 365 Copilot with custom plugins and connectors, understand the differences between declarative and custom engine agents, and implement practical Semantic Kernel-based solutions that seamlessly integrate with Microsoft's productivity suite.
-
-Throughout all modules, you'll work with production-grade code samples in both Python and C#, providing you with immediately applicable skills for building enterprise-ready AI agent solutions.
+Throughout all modules, you'll work with hands-on code samples in both Python and C#, giving you practical experience building production-ready AI agent solutions.
 
 ## Module 1: Copilot, Agents & Azure AI Foundry Essentials
+
+### Introduction to Azure AI Foundry
 
 - Overview Copilots and Agent Frameworks in the Microsoft Ecosystem
 - Azure AI Foundry: Hubs, Projects and Resources
 - Deploy and use Large Language Models (LLM) in Azure AI Foundry
-- Effective Prompt Engineering
 - Introduction to Azure AI Foundry SDK
-- Integrating your own data using Retrieval Augmented Generation (RAG)
-- Function Calling, Model Context Protocol (MCP) and Agent2Agent (A2A) Protocol Basics
-- Ensuring App Behavior using Evaluations
 - Deploy AI Apps using Azure Developer CLI
+
+### Agent Essentials
+
+- Introduction Effective Prompt Engineering
+- Introduction to GitHub Models
+- Comparing and Prototyping Prompts using GitHub Models
+- Retrieval Augmented Generation (RAG) & Agentic Retrieval in Azure AI Search
+- Function Calling, Model Context Protocol (MCP)
+- Agent2Agent (A2A) Protocol Basics
+- Installing Windows AI Foundry
+- Windows local MCP support
 
 ## Module 2: Develop AI Agents using Azure OpenAI and Semantic Kernel
 
@@ -55,7 +60,7 @@ Throughout all modules, you'll work with production-grade code samples in both P
 - Implement Native Functions using Prompts
 - Integrate existing API's using OpenApi Plugins
 - Using MCP Servers in Semantic Kernel
-- Filters & Observability
+- Invocation-, Prompt Render & Invocation Filters
 
 ### Kernel Memory & Vector Store Connectors
 
@@ -80,17 +85,19 @@ Throughout all modules, you'll work with production-grade code samples in both P
 - Runtimes: Orleans vs Dapr
 - Implementing Human in the Loop
 
-## Module 3: Develop Agents using Azure AI Agent Service
+## Module 4: Develop Agents using Azure AI Agent Service
 
 - Introduction to Azure AI Agent Service
 - Using Action Tools: Code Interpreter, Function Calling, Azure Functions and OpenAPI Tools
 - Using Knowledge Tools: File Search, Azure AI Search and Bing Grounding
-- Orchestrating Agents using Semantic Kernel
-- Content Filtering and Observability
+- Orchestrate Multi-Agent-Solutions using Semantic Kernel
+- Using Agent to Agent (A2A) Protocol
+- Azure Agent AI Service & .NET Aspire
 
-## Module 4: Implementing Copilots for Microsoft 365
+## Module 5: Securing, Monitoring and Evaluating Agents
 
-- Overview of the Microsoft 365 Copilot Ecosystem
-- Implementing Plugins and Connectors for Microsoft 365 Copilot
-- Declarative Agents vs Custom Engine Agents
-- Copilot Agent Plugins Sample for Semantic Kernel
+- Agent Guardrails and Data Controls
+- Ensuring App Behavior using Evaluations
+- Monitoring Risk and Alerts
+- Azure AI Foundry Agent Governance and Observability
+- Ensuring App Behavior using Evaluations
