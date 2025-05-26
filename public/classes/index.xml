@@ -50,9 +50,8 @@
       <description>
         
           
-            &lt;p&gt;This in-depth five days workshop guides learners through developing AI-powered experiences for Microsoft 365, covering both low-code and professional development approaches.&lt;/p&gt;
-&lt;p&gt;Participants will learn to create and extend Copilot capabilities using Microsoft Copilot Studio, Teams Toolkit, and the Teams AI Library.&lt;/p&gt;
-&lt;p&gt;The curriculum progresses from fundamental concepts of AI and Microsoft 365 integration to advanced implementation of custom agents, plugins, and connectors that leverage enterprise data and enhance user experiences through conversational interfaces.&lt;/p&gt;
+            &lt;p&gt;Join our comprehensive course designed for Microsoft 365 and AI developers, as well as decision-makers, to master the art of developing low-code and pro-code agents and copilots for Microsoft 365. This program promises to elevate your development skills, making you proficient in the latest tools and techniques to enhance productivity within the Microsoft 365 ecosystem.&lt;/p&gt;
+&lt;p&gt;In this journey, you will first embark on an exploration into the world of Microsoft 365 and its Copilot ecosystem. You will uncover the unique value of connectors versus plugins and delve into the many extensibility options available. As you progress, you will learn to build plugins and connectors for Microsoft Copilot using the Teams Toolkit, gaining insights into architectural extensions and how to integrate enterprise data with Microsoft Graph Connectors, thus adding specialized skills through plugins.&lt;/p&gt;
           
           
         
