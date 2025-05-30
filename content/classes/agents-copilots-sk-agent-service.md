@@ -100,4 +100,3 @@ Throughout all modules, you'll work with hands-on code samples in both Python an
 - Ensuring App Behavior using Evaluations
 - Monitoring Risk and Alerts
 - Azure AI Foundry Agent Governance and Observability
-- Ensuring App Behavior using Evaluations
