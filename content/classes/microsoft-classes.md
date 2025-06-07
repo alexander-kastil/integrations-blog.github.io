@@ -35,6 +35,7 @@ Please find below a comprehensive list of official Microsoft classes that I curr
 
 ## GitHub
 
+- GH-200 Automate your workflow with GitHub Actions
 - GH-300 GitHub Copilot Fundamentals
 
 ## Azure Development & DevOps
