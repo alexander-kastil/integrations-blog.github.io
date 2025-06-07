@@ -33,18 +33,15 @@ Please find below a comprehensive list of official Microsoft classes that I curr
 - MS-4017 Manage and extend Microsoft 365 Copilot
 - PL-7008 Create agents in Microsoft Copilot Studio
 
-## GitHub
-
-- GH-200 Automate your workflow with GitHub Actions
-- GH-300 GitHub Copilot Fundamentals
-
-## Azure Development & DevOps
+## Azure AI-Driven Software Engineering, DevOps & Automation
 
 - AZ-2003 Deploy cloud-native apps using Azure Container Apps
 - AZ-2008 DevOps foundations: The core principles and practices
 - AZ-2009 Build distributed apps with .NET Aspire
 - AZ-204 Develop Solutions for Microsoft Azure
 - AZ-400 Designing and Implementing Microsoft DevOps Solutions
+- GH-200 Automate your workflow with GitHub Actions
+- GH-300 GitHub Copilot Fundamentals
 
 ## Data & Databases
 
