@@ -7,7 +7,7 @@ showLastmod: true
 
 Please find below a comprehensive list of official Microsoft classes that I currently teach, including those related to Copilots, AI, and Microsoft 365. These classes are designed to enhance your skills in developing low-code and pro-code agents and copilots for Microsoft 365, as well as other related technologies. MOC's are only available through Microsoft Learning Partners.
 
-## Azure AI & Machine Learning
+## General & Agentic AI
 
 - Al-102 Designing and implementing a Microsoft Azure Al Solution
 - Al-3002 Create document intelligence solutions with Azure Al Document Intelligence
@@ -18,7 +18,6 @@ Please find below a comprehensive list of official Microsoft classes that I curr
 - Al-3018 Copilot Foundations
 - Al-3019 Build Al Apps with Azure Database for PostgreSQL
 - Al-3022 Implement Al Skills in Azure Al Search
-- Al-900 Microsoft Azure Al Fundamentals
 
 ## Copilot & Modern Workplace Microsoft 365
 
