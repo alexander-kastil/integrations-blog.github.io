@@ -1,5 +1,5 @@
 ---
-title: "Official Microsoft Classes - MOC"
+title: "Microsoft Official Curriculum - MOC"
 date: '2025-06-01T12:00:00+02:00'
 lastmod: '2025-06-01T14:30:00+02:00'
 showLastmod: true
