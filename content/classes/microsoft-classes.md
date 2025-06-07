@@ -5,7 +5,7 @@ lastmod: '2025-06-01T14:30:00+02:00'
 showLastmod: true
 ---
 
-Please find below a comprehensive list of official Microsoft classes, including those related to Copilots, AI, and Microsoft 365 that I currently teach. These classes are designed to enhance your skills in developing low-code and pro-code agents and copilots for Microsoft 365, as well as other related technologies.
+Please find below a comprehensive list of official Microsoft classes that I currently teach, including those related to Copilots, AI, and Microsoft 365. These classes are designed to enhance your skills in developing low-code and pro-code agents and copilots for Microsoft 365, as well as other related technologies. MOC's are only available through Microsoft Learning Partners.
 
 ## Azure AI & Machine Learning
 
