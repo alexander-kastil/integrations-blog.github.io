@@ -18,6 +18,7 @@ Please find below a comprehensive list of official Microsoft classes that I curr
 - Al-3018 Copilot Foundations
 - Al-3019 Build Al Apps with Azure Database for PostgreSQL
 - Al-3022 Implement Al Skills in Azure Al Search
+- AI-3026 Develop AI Agents on Azure
 
 ## Copilot & Modern Workplace Microsoft 365
 
@@ -25,17 +26,20 @@ Please find below a comprehensive list of official Microsoft classes that I curr
 - MS-4005 Craft effective prompts for Microsoft 365 Copilot
 - MS-4008 Microsoft 365 Copilot Interactive Experience for Executives
 - MS-4009 Extend Microsoft Copilot for Microsoft 365 with Copilot Studio
-- MS-4010 Build plugins and connectors for Microsoft 365 Copilot
+- MS-4010 Extend Microsoft 365 Copilot with declarative agents by using Visual Studio Code
 - MS-4012 Microsoft Copilot Interactive Experience for Executives
 - MS-4014 Build a foundation to extend Microsoft 365 Copilot
 - MS-4015 Build custom agents for Microsoft Teams
 - MS-4017 Manage and extend Microsoft 365 Copilot
+- MS-4018: Draft, analyze, and present with Microsoft 365 Copilot
+- MS-4019: Transform your everyday business processes with agents
 - PL-7008 Create agents in Microsoft Copilot Studio
 
 ## Azure AI-Driven Software Engineering, DevOps & Automation
 
 - AZ-2003 Deploy cloud-native apps using Azure Container Apps
 - AZ-2008 DevOps foundations: The core principles and practices
+- AZ-2007: Accelerate app development by using GitHub Copilot
 - AZ-2009 Build distributed apps with .NET Aspire
 - AZ-204 Develop Solutions for Microsoft Azure
 - AZ-400 Designing and Implementing Microsoft DevOps Solutions
@@ -47,3 +51,11 @@ Please find below a comprehensive list of official Microsoft classes that I curr
 - DP-3015 Getting Started with Cosmos DB NoSQL Development
 - DP-3021 Configure and migrate to Azure Database for PostgreSQL
 - DP-420 Designing and Implementing Cloud-Native Applications Using Microsoft Azure Cosmos DB
+
+## Enterprise Skill Initiative - ESI
+
+- DW-100 Copilot Business Value Bootcamp
+- DW-102 Building and extending AI-Powered Copilots with Copilot Studio
+- DW-103 Securing and Governing Copilot for Microsoft 365 with Microsoft Purview
+- DW-200 Azure OpenAI Workshop
+- DW-201: Building and modernizing AI Apps on Azure Workshop
