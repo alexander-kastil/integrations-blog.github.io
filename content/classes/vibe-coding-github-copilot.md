@@ -6,13 +6,11 @@ showLastmod: true
 tags: ['GitHub Copilot']
 ---
 
-This comprehensive one-day online class, "Developing Applications using GitHub Copilot," is designed to help developers maximize productivity and code quality by fully leveraging GitHub Copilot's AI-assisted development features. The course focuses on practical usage: Configuring Copilot, prompt engineering, and selecting the right model for your needs. You'll learn how to generate and edit code efficiently, use context and chat features, and streamline multi-file development.
+This comprehensive one-day online class, "Developing Applications using GitHub Copilot," is designed to help developers fully leverage GitHub Copilot's AI-assisted development features for real-world productivity and code quality. The course begins with configuring Copilot, prompt engineering, and model selection, then moves into practical code generation, multi-file editing, and using context and chat features for efficient development.
 
-Participants will discover how to use Copilot for refactoring, error fixing, and automating repetitive tasks, as well as integrating Copilot into source control workflows for better collaboration. The course also covers generating high-quality documentation, including code comments and architecture diagrams with Mermaid.
+You will learn how to use Copilot for advanced refactoring, error fixing, and automating repetitive tasks, as well as integrating Copilot into source control workflows for better collaboration. The course covers generating high-quality documentation, including code comments and architecture diagrams with Mermaid, and explores Copilot's capabilities for unit and integration testing with Playwright MCP.
 
-A highlight of the course is the "Coding Agent: Your asynchronous Coding Assistant" module, which shows how to delegate tasks, automate testing, and manage pull requests using Copilot's agent capabilities. The class concludes with robust testing strategies, including unit and integration testing with Playwright MCP, ensuring you can confidently integrate AI into your development workflow.
-
-Sample code is provided in Python, TypeScript, .NET, and Java, with concepts applicable to any language. Cloud and DevContainer scenarios are included to ensure consistent, modern development environments.
+A highlight of the class is the "Asynchronous Development using Coding Agent" module, which demonstrates how to safely delegate tasks, automate testing, and streamline pull request workflows using Copilot's agent features. Throughout the course, you will work with sample code in Python, TypeScript, .NET, and Java, with concepts applicable to any language. Cloud and DevContainer scenarios are included to ensure consistent, modern development environments.
 
 ## GitHub Copilot Introduction​
 
