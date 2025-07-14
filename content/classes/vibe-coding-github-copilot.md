@@ -66,7 +66,7 @@ Sample code is provided in Python, TypeScript, .NET, and Java, with concepts app
 - Creating DevContainers & CodeSpaces
 - Using the GitHub MCP
 
-## Coding Agent: Your asynchronous Coding Assistant
+## Asynchronous Development using Coding Agent
 
 - Coding Agent Overview and Licensing
 - Consistent Environments using DevContainers
