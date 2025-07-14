@@ -6,13 +6,13 @@ showLastmod: true
 tags: ['GitHub Copilot']
 ---
 
-This comprehensive one-day online class, "Developing Applications using GitHub Copilot" equips participants with advanced skills to maximize productivity using AI-assisted development.
+This comprehensive one-day online class, "Developing Applications using GitHub Copilot," is designed to help developers maximize productivity and code quality by fully leveraging GitHub Copilot's AI-assisted development features. The course focuses on practical usage: Configuring Copilot, prompt engineering, and selecting the right model for your needs. You'll learn how to generate and edit code efficiently, use context and chat features, and streamline multi-file development.
 
-It begins with a thorough introduction to GitHub Copilot, exploring its configuration options, prompt engineering techniques, and comparing various AI models before diving into practical code generation across multiple files and contexts. The next module focuses on extending GitHub Copilot with agent mode and custom tools via the Model Context Protocol, leveraging AI for git operations and source control, and applying Copilot to refactoring tasks and error resolution. Participants will also learn to generate high-quality documentation including code comments and architecture diagrams using Mermaid.
+Participants will discover how to use Copilot for refactoring, error fixing, and automating repetitive tasks, as well as integrating Copilot into source control workflows for better collaboration. The course also covers generating high-quality documentation, including code comments and architecture diagrams with Mermaid.
 
-The class concludes with testing strategies across various programming languages and frameworks, including integration testing with Playwright MCP, preparing developers to integrate AI-assisted development seamlessly into their workflow.
+A highlight of the course is the "Coding Agent: Your asynchronous Coding Assistant" module, which shows how to delegate tasks, automate testing, and manage pull requests using Copilot's agent capabilities. The class concludes with robust testing strategies, including unit and integration testing with Playwright MCP, ensuring you can confidently integrate AI into your development workflow.
 
-Samples will be provided in Python, TypeScript, .NET and Java, but the concepts are applicable to any programming language. Various Cloud scenarios will be addressed.
+Sample code is provided in Python, TypeScript, .NET, and Java, with concepts applicable to any language. Cloud and DevContainer scenarios are included to ensure consistent, modern development environments.
 
 ## GitHub Copilot Introduction​
 
