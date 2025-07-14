@@ -71,5 +71,6 @@ Sample code is provided in Python, TypeScript, .NET, and Java, with concepts app
 - Coding Agent Overview and Licensing
 - Consistent Environments using DevContainers
 - Setup Unit Testing for Result Validation
+- Optimizing DevOps Pipelines & Triggers
 - Delegating Tasks to the Coding Agent using Issues
-- Handling the Pull Request & Review Workflow
+- Pull Request & Review Workflow Best Practices
