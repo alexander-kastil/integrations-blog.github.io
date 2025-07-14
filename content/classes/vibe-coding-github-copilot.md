@@ -52,6 +52,12 @@ Sample code is provided in Python, TypeScript, .NET, and Java, with concepts app
 - Fixing Test Errors
 - Integration Tests using Playwright MCP
 
+## Using Copilot for Documentation​
+
+- Code Comments
+- Generate Markdown Documentation
+- Creating Mermaid Architecture Diagrams
+
 ## Copilot for Git & Source Control​
 
 - Effective Commit Messages, Pull Requests
@@ -59,12 +65,6 @@ Sample code is provided in Python, TypeScript, .NET, and Java, with concepts app
 - Resolving Merge Conflicts
 - Creating DevContainers & CodeSpaces
 - Using the GitHub MCP
-
-## Using Copilot for Documentation​
-
-- Code Comments
-- Generate Markdown Documentation
-- Creating Mermaid Architecture Diagrams
 
 ## Coding Agent: Your asynchronous Coding Assistant
 
