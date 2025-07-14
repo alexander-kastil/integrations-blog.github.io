@@ -1,7 +1,7 @@
 ---
 title: "Developing Applications using GitHub Copilot"
 date: '2025-03-01T12:00:00+02:00'
-lastmod: '2025-03-01T14:30:00+02:00'
+lastmod: '2025-07-14T14:30:00+02:00'
 showLastmod: true
 tags: ['GitHub Copilot']
 ---
@@ -19,7 +19,7 @@ Samples will be provided in Python, TypeScript, .NET and Java, but the concepts 
 - Overview GitHub Copilot
 - Enabling & Configuring Feature using Setting
 - Prompt Engineering & Reusable Prompts
-- Ask, Edit & Agent Mode
+- Ask, Edit & Agent Mode vs Coding Agent
 - AI Model comparison
 
 ## Generate Code using GitHub Copilot​
@@ -39,14 +39,6 @@ Samples will be provided in Python, TypeScript, .NET and Java, but the concepts 
 - Manage Tool approvals
 - Using Custom Models
 
-## Copilot for Git & Source Control​
-
-- Effective Commit Messages, Pull Requests
-- Using Code Reviews
-- Resolving Merge Conflicts
-- Creating DevContainers & CodeSpaces
-- Using the GitHub MCP
-
 ## Refactoring, Fixing Errors ​& Reducing Repetitive Tasks​
 
 - Semantic Search & Explaining Code
@@ -60,8 +52,24 @@ Samples will be provided in Python, TypeScript, .NET and Java, but the concepts 
 - Fixing Test Errors
 - Integration Tests using Playwright MCP
 
+## Copilot for Git & Source Control​
+
+- Effective Commit Messages, Pull Requests
+- Using Code Reviews
+- Resolving Merge Conflicts
+- Creating DevContainers & CodeSpaces
+- Using the GitHub MCP
+
 ## Using Copilot for Documentation​
 
 - Code Comments
 - Generate Markdown Documentation
 - Creating Mermaid Architecture Diagrams
+
+## Coding Agent: Your asynchronous Coding Assistant
+
+- Coding Agent Overview and Licensing
+- Consistent Environments using DevContainers
+- Setup Unit Testing for Result Validation
+- Delegating Tasks to the Coding Agent using Issues
+- Handling the Pull Request & Review Workflow
