@@ -15,34 +15,32 @@ A highlight of the class is the "Asynchronous Development using Coding Agent" mo
 ## GitHub Copilot Introduction​
 
 - Overview GitHub Copilot
-- Enabling & Configuring Feature using Setting
-- Prompt Engineering & Reusable Prompts
 - Ask, Edit & Agent Mode vs Coding Agent
-- AI Model comparison
+- Optimized Prompt Engineering & Reusable Prompts
+- Instruction files and Configuration Best Practices
 
 ## Generate Code using GitHub Copilot​
 
 - Inline Code Generation and suggestions
+- Mastering Multi-File Edits
 - Understanding and using Context
 - Chat Participants & Slash Commands
-- Mastering Multi-File Edits
-- Integrating Code from Online Resources
-- Overriding LLM Data using Instructions
+- Using Docs & Code from Online Resources
 
 ## Using & Extending Agents Mode
 
 - Github Copilot Agent Mode Overview & Best Practice
-- Agent related Settings
+- AI Model Comparison: When to use which model?
+- MCP Tools Overview and Benefits
 - Adding Tools using Model Context Protocol (MCP)
-- Manage Tool approvals
-- Using Custom Models
+- Configure Custom Chat Tools & Models
 
 ## Refactoring, Fixing Errors ​& Reducing Repetitive Tasks​
 
 - Semantic Search & Explaining Code
 - Using Thinking Models for Architecture and Code Optimization
 - Using Screenshots & Vision for Error Fixing
-- Implementing Instructions for Repetitive Tasks
+- Re-usable Instructions for Repetitive Tasks
 
 ## Testing using Copilot​
 

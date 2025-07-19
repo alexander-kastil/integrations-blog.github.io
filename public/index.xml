@@ -23,8 +23,8 @@
 &lt;li&gt;Al-3002 Create document intelligence solutions with Azure Al Document Intelligence&lt;/li&gt;
 &lt;li&gt;Al-3003 Build a natural language processing solution with Azure Al Services&lt;/li&gt;
 &lt;li&gt;Al-3004 Build an Azure Al Vision solution with Azure Al services&lt;/li&gt;
-&lt;li&gt;Al-3016 Develop custom copilots with Azure Al Studio&lt;/li&gt;
-&lt;li&gt;Al-3017 Microsoft Al for business leaders&lt;/li&gt;
+&lt;li&gt;Al-3016 Develop generative AI apps in Azure AI Foundry Portal&lt;/li&gt;
+&lt;li&gt;Al-3017 Transform your business with Microsoft AI&lt;/li&gt;
 &lt;li&gt;Al-3018 Copilot Foundations&lt;/li&gt;
 &lt;li&gt;Al-3019 Build Al Apps with Azure Database for PostgreSQL&lt;/li&gt;
 &lt;li&gt;Al-3022 Implement Al Skills in Azure Al Search&lt;/li&gt;
@@ -34,8 +34,8 @@
 &lt;ul&gt;
 &lt;li&gt;MS-4004 Empower your workforce with Microsoft 365 Copilot Use Cases&lt;/li&gt;
 &lt;li&gt;MS-4005 Craft effective prompts for Microsoft 365 Copilot&lt;/li&gt;
+&lt;li&gt;MS-4007 Discover how to drive enablement of Microsoft 365 Copilot in your organization&lt;/li&gt;
 &lt;li&gt;MS-4008 Microsoft 365 Copilot Interactive Experience for Executives&lt;/li&gt;
-&lt;li&gt;MS-4009 Extend Microsoft Copilot for Microsoft 365 with Copilot Studio&lt;/li&gt;
 &lt;li&gt;MS-4010 Extend Microsoft 365 Copilot with declarative agents by using Visual Studio Code&lt;/li&gt;
 &lt;li&gt;MS-4012 Microsoft Copilot Interactive Experience for Executives&lt;/li&gt;
 &lt;li&gt;MS-4014 Build a foundation to extend Microsoft 365 Copilot&lt;/li&gt;
@@ -102,8 +102,8 @@
       <description>
         
           
-            &lt;p&gt;This comprehensive one-day online class, &amp;ldquo;Developing Applications using GitHub Copilot,&amp;rdquo; is designed to help developers maximize productivity and code quality by fully leveraging GitHub Copilot&amp;rsquo;s AI-assisted development features. The course focuses on practical usage: Configuring Copilot, prompt engineering, and selecting the right model for your needs. You&amp;rsquo;ll learn how to generate and edit code efficiently, use context and chat features, and streamline multi-file development.&lt;/p&gt;
-&lt;p&gt;Participants will discover how to use Copilot for refactoring, error fixing, and automating repetitive tasks, as well as integrating Copilot into source control workflows for better collaboration. The course also covers generating high-quality documentation, including code comments and architecture diagrams with Mermaid.&lt;/p&gt;
+            &lt;p&gt;This comprehensive one-day online class, &amp;ldquo;Developing Applications using GitHub Copilot,&amp;rdquo; is designed to help developers fully leverage GitHub Copilot&amp;rsquo;s AI-assisted development features for real-world productivity and code quality. The course begins with configuring Copilot, prompt engineering, and model selection, then moves into practical code generation, multi-file editing, and using context and chat features for efficient development.&lt;/p&gt;
+&lt;p&gt;You will learn how to use Copilot for advanced refactoring, error fixing, and automating repetitive tasks, as well as integrating Copilot into source control workflows for better collaboration. The course covers generating high-quality documentation, including code comments and architecture diagrams with Mermaid, and explores Copilot&amp;rsquo;s capabilities for unit and integration testing with Playwright MCP.&lt;/p&gt;
           
           
         
