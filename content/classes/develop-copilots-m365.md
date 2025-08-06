@@ -1,3 +1,11 @@
+---
+title: "Develop Low- and Pro-Code Agents and Copilots for Microsoft 365"
+date: '2024-12-01T12:00:00+02:00'
+lastmod: '2025-06-08T14:30:00+02:00'
+showLastmod: true
+tags: ['Copilots', 'Microsoft 365']
+---
+
 # Developing Low-Code and Pro-Code Agents and Copilots for Microsoft 365
 
 Join our comprehensive course designed for Microsoft 365 and AI developers to master the art of developing low-code and pro-code agents and copilots for Microsoft 365. This program promises to elevate your development skills, making you proficient in the tools used to architect Copilots.
