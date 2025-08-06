@@ -4,7 +4,7 @@ title = 'Integrations IT Solutions'
 theme = 'clarity'
 
 [params]
-  introDescription = "Software Engineering, DevOps & Training for Angular, Azure, AI & Microsoft 365"
+  introDescription = "Software Engineering, Consulting & Training for Agentic AI, Azure & Microsoft 365"
   introURL = "https://www.integrations.at"
   dateFormat = "Jan, 2006"
   lastmodSeparator = " - Last Updated: "
